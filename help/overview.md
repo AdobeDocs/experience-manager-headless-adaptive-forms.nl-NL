@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: CMS zonder kop, adaptieve formulieren, headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp-architectuur
 hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: a88f2dab6fda61b674300e1d6a6c4f495ba85c97
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,9 @@ Elke front-end ontwikkelaar die bekend is met de moderne JavaScript-frameworks k
 
 U hebt geen voorafgaande kennis van Adobe Experience Manager nodig om Zwaardeloze adaptieve formulieren te ontwikkelen.
 
-## Hoe kan ik deelnemen aan het programma voor vroegtijdige adoptie? {#how-to-join-early-adopter-forms}
+<!-- 
+## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
-De service is beschikbaar voor as a Cloud Service AEM Forms en AEM 6.5.16.0 Forms of latere klanten op locatie en klanten met een Adobe-Managed Service. Een e-mail verzenden naar [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) van uw officiële e-mailadres om deel te nemen aan het vroege adoptieprogramma.
+The service is available for AEM Forms as a Cloud Service and AEM 6.5.16.0 Forms or later On-Premise term customers and Adobe-Managed Service enterprise customers. Send an email to [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) from your official email ID to join the early adopter program. 
+
+-->
