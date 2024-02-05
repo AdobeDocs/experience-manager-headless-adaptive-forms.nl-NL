@@ -4,12 +4,10 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Forms inschakelen met behulp van kerncomponenten en zonder hoofd
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2452'
 ht-degree: 0%
 
 ---
@@ -36,7 +34,7 @@ Om deze handen op laboratorium te gebruiken:
 
 * Installeer de [nieuwste release van Git](https://git-scm.com/downloads). Als u nog geen ervaring hebt met Git, raadpleegt u [Git installeren](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installeren [Node.js 16.13.0 of hoger](https://nodejs.org/en/download/). Als u nog geen ervaring hebt met Node.js, raadpleegt u [Node.js installeren](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Installeren [Node.js 16.13.0 of hoger](https://nodejs.org/en/download/). Als u nog geen ervaring hebt met Node.js, raadpleegt u [Node.js installeren](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Adaptieve Forms Core-componenten inschakelen](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) voor uw as a Cloud Service AEM Forms-omgeving.
 
@@ -60,10 +58,11 @@ In deze les, vertrouwt u zich met het as a Cloud Service milieu van AEM Forms do
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
 1. Meld u aan bij de ontwikkelomgeving van de Cloud Service.
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. Als u naar de gebruikersinterface van AEM Forms wilt navigeren, klikt u op **Forms > Forms &amp; Documents**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -218,11 +217,18 @@ Stel de lokale opslagruimte van het thema in:
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand en sla het bestand op:
 
-   * **AEM_URL**: Geef uw publicatieomgeving voor de cloudservice op. Bijvoorbeeld, `https://publish-p105303-e986623.adobeaemcloud.com/`
+   * **AEM_URL**: Geef uw publicatieomgeving voor de cloudservice op. Bijvoorbeeld: `https://publish-p105303-e986623.adobeaemcloud.com/`
 
    * **AEM_ADAPTIVE_FORM**: Geef het pad van het formulier op. Als het formulierpad bijvoorbeeld `/content/forms/af/registration`de waarde van deze variabele `registration`.
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+
+1. Maak een lokale gebruiker in AEM omgeving.
+
+   >[!NOTE]
+   > Een lokale gebruiker maken:
+   > Ga naar `AEM Home` > `Tools` > `Security` > `Users`
+   > Zorg ervoor dat de gebruiker lid is van de groep met gebruikers van formulieren.
 
 
 1. Voer in het venster Opdrachtprompt de volgende opdracht uit:
@@ -246,7 +252,10 @@ Stel de lokale opslagruimte van het thema in:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Zodra het bovenstaande bevel wordt uitgevoerd, wacht op `webpack compiled` bericht. Het formulier wordt weergegeven op een browsertabblad.
+   Zodra het bovenstaande bevel wordt uitgevoerd, wacht op `webpack compiled` en u wordt omgeleid naar een AEM aanmeldingspagina.
+
+1. Klikken **Lokaal aanmelden (alleen voor beheertaken)** op de AEM aanmeldingspagina.
+1. Voer de referenties in voor de lokale gebruiker die is gemaakt en het formulier wordt weergegeven op een browsertabblad.
 
    >[!NOTE]
    >
@@ -332,9 +341,9 @@ U kunt als volgt het formulier weergeven dat wordt gehost op uw cloudservice-pub
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt.
 
-   * **AEM_URL**: Geef de URL van de publicatieomgeving van de cloudservice op. Bijvoorbeeld, `https://publish-p105303-e986623.adobeaemcloud.com`
+   * **AEM_URL**: Geef de URL van de publicatieomgeving van de cloudservice op. Bijvoorbeeld: `https://publish-p105303-e986623.adobeaemcloud.com`
 
-   * **AEM_FORM_PATH**: Geef het pad op van het adaptieve formulier dat in de vorige les is gemaakt. Bijvoorbeeld, `/content/forms/af/registration/`
+   * **AEM_FORM_PATH**: Geef het pad op van het adaptieve formulier dat in de vorige les is gemaakt. Bijvoorbeeld: `/content/forms/af/registration/`
 
      ![](/help/assets/screenshot202023-03-0820at202.49.1820pm.png)
 
