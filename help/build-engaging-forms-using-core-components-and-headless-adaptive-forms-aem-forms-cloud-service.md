@@ -5,7 +5,7 @@ description: Forms inschakelen met behulp van kerncomponenten en zonder hoofd
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
 ht-degree: 0%
@@ -84,9 +84,9 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
 1. Maak een verzendeindpunt voor het formulier:
 
    1. Openen <https://requestbin.com/> in een nieuw browsertabblad.
+   1. Klikken **Een openbare map maken** en kopieer de URL van het eindpunt.
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. Klikken **Een openbare map maken** en kopieer de URL van het eindpunt.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. Ontwerp een adaptief formulier met de wizard-interface:
@@ -103,8 +103,7 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
    1. Klik op de knop **Stijl** en selecteert u de **thema** thema zoals hieronder getoond:
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Klik op de knop **Indiening** en selecteert u de **Verzenden naar REST-eindpunt** en geeft u de openbare map op in het dialoogvenster
-      **URL voor het verzoek van de POST** veld zoals hieronder weergegeven:
+   1. Klik op de knop **Indiening** en selecteert u de **Verzenden naar REST-eindpunt** en geeft u de openbare map op in het dialoogvenster **URL voor het verzoek van de POST** veld zoals hieronder weergegeven:
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Klikken **Maken**. Geef een naam en titel op voor het formulier. Bijvoorbeeld: **registratie**. Klikken **Maken**.
@@ -115,10 +114,6 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
    1. Sleep componenten vanuit de browser Components om een formulier te maken, vergelijkbaar met het volgende:
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. Validaties toevoegen aan formulier:
 
@@ -241,7 +236,7 @@ Stel de lokale opslagruimte van het thema in:
 
    >[!NOTE]
    >
-   > * Als u een bericht ontvangt waarin u wordt gevraagd om Npm bij te werken via het dialoogvenster `npm notice Run npm nstall -g npm@9.6.0`, negeert u het bericht.
+   > * Als u een bericht ontvangt waarin u wordt gevraagd om Npm bij te werken via het dialoogvenster `npm notice Run npm nstall -g npm@9.6.0` , negeert u het bericht.
    > * Stel geen andere npm bevelen in werking tenzij geïnstrueerd in het werkboek.
 
 1. Voer nu de volgende opdracht uit om een voorbeeld van het formulier te bekijken.
