@@ -5,10 +5,10 @@ user-guide-description: Documentatie voor adaptieve Adobe Experience Manager Hea
 feature: Adaptive Forms
 role: Developer
 hide: false
-source-git-commit: b1e62aa73d5f442c8d025202f3bad31c0f82a113
+source-git-commit: 6fbc8605163c5f5415cadf5c19c96e1f68a23841
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 4%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 4%
 # Adobe Experience Manager Headless adaptieve formulieren {#using}
 
 + [Overzicht](overview.md)
++ [Overzicht testen](overview-testing.md)
 + [Architectuur](architecture.md)
 + Snelle installatie {#quick-setup}
    + [Hoofdloze adaptieve Forms inschakelen op AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
