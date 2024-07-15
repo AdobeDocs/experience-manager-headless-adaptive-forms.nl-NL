@@ -10,10 +10,10 @@ role: Admin, Developer
 level: Beginner, Intermediate
 topic-tags: develop
 hide: true
-exl-id: 46df943c-0622-4b3b-a802-85c39ac6a734
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
+source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,23 @@ Hoe u AEM Forms kunt gebruiken om Adaptive Forms eenvoudig te maken met de nieuw
 
 ## Toetsen {#key-takeaways}
 
-* **Bedrijfsflexibiliteit**: Als zakelijke gebruiker kan ik gemakkelijk Form Experience voor meerdere kanalen schrijven.
+* **Bedrijfs Agility**: Als bedrijfsgebruiker, kan ik de ervaring van de Vorm voor veelvoudige kanalen gemakkelijk ontwerpen.
 
-* **Kracht voor ontwikkelaar vooraf**: Als front-end ontwikkelaar kan ik de gebruikerservaring bepalen met behulp van headless formulieren.
+* **Macht om ontwikkelaar** vooruit te sturen: Als vooruitstrevende ontwikkelaar, kan ik de eindgebruikerservaring controleren gebruikend hoofdloze vormen.
 
-* **Snelheid ontwikkelaar**: Als ontwikkelaar kan ik gemakkelijk en consistent Sites en Forms-componenten aanpassen.
+* **Snelheid van de Ontwikkelaar**: Als ontwikkelaar, kan ik gemakkelijk en constant Plaatsen en de componenten van Forms aanpassen.
 
 ## Voordat u begint {#pre-requisites}
 
 Om deze handen op laboratorium te gebruiken:
 
-* Installeer de [nieuwste release van Git](https://git-scm.com/downloads). Als u nog geen ervaring hebt met Git, raadpleegt u [Git installeren](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installeren [Node.js 16.13.0 of hoger](https://nodejs.org/en/download/). Als u nog geen ervaring hebt met Node.js, raadpleegt u [Node.js installeren](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). Als u aan Node.js nieuw bent, zie [ hoe te Node.js ](https://nodejs.dev/en/learn/how-to-install-nodejs) installeren.
 
-* [Hoofdloze adaptieve Forms inschakelen](enable-headless-adaptive-forms-and-core-components.md) op uw AEM 6.5 Forms-omgeving.
+* [ laat Hoofdloze Adaptieve Forms ](enable-headless-adaptive-forms-and-core-components.md) op uw AEM 6.5 milieu van Forms toe.
 
-* Installeren [Microsoft Visual Studio-code](https://code.visualstudio.com/download) of een teksteditor zonder opmaak. De voorbeelden in document maken gebruik van de Code van Microsoft Visual Studio.
+* Installeer [ Code van Microsoft Visual Studio ](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in document maken gebruik van de Code van Microsoft Visual Studio.
 
 ## Les 1 {#lesson-1}
 
@@ -59,13 +59,13 @@ In deze les, vertrouwt u zich met AEM 6.5 Forms door het gebruikersinterface te 
 ### Uitoefening {#lesson-1-excercise}
 
 1. Open uw browser en ga URL van het auteursmilieu in. Bijvoorbeeld:
-   [https://localhost:4502](https://localhost:4502).
+   [ https://localhost:4502 ](https://localhost:4502).
 
-1. Nadat u bent aangemeld, navigeert u naar de gebruikersinterface van AEM Forms. Klikken **Forms**.
+1. Nadat u bent aangemeld, navigeert u naar de gebruikersinterface van AEM Forms. Klik **Forms**.
 
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
-1. Klikken **Forms &amp; Documenten**. Pop-ups met betrekking tot voorkeuren of gegevens negeren.
+1. Klik **Forms &amp; Documenten**. Pop-ups met betrekking tot voorkeuren of gegevens negeren.
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -87,30 +87,30 @@ In deze les ontwerpt u als zakelijke gebruiker een adaptief formulier voor meerd
 
 1. Maak een verzendeindpunt voor het formulier:
 
-   1. Openen <https://requestbin.com/> in een nieuw browsertabblad.
+   1. Open <https://requestbin.com/> in een nieuw browsertabblad.
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. Klikken **Een openbare map maken** en kopieer de URL van het eindpunt.
+   1. Klik **creeer een openbare bak** en kopieer het eindpunt URL.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    Dit specifieke eindpunt dient als voorbeeld voor het voorleggen en het bekijken van gegevens. In daadwerkelijke productie, gebruikt u uw eigen eindpunt of gegevensbronnen om de gevangen gegevens op te slaan.
 
 1. Auteur een adaptief formulier:
 
-   1. Navigeer in het browsertabblad dat wordt gebruikt in Les 1 naar de AEM Forms-webinterface en navigeer naar **Forms** > **Forms en Documenten**.
+   1. In het browser lusje dat in Les 1 wordt gebruikt, navigeer aan het Webinterface van AEM Forms en navigeer aan **Forms** > **Forms en Documenten**.
 
-   1. Klikken **Maken** en selecteer Adaptief formulier.
+   1. Klik **creëren** en selecteer AanpassingsVorm.
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
-   1. Selecteer de **Leeg met kerncomponenten** sjabloon in het scherm Sjabloonselectie, zoals hieronder wordt weergegeven, en klik op **Volgende**.
+   1. Selecteer **Leeg met het malplaatje van de Componenten van de Kern** van het scherm van de malplaatjeselectie zoals hieronder getoond en klik **daarna**.
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
-   1. Opgeven `Contact us` als de **Titel** van het formulier. Zorg ervoor dat de **Naam** van het formulier `contact-us`.
+   1. Specificeer `Contact us` als **Titel** van de vorm. Zorg ervoor dat de **Naam** van de vorm `contact-us` is.
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
-   1. Klikken **Maken**. Er wordt een dialoogvenster weergegeven.
+   1. Klik **creëren**. Er wordt een dialoogvenster weergegeven.
 
-   1. Klik op **Bewerken**. Het formulier wordt geopend in de Adaptive Form Editor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
+   1. Voor de dialoogdoos, geeft de klik **** uit. Het formulier wordt geopend in de Adaptive Form Editor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
 
    1. Open de browser Components en sleep de component Panel naar het midden van het scherm.
 
@@ -121,15 +121,15 @@ In deze les ontwerpt u als zakelijke gebruiker een adaptief formulier voor meerd
       ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
 
 
-   1. Open de Inhoudsbrowser, klik op het pictogram Containereigenschappen hulplijn en open het dialoogvenster **Indiening** tab. Selecteer de **Verzenden naar REST-eindpunt** Handeling verzenden, selecteer de **Aanvraag POST inschakelen** optie, en specificeer het eindpunt REST dat in les 2 in wordt gecreeerd **URL voor aanvraag van POST** tekstvak en klik op **Gereed** pictogram.
+   1. Open Browser van de Inhoud, klik de eigenschappen van de Container van de Gids pictogram, en open de **Verzending** tabel. Selecteer **voorleggen aan REST eindpunt** Actie voorleggen, **POST verzoek** optie toelaten, en REST die eindpunt specificeren in les 2 in **URL voor de tekstvakje van het verzoek van de POST** wordt gecreeerd, en klik het **Gedane** pictogram.
 
       ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
 
-1. Een adaptief formulier publiceren:
+1. Publish en adaptief formulier:
 
-   1. Open AEM UI, navigeer naar **Forms** > **Forms &amp; Documenten**. Selecteer het formulier dat u in de vorige stap hebt gemaakt en klik op **Publiceren**.
+   1. Open AEM UI, navigeer aan **Forms** > **Forms &amp; Documenten**. Selecteer de vorm die in vorige stap wordt gecreeerd en klik **Publish**.
 
-   1. Klik in het dialoogvenster Elementen publiceren op **Publiceren**. Het succesbericht wordt weergegeven.
+   1. Voor de dialoog van Publish Assets, klik **Publish**. Het succesbericht wordt weergegeven.
 
 ## Les 3
 
@@ -149,13 +149,13 @@ Stel de lokale opslagruimte van het thema in:
 
    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
-1. Voor de Herinnering van het Bevel, gebruik het volgende bevel om te navigeren aan `c:\git` map.
+1. Gebruik in de opdrachtprompt de volgende opdracht om naar de map `c:\git` te navigeren.
 
    ```Shell
    cd git
    ```
 
-   Als de map niet bestaat, gebruikt u de `md git` gebruiken om het te maken.
+   Als de map niet bestaat, maakt u deze met de opdracht `md git` .
 
 1. Gebruik de volgende opdracht om de themafrontend-code te klonen:
 
@@ -163,7 +163,7 @@ Stel de lokale opslagruimte van het thema in:
    git clone -b WKND https://github.com/adobe/aem-forms-theme-canvas
    ```
 
-1. Gebruik de volgende opdracht in de vermelde volgorde om naar de **aem-forms-theme-canvas** directory en open de Code van Visual Studio.
+1. Gebruik het volgende bevel in de vermelde orde om aan **te navigeren aem-vormen-thema-canvas** folder en open Code van Visual Studio.
 
    ```Shell
    cd aem-forms-theme-canvas
@@ -172,11 +172,11 @@ Stel de lokale opslagruimte van het thema in:
 
    ![](/help/assets/screenshot2028126029.png){width="50%" align="left"}
 
-1. Selecteren **De auteurs van alle bestanden in de bovenliggende map vertrouwen** en klik op **Ja, ik vertrouw de auteurs**.
+1. Selecteer **Vertrouwen de auteurs van alle dossiers in de ouderomslag** en klik **ja, ik vertrouw de auteurs**.
 
    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
 
-1. De naam van de `env_template` bestand naar .env.  Als u de naam van het bestand wilt wijzigen, klikt u op de knop **env_template** en selecteert u de **Naam wijzigen** -optie.
+1. Wijzig de naam van het `env_template` -bestand in .env.  Om het dossier anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen** optie.
 
    ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
 
@@ -186,9 +186,9 @@ Stel de lokale opslagruimte van het thema in:
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand en sla het bestand op:
 
-   * **AEM_URL**: Geef de URL van een **publish** -instantie. Bijvoorbeeld, `https://localhost:4502/`
+   * **AEM_URL**: Specificeer URL van a **publiceren** instantie. Bijvoorbeeld: `https://localhost:4502/`
 
-   * **AEM_ADAPTIVE_FORM**: Geef de naam van het formulier op. Bijvoorbeeld, `contact-us`.
+   * **AEM_ADAPTIVE_FORM**: Specificeer de naam van de vorm. Bijvoorbeeld `contact-us` .
 
    </br>
 
@@ -205,7 +205,7 @@ Stel de lokale opslagruimte van het thema in:
 
    >[!NOTE]
    >
-   > * Als u een bericht ontvangt waarin u wordt gevraagd om Npm bij te werken via het dialoogvenster `npm notice Run npm nstall -g npm@9.6.0`, negeert u het bericht.
+   > * Als u een bericht vragend om npm via het `npm notice Run npm nstall -g npm@9.6.0` bevel bij te werken krijgt, negeer het bericht.
    > * Stel geen andere npm bevelen in werking tenzij geïnstrueerd in het werkboek.
 
 1. Voer nu de volgende opdracht uit om een voorbeeld van het formulier te bekijken.
@@ -216,31 +216,31 @@ Stel de lokale opslagruimte van het thema in:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Zodra het bovenstaande bevel wordt uitgevoerd, wacht op `webpack compiled` bericht. Het formulier wordt weergegeven op een browsertabblad.
+   Wacht tot de bovenstaande opdracht is uitgevoerd op het `webpack compiled` -bericht. Het formulier wordt weergegeven op een browsertabblad.
 
    >[!NOTE]
    >
-   >Als u een leeg scherm in browser ervaart nadat u de opdracht `npm run live` gebruiken voor meer dan 3-4 minuten, wijzigen `localhost` in browser URL naar 127.0.0.1 en druk op **Enter**.
+   >Als u een leeg scherm in browser na het uitvoeren van het `npm run live` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en druk **binnengaan**.
 
 
    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
 
 
-1. In de Code van Visual Studio, open `PROJECT\src\site\_variables.scss` bestand. Let op: `$error` kleur is een kleur van RED.
+1. Open het bestand `PROJECT\src\site\_variables.scss` in Visual Studio Code. De `$error` -kleur is een kleur van het type RED.
 
    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
-1. Verstuur het formulier in de browser om de rode kleur in het dialoogvenster **Voornaam** veld.
+1. In browser, leg de vorm voor om de Rode kleur op het **Voornaam** gebied te zien.
 
    ![](/help/assets/error-color-before.png)
 
-1. Stel de **$error** kleur naar **#5736eb** en sla het bestand op.
+1. Plaats de **$error** kleur aan **#5736eb** en bewaar het dossier.
 
 1. Vernieuw de browser en verzend het formulier. De kleur van de foutmelding in het veld Voornaam is dienovereenkomstig gewijzigd.
 
    ![](/help/assets/error-color-after.png)
 
-1. Druk in de opdrachtprompt op **CTRL+C**, enter **Y** en drukken op **Enter** sleutel om het npm proces te beëindigen. Het is belangrijk om de npm server tegen te houden zodat strijdt het niet met de volgende reeks oefeningen.
+1. In de Herinnering van het Bevel, druk **CTRL+C**, ga **Y** in, en druk **ga** sleutel in om het npm proces te eindigen. Het is belangrijk om de npm server tegen te houden zodat strijdt het niet met de volgende reeks oefeningen.
 1. Sluit de Code van Visual Studio en de Snelle vensters van het Bevel.
 
 ## Les 4
@@ -261,7 +261,7 @@ De lokale bewaarplaats van de opstelling gebruikend reactie starter project:
 
    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
-1. Voor de Herinnering van het Bevel, gebruik het volgende bevel om te navigeren aan `c:\git` map.
+1. Gebruik in de opdrachtprompt de volgende opdracht om naar de map `c:\git` te navigeren.
 
    ```Shell
    cd git
@@ -275,7 +275,7 @@ De lokale bewaarplaats van de opstelling gebruikend reactie starter project:
 
    ![](/help/assets/screenshot2028117329.png)
 
-1. Gebruik de volgende opdrachten in de vermelde volgorde om naar de **response-starter-kit-aem-headless-forms** directory en open de Code van Visual Studio.
+1. Gebruik de volgende bevelen in de vermelde orde om aan de **te navigeren reactie-starter-kit-a-headless-vormen** folder en open Code van Visual Studio.
 
    ```Shell
    cd react-starter-kit-aem-headless-forms
@@ -292,7 +292,7 @@ De lokale bewaarplaats van de opstelling gebruikend reactie starter project:
 
 Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
-1. Wijzig de naam van het env_template-bestand in .env-bestand. Klik met de rechtermuisknop op de knop **env_template** en selecteert u de **Naam wijzigen** -optie.
+1. Wijzig de naam van het env_template-bestand in .env-bestand. Om anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen** optie.
 
    ![](/help/assets/screenshot2028117629.png){width="30%" align="left"}
 
@@ -300,15 +300,15 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt.
 
-   * **AEM_URL**: Geef de URL van de publicatieomgeving op. Bijvoorbeeld, `https://localhost:4503/`
+   * **AEM_URL**: Specificeer URL van het publicatiemilieu. Bijvoorbeeld: `https://localhost:4503/`
 
-   * **AEM_FORM_PATH**: Geef het pad op van het adaptieve formulier dat in de vorige les is gemaakt. Bijvoorbeeld, `/content/forms/af/contact-us/`
+   * **AEM_FORM_PATH**: Specificeer de weg van de Aangepaste Vorm die in de vorige les wordt gecreeerd. Bijvoorbeeld: `/content/forms/af/contact-us/`
 
    </br>
 
    ![](/help/assets/lab65-starter-kit-environment-variable.png)
 
-1. Open het opdrachtvenster en zorg dat u zich bij de **response-starter-kit-aem-headless-forms** en voer de volgende opdracht uit:
+1. Open het bevelvenster, zorg ervoor u bij de **reactie-starter-kit-a-headless-vormen** folder bent, en stel het volgende bevel in werking:
 
    ```Shell
    npm install
@@ -330,40 +330,41 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
    >[!NOTE]
    >
    > 
-   > Als u een leeg scherm in browser ervaart nadat u de opdracht `npm start` gebruiken voor meer dan 3-4 minuten, wijzigen `localhost` in browser URL naar 127.0.0.1 en druk op **Enter**.
+   > Als u een leeg scherm in browser na het uitvoeren van het `npm start` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en druk **binnengaan**.
 
    ![](/help/assets/headless-adaptive-form-lab.png)
 
 We brengen wijzigingen aan in het formulier op de server als een zakelijke gebruiker. Wijzigingen worden dan automatisch doorgevoerd in het formulier zonder kop.
 
-1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld: [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
+1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld, [ http://localhost:4502/aem/forms.html/content/dam/formsanddocuments ](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
 
-1. Selecteer de **Contact opnemen** formulier en klik op **Bewerken.** Het formulier wordt geopend in de Adaptive Forms Editor.
+1. Selecteer de **vorm van het Contact van ons** en klik **uitgeven.** Het formulier wordt geopend in de Adaptive Forms Editor.
 
 
-1. Selecteer de **Contactnummer** en klik op de knop **Bewerkingspictogram (potloodpictogram)** in de werkbalk. Als u de pop-upwerkbalk niet kunt zien, schakelt u over naar de modus Bewerken door op **Bewerken** knop rechtsboven, links naar **Voorvertoning** knop.
+1. Selecteer het **gebied van het Aantal van het Contact** en klik **uitgeven pictogram (het pictogram van het Potlood)** in de toolbar. Als u niet de pop op toolbar kunt zien, schakelaar om wijze uit te geven door **te klikken geeft** knoop in hoogste recht uit, links naar **Voorproef** knoop.
 
    ![](/help/assets/change-field-title.png){width="50%" align="left"}
 
-1. Wijzig het label in **Mobiel nummer**. Klik op een lege ruimte in het formulier en de wijzigingen die in het formulier zijn aangebracht, worden opgeslagen.
+1. Verander het etiket in **Mobiel Aantal**. Klik op een lege ruimte in het formulier en de wijzigingen die in het formulier zijn aangebracht, worden opgeslagen.
 
 Laten we het bijgewerkte formulier publiceren om de wijzigingen in de publicatieomgeving door te geven.
 
-1. Selecteer op het tabblad AEM Forms-beheerinterface het formulier voor contact met ons en klik op **Publiceren ongedaan maken**. Als u het geneesmiddel niet ziet **Publiceren ongedaan maken** gaat u naar stap 3 om de wijzigingen rechtstreeks te publiceren.
+1. In het lusje van de het beheersinterface van AEM Forms, selecteer de vorm van het contactgebruik, en klik **unpublish**. Als u niet **ziet unpublish** knoop, overslaan aan stap 3 om de veranderingen direct te publiceren.
 
 
-1. Klikken **Publiceren ongedaan maken**. Klikken **Sluiten** in de respectieve dialoog.
+1. Klik **unpublish**. Klik **Sluiten** in respectieve dialoog.
 
-1. Nadat de browser is vernieuwd, selecteert u het contactformulier en klikt u op **Publiceren**.
+1. Na browser verfrist zich, selecteer de vorm van het contactusje en klik **Publish**.
 
 
-1. Klikken **Publiceren**. Klikken **Sluiten** in de respectieve dialoog.
+1. Klik **Publish**. Klik **dicht** in de respectieve dialoog.
 
 1. Vernieuw de browsertab met de koploze vorm. Het label Contactnummer is gewijzigd in Mobiel nummer.
 
    ![](/help/assets/headless-adaptive-form.png)
 
-1. Open het venster Opdrachtprompt waarmee het dialoogvenster **response-starter-kit-aem-headless-forms** project, pers **CTRL+C** en vervolgens voert u **Y** en druk op Enter om het npm-proces te beëindigen. Het is belangrijk om de npm server tegen te houden zodat strijdt het niet met de volgende reeks oefeningen.
+1. Open het Prompt venster van het Bevel dat wordt gebruikt om **te beginnen reactie-starter-kit-a-headless-vormen** project, druk **CTRL+C**, dan
+ga **Y** in en druk Enter sleutel om het npm proces te eindigen. Het is belangrijk om de npm server tegen te houden zodat strijdt het niet met de volgende reeks oefeningen.
 
 1. Sluit de Code van Visual Studio en de Snelle vensters van het Bevel.
 
@@ -386,7 +387,7 @@ Stel lokale opslagruimte in met een project voor het starten van een materiaalin
 
    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
-1. Voor de Herinnering van het Bevel, gebruik het volgende bevel om te navigeren aan `c:\git` map.
+1. Gebruik in de opdrachtprompt de volgende opdracht om naar de map `c:\git` te navigeren.
 
    ```Shell
    cd git
@@ -408,7 +409,7 @@ Stel lokale opslagruimte in met een project voor het starten van een materiaalin
 
    ![](/help/assets/screenshot2028126529.png)
 
-1. Gebruik de volgende opdracht in de vermelde volgorde om naar de **response-starter-kit-aem-headless-forms** omslag en open de code in de Code van Visual Studio:
+1. Gebruik het volgende bevel in de vermelde orde om aan de **te navigeren reactie-starter-kit-a-headless-formulieren** omslag en open de code in de Code van Visual Studio:
 
    ```Shell
    cd react-starter-kit-aem-headless-forms
@@ -420,18 +421,18 @@ Stel lokale opslagruimte in met een project voor het starten van een materiaalin
 
 Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
-1. De naam van de **env_template** bestand naar **.env** bestand. Klik met de rechtermuisknop op de knop **env_template** bestand en selecteer **Naam wijzigen**.
+1. Wijzig de naam van het **env_template** dossier aan **.env** dossier. Om anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen**.
 
    ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
 
-1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt. Gebruik de **CTRL + S** overschakelen op een andere combinatie om het bestand op te slaan.
+1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
 
-   * **AEM_URL**: Geef de URL van de publicatieomgeving op. Bijvoorbeeld: [https://localhost:4503](https://localhost:4503)
+   * **AEM_URL**: Specificeer URL van het publicatiemilieu. Bijvoorbeeld, [ https://localhost:4503](https://localhost:4503)
 
-   * **AEM_FORM_PATH**: Geef het pad op van het adaptieve formulier dat in de vorige les is gemaakt. Bijvoorbeeld /content/forms/af/contact-us/
+   * **AEM_FORM_PATH**: Specificeer de weg van de Aangepaste Vorm die in de vorige les wordt gecreeerd. Bijvoorbeeld /content/forms/af/contact-us/
 
 
-1. Open het opdrachtvenster en zorg dat u zich bij de **response-starter-kit-aem-headless-forms** en voer de volgende opdracht uit:
+1. Open het bevelvenster, zorg ervoor u bij de **reactie-starter-kit-a-headless-vormen** folder bent, en stel het volgende bevel in werking:
 
    ```Shell
    npm install
@@ -451,7 +452,7 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
    >[!NOTE]
    >
-   >Als u een leeg scherm in browser ervaart nadat u de opdracht `npm start` gebruiken voor meer dan 3-4 minuten, wijzigen `localhost` in browser URL naar 127.0.0.1 en druk op **Enter**.
+   >Als u een leeg scherm in browser na het uitvoeren van het `npm start` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en druk **binnengaan**.
 
    ![](/help/assets/google-mui-form.png)
 
@@ -467,17 +468,17 @@ In deze les, als front-end ontwikkelaar, leert u hoe te om een afwisselende vert
 
 ### Uitoefening
 
-Werk de variatie van componenten in het hoofdloze project bij. De variant van de materiaalinterface-tekstinvoercomponent wijzigen in `OutlinedInput`:
+Werk de variatie van componenten in het hoofdloze project bij. U kunt als volgt de variant van de materiaalUI-tekstinvoercomponent wijzigen in `OutlinedInput` :
 
-1. In Visuele Code, navigeer aan de component van de tekstinput door te openen `index.tsx` bestand bij `src/components/textinput/index.tsx`.
+1. Navigeer in Visuele code naar de tekstinvoercomponent door het `index.tsx` -bestand op `src/components/textinput/index.tsx` te openen.
 
-1. Toevoegen `//` aan het begin van coderegel 104. De regel wordt omgezet in een opmerking.
+1. Voeg `//` toe aan het begin van coderegel 104. De regel wordt omgezet in een opmerking.
 
    ```Shell
    //const Cmp = \'outlined\' === appliedCssClassNames ? OutlinedInput: Input;
    ```
 
-1. Voeg het volgende toe op regel 105 om een andere variant van component te gebruiken en het dossier op te slaan. Gebruik de **CTRL + S** overschakelen op een andere combinatie om het bestand op te slaan.
+1. Voeg het volgende toe op regel 105 om een andere variant van component te gebruiken en het dossier op te slaan. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
 
    ```Shell
    const Cmp = OutlinedInput;
@@ -496,7 +497,8 @@ Werk de variatie van componenten in het hoofdloze project bij. De variant van de
    ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
 
 
-   Deze wijziging vindt plaats voor eindgebruikers zonder dat de formulierdefinitie wordt gewijzigd op AEM Forms Server en is specifiek voor het kanaal zonder kop in kwestie. Bijvoorbeeld, Webkanaal in dit laboratorium.
+   Deze wijziging vindt plaats voor eindgebruikers zonder dat de formulierdefinitie wordt gewijzigd op AEM Forms Server en is specifiek voor de headless
+betrokken kanaal. Bijvoorbeeld, Webkanaal in dit laboratorium.
 
    ![](/help/assets/aem65-lab-mui-style-update.png)
 
@@ -526,12 +528,12 @@ Nu u hebt geleerd hoe u Adaptive Forms kunt bouwen en op meerdere kanalen kunt a
 
 ## Bronnen
 
-* [Inleiding Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)
+* [ Aangepaste Inleiding van de Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)
 
-* [Adaptief formulier maken met behulp van kerncomponenten](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [ creeer Aangepast Vorm gebruikend de Componenten van de Kern ](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
-* [Update styling voor kern op component-gebaseerde AF](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=en)
+* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=en)
 
-* [Forms zonder hoofdadapter](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=en)
+* [ Zwaarloze Adaptieve Forms ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=en)
 
-* [Startkit voor Headless React gebruiken](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=en)
+* [ Gebruikend Hoofdloze Reageer starterkit ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=en)

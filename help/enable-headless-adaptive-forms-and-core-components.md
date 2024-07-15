@@ -5,33 +5,33 @@ description: Leer hoe u adaptieve formulieren zonder hoofd kunt inschakelen op A
 seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
 contentOwner: Khushwant Singh
 role: Admin
-exl-id: c5a7dee1-b177-4461-b9bd-af40ef59ad80
-source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
+exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
+source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
 # Hoofdloze adaptieve Forms inschakelen op AEM 6.5 Forms {#enable-headless-adaptive-forms-on-aem-65-forms}
 
-Als u Headless Adaptive Forms wilt inschakelen voor uw AEM 6.5 Forms-omgeving, stelt u een project op basis van Archetype 41 of hoger in en implementeert u dit project in alle auteur- en publicatieinstanties.
+Als u Headless Adaptive Forms wilt inschakelen voor uw AEM 6.5 Forms-omgeving, stelt u een project op basis van Archetype 41 of hoger in en implementeert u dit project in al uw Auteur- en Publish-instanties.
 
-Door het AEM Archetype 41 of later gebaseerde project aan uw AEM 6.5 instanties van Forms op te stellen, kunt u de capaciteit verkrijgen om [op Adaptieve Forms gebaseerde Core Components maken](create-a-headless-adaptive-form.md). Deze formulieren worden weergegeven in de JSON-indeling en worden gebruikt als Headful en Headless Adaptive Forms, waardoor u meer flexibiliteit en aanpassingen kunt bieden voor verschillende kanalen, waaronder mobiele apps, webtoepassingen en native apps.
+Door het AEM Archetype 41 op te stellen of later gebaseerd project aan uw AEM 6.5 instanties van Forms, krijgt u de capaciteit om [ de Componenten van de Kern te creëren die Aangepaste Forms ](create-a-headless-adaptive-form.md) worden gebaseerd. Deze formulieren worden weergegeven in de JSON-indeling en worden gebruikt als Headful en Headless Adaptive Forms, waardoor u meer flexibiliteit en aanpassingen kunt bieden voor verschillende kanalen, waaronder mobiele apps, webtoepassingen en native apps.
 
 ## Vereisten {#prerequisites}
 
 Voordat u Headless Adaptive Forms op AEM 6.5 Forms-omgeving inschakelt,
 
-* [Upgrade naar AEM 6.5 Forms Service Pack 16 (6.5.16.0) of hoger](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html).
+* [ Verbetering aan AEM 6.5 Forms Service Pack 16 (6.5.16.0) of later ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html).
 
-* Installeer de nieuwste versie van [Apache Maven](https://maven.apache.org/download.cgi).
+* Installeer de recentste versie van [ Apache Maven ](https://maven.apache.org/download.cgi).
 
 * Installeer een teksteditor zonder opmaak. Bijvoorbeeld, de Code van Microsoft Visual Studio.
 
 ## Maak en implementeer de nieuwste AEM archetype-project
 
-Een AEM Archetype 41 of [later](https://github.com/adobe/aem-project-archetype) gebaseerd project en stel het aan elk van uw Auteur en Publish instanties op:
+Om een AEM Archetype 41 tot stand te brengen of [ later ](https://github.com/adobe/aem-project-archetype) gebaseerd project en het op elk van uw Instanties van de Auteur en van Publish op te stellen:
 
 1. Meld u aan bij uw computer, waarbij u als beheerder uw AEM 6.5 Forms-exemplaar host en uitvoert.
 1. Open de opdrachtprompt of terminal.
@@ -67,13 +67,13 @@ Een AEM Archetype 41 of [later](https://github.com/adobe/aem-project-archetype) 
 
    Houd rekening met de volgende punten wanneer u de bovenstaande opdracht uitvoert:
 
-   * Werk de opdracht bij om de specifieke waarden voor uw omgeving weer te geven, inclusief appTitle, appId en groupId. Stel ook de waarden voor includeFormsenrollment in op &#39;y&#39;. Als u Forms Portal gebruikt, stelt u de optie _includeExamples=y_ om Forms Portal Core-componenten in uw project op te nemen.
+   * Werk de opdracht bij om de specifieke waarden voor uw omgeving weer te geven, inclusief appTitle, appId en groupId. Stel ook de waarden voor includeFormsenrollment in op &#39;y&#39;. Als u het Portaal van Forms gebruikt, plaats _includeExamples=y_ optie om de Componenten van de Kern van Forms Portal in uw project te omvatten.
 
    * Wijzig de &#39;aemVersion&#39; niet van 6.5.15.0 in iets anders.
 
 1. (Alleen voor projecten die zijn gebaseerd op Archetype versie 41) Nadat het project Archetype AEM is gemaakt, schakelt u thema&#39;s in voor op Core Components gebaseerde Adaptive Forms. Thema&#39;s inschakelen:
 
-   1. Open de [Projectmap Archetype AEM]/ui.apps/src/main/content/jcr_root/apps/__appId__/components/adaptiveForm/page/customheaderlibs.html voor bewerking:
+   1. Open de [ AEM Archetype Omslag van het Project ] /ui.apps/src/main/content/jcr_root/apps/__appId__ /components/adaptiveForm/page/customheaderlibs.html voor het uitgeven:
 
    1. Voeg de volgende code toe op regel 21:
 
@@ -85,16 +85,16 @@ Een AEM Archetype 41 of [later](https://github.com/adobe/aem-project-archetype) 
       </sly>
       ```
 
-      ![Bovengenoemde code toevoegen op regel 21](/help/assets/code-to-enable-themes.png)
+      ![ voeg bovengenoemde code op lijn 21 toe ](/help/assets/code-to-enable-themes.png)
 
    1. Sla het bestand op en sluit het.
 
 1. Project bijwerken met de nieuwste versie van Forms Core Components:
 
-   1. Open de [Projectmap Archetype AEM]/pom.xml voor bewerken.
-   1. Versie instellen van `core.forms.components.version` en `core.forms.components.af.version` tot [nieuwste Forms Core-componenten](https://github.com/adobe/aem-core-forms-components/tree/release/650) versie.
+   1. Open de [ AEM Archetype Omslag van het Project ] /pom.xml voor het uitgeven.
+   1. Plaats versie van `core.forms.components.version` en `core.forms.components.af.version` aan [ recentste versie van de Componenten van de Kern van Forms ](https://github.com/adobe/aem-core-forms-components/tree/release/650).
 
-      ![Opname van de nieuwste versie van Forms Core Components](/help/assets/latest-forms-component-version.png)
+      ![ de recentste versie van de Verwijzing van de Componenten van de Kern van Forms ](/help/assets/latest-forms-component-version.png)
 
    1. Sla het bestand op en sluit het.
 
@@ -110,27 +110,27 @@ Een AEM Archetype 41 of [later](https://github.com/adobe/aem-project-archetype) 
       mvn clean install
       ```
 
-      ![archetypebuild-success](assets/corecomponent-build-successful.png)
+      ![ archetypebuild-success ](assets/corecomponent-build-successful.png)
 
 
-   Nadat het project van Archetype van de AEM met succes wordt gebouwd, wordt een AEM Pakket geproduceerd. U kunt het pakket vinden op [Projectmap Archetype AEM]\all\target\[appid].all-[versie].zip
+   Nadat het project van Archetype van de AEM met succes wordt gebouwd, wordt een AEM Pakket geproduceerd. U kunt het pakket bij [ AEM Archetype de Omslag van het Project ] \all\target\ [appid].all- [ versie ] .zip vinden
 
-1. Gebruik de [Pakketbeheer](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en) om [Projectmap Archetype AEM]\all\target\[appid].all-[versie].zip-pakket op alle instanties Auteur en Publiceren.
+1. Gebruik de [ Manager van het Pakket ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en) om het [ AEM Archetype Omslag van het Project ] \all\target\[appid].all- [ versie ] .zip pakket op alle Instanties van Auteur en van Publish op te stellen.
 
 >[!NOTE]
 >
 >
 >
->Meld u aan via de volgende URL als u problemen ondervindt bij het openen van het aanmeldingsvenster op een publicatieexemplaar om het pakket te installeren via Package Manager: http://[URL van publicatieserver]:[POORT]/system/console. Hierdoor hebt u toegang tot aanmeldingsgegevens voor de instantie Publiceren, zodat u verder kunt gaan met het installatieproces.
+>In het geval dat u moeilijkheden tegenkomt die tot de login dialoog op publiceren instantie toegang hebben om het pakket door de Manager van het Pakket te installeren, probeer het programma openen door volgende URL: http://[ Server URL van Publish ]:[ HAVEN ]/systeem/console. Hierdoor hebt u toegang tot aanmelding bij een Publish-instantie, zodat u verder kunt gaan met het installatieproces.
 
 
-De Core Components zijn ingeschakeld voor uw omgeving. Een lege, op componenten gebaseerde adaptieve formuliersjabloon en Canvas 3.0-thema worden geïmplementeerd in uw omgeving, zodat u [op Adaptieve Forms gebaseerde Core Components maken](create-a-headless-adaptive-form.md).
+De Core Components zijn ingeschakeld voor uw omgeving. Een lege die Componenten van de Kern op het Adaptieve malplaatje van de Vorm en het thema van Canvas 3.0 worden opgesteld aan uw milieu, toelatend u om [ tot de Componenten van de Kern te leiden die Adaptieve Forms ](create-a-headless-adaptive-form.md) worden gebaseerd.
 
 ## Veelgestelde vragen
 
 ### Wat zijn kerncomponenten?
 
-De [Kernonderdelen](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) zijn een reeks gestandaardiseerde WCM-componenten (Web Content Management) voor AEM om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te verlagen.
+De [ Componenten van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en onderhoudskosten van uw websites te drukken.
 
 ### Wat zijn alle mogelijkheden toegevoegd aan het toelaten van kerncomponenten?
 

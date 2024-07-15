@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Een recorddocument genereren voor een adaptief formulier zonder koptekst {#generate-a-document-of-record-for-a-headless-adaptive-form}
 
-<span class="preview"> Dit is een **VOORTGANG VAN DE WERK** artikel.</span>
+<span class="preview"> dit is a **WERK IN VOORTGANG** artikel.</span>

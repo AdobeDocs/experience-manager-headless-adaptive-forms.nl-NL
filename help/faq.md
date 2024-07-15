@@ -11,8 +11,8 @@ hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ You can use Archetype 37 with flag `includeFormsheadless` or later flag to creat
 
 -->
 
-## Heb ik Forms as a Cloud Service sandbox nodig om adaptieve formulieren zonder koptekst te kunnen gebruiken?
+## Heb ik Forms as a Cloud Service sandbox nodig om adaptieve formulieren zonder koptekst te gebruiken?
 
 Met de startapp kunt u beginnen met het ontwikkelen en opmaken van adaptieve formulieren zonder koptekst. U hebt Forms as a Cloud Service nodig om adaptieve formulieren zonder koptekst te hosten en te bedienen, samen met mogelijkheden voor back-end formulieren.
 
@@ -40,21 +40,21 @@ archetype project to deploy the finished Headless adaptive forms and correspondi
 
 ## Waar kan ik een voorbeeld van een Zwaardeloze adaptieve vorm krijgen? {#storybook-example}
 
-U kunt de starttoepassing gebruiken om een aangepast, hoofdloos adaptief formulier te genereren en voor te vertonen. U kunt ook een [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) Een voorbeeld bekijken van een adaptief formulier zonder koptekst.
+U kunt de starttoepassing gebruiken om een aangepast, hoofdloos adaptief formulier te genereren en voor te vertonen. U kunt a [ storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) voorbeeld ook wijzigen om een Headless adaptieve vorm voor te vertonen.
 
 ![](/help/assets/storybook-example.png)
 
 ## Is het mogelijk om Zwaardeloze adaptieve vormen met douanekaders te gebruiken?
 
-Hoofdloze adaptieve formulieren zijn gebaseerd op [standaardspecificatie](/help/assets/Headless-Adaptive-Form-Specification.pdf). U kunt de specificatie uitbreiden om het te gebruiken om douanecomponenten te bouwen. Bijvoorbeeld, componenten voor Chakra UI, Vue.js, en meer.
+Hoofdloze adaptieve vormen zijn gebaseerd op [ standaardspecificatie ](/help/assets/Headless-Adaptive-Form-Specification.pdf). U kunt de specificatie uitbreiden om het te gebruiken om douanecomponenten te bouwen. Bijvoorbeeld, componenten voor Chakra UI, Vue.js, en meer.
 
 ## Worden trapsgewijze velden ondersteund door hulpformulieren zonder koptekst?
 
-In trapsgewijze velden hangt de inhoud van het tweede veld af van de inhoud die in het eerste veld is gekozen. De [Winkelboek](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behavior—options&amp;args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJS son.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) Hier ziet u een voorbeeld van trapsgewijze velden.
+In trapsgewijze velden hangt de inhoud van het tweede veld af van de inhoud die in het eerste veld is gekozen. Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behavior—options&amp;args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJS son.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) verstrekt een voorbeeld van het trapsgewijze gebieden.
 
 ## Kunnen formulieren zonder koptekst en aanpassingen vooraf worden ingevuld met gepersonaliseerde gegevens?
 
-Met adaptieve formulieren zonder koppen kunnen formulieren vooraf worden ingevuld met gepersonaliseerde gegevens. De [Winkelboek](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) Hier ziet u een voorbeeld van het vooraf invullen van een adaptief formulier zonder koptekst.
+Met adaptieve formulieren zonder koppen kunnen formulieren vooraf worden ingevuld met gepersonaliseerde gegevens. Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) verstrekt een voorbeeld van hoe te om een Zwaarteloze adaptieve vorm vooraf in te vullen.
 
 <!-- >
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?

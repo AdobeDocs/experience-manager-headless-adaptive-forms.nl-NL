@@ -23,7 +23,7 @@ Deze zelfstudie biedt u een end-to-end framework om een Headless adaptive-formul
 
 U zult ook een beter begrip van architectuur, beschikbare artefacten, en structuur JSON van de Zwaardeloze adaptieve vormen bouwen.
 
-**De reis begint met het leren van het gebruiksgeval**:
+**de reis begint met het leren van het gebruiksgeval**:
 
 Raya Tan, lid van de buitenlandse afdeling van een land dat bekend staat om zijn natuurlijke schoonheid en bloeiende toeristische economie, houdt toezicht op de verspreiding van visumaanvragen onder toeristen. Deze formulieren zijn beschikbaar op de website van de afdeling, in systeemeigen mobiele apps en in PDF-indeling, met verschillende taalopties waaruit toeristen kunnen kiezen. Het kan echter lastig zijn om deze formulieren op verschillende platforms en technologieën te beheren en te schalen.
 
@@ -31,4 +31,4 @@ Om de doeltreffendheid en de flexibiliteit van hun visumaanvraagprocedure te ver
 
 De populairste vorm onder toeristen is het formulier &quot;Contact opnemen&quot;, dat wordt gebruikt om verschillende vragen en vragen te stellen. Als zodanig heeft de buitenlandse afdeling ervoor gekozen om met dit formulier te beginnen met het implementeren van de Headless Adaptive Form-benadering. Deze zelfstudie begeleidt u bij het maken van het formulier Contact opnemen met deze nieuwe architectuur. Het uiteindelijke resultaat zal er als volgt uitzien:
 
-![Contact opnemen met het hulpformulier zonder kop](assets/contact-us-headless-adaptive-forms.png)
+![ Contact de Hoofdloze adaptieve vorm van de V.S. ](assets/contact-us-headless-adaptive-forms.png)

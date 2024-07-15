@@ -11,7 +11,7 @@ hide: false
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
 ## Vereisten
 
-* Downloaden en installeren [Microsoft Visual Studio Code 1.62.0 of later](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). Als u een oudere versie of geen versie hebt geïnstalleerd, kunt u de meest recente versie downloaden van [Microsoft-website](https://code.visualstudio.com/docs/setup/setup-overview). Om Visual Studio van bevellijn op Apple macOS te gebruiken, zie [Starten vanaf de opdrachtregel](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
-* Download de [De extensie Adaptive Forms Builder](/help/assets/adaptive-form-builder-0.12.0.vsix).
+* De download en installeert [ Code 1.62.0 van Microsoft Visual Studio of later ](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). Als u een oudere versie of geen geïnstalleerde versie hebt, download de recentste versie van [ de Website van Microsoft ](https://code.visualstudio.com/docs/setup/setup-overview). Om Visual Studio van bevellijn op Apple macOS te gebruiken, zie [ Lancering van de bevellijn ](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+* Download de [ Adaptieve uitbreiding van de vormenbouwer ](/help/assets/adaptive-form-builder-0.12.0.vsix).
 
 ## De extensie installeren
 
-1. Open de opdrachtregel en navigeer naar de map met het gedownloade extensiebestand. *adaptief-form-builder-[versie].vsix*.
+1. Open bevelherinnering en navigeer aan de folder die het gedownloade uitbreidingsdossier, *adaptive-form-builder [ versie ] .vsix* bevat.
 
 1. Voer de volgende opdracht uit om de extensie te installeren:
 
@@ -48,7 +48,7 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
    <br>
 
-   ![Extensie installeren](/help/assets/install-extension.png)
+   ![ Installerend uitbreiding ](/help/assets/install-extension.png)
 
 
-   Voor informatie over .vsix dossiers, zie [Help bij Microsoft Visual Studio Code](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
+   Voor informatie over .vsix dossiers, zie [ de Hulp van de Code van Microsoft Visual Studio ](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Ontwikkelen voor formulieren zonder kop met uw eigen componenten {#developing-for-headless-forms-using-your-own-components}
 
-<span class="preview"> Dit is een **VOORTGANG VAN DE WERK** artikel.</span>
+<span class="preview"> dit is a **WERK IN VOORTGANG** artikel.</span>

@@ -20,17 +20,17 @@ ht-degree: 0%
 + [Architectuur](architecture.md)
 + Snelle installatie {#quick-setup}
    + [Hoofdloze adaptieve Forms inschakelen op AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
-   + [Headless Adaptive Forms inschakelen op AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
+   + [Hoofdloze adaptieve Forms inschakelen op AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
 + Zelfstudie {#tutorial}
    + [Forms inschakelen met behulp van Core Components en Headless Adaptive Forms op AEM Forms as a Cloud Service](build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service.md)
    + [Forms inschakelen met behulp van Core Components en Headless Adaptive Forms op AEM 6.5 Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-on-aem-65-forms.md)
-+ Aan de slag met de startkit{#get-started}
++ Aan de slag met de startkit {#get-started}
    + [Een formulier zonder kop maken en publiceren met de startkit](create-and-publish-a-headless-form.md)
    + [Een aangepaste reactiebibliotheek gebruiken om een koploze vorm te genereren](use-google-material-ui-react-components-to-render-a-headless-form.md)
 + Hoofdloze adaptieve formulieren maken {#authoring-headless-adaptive-forms}
    + [Een hoofdloos adaptief formulier maken met de Adaptieve Forms-editor](create-a-headless-adaptive-form.md)
-+ Referentie ontwikkelaar {#developer-reference}
-   + [API&#39;s voor hulpformulieren zonder hoofd](https://opensource.adobe.com/aem-forms-af-runtime/api/)
++ Referentie voor ontwikkelaar {#developer-reference}
+   + [ Zwaardeloze adaptieve vormen APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [Veelgestelde vragen](faq.md)
 + [Problemen oplossen](troubleshooting.md)
 + [Microsoft Visual Studio Code-extensie voor adaptieve hoofdformulieren](visual-studio-code-extension-for-headless-adaptive-forms.md)
