@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: hoofdloos, adaptief formulier, veelgestelde vragen
 hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -46,7 +46,7 @@ U kunt de starttoepassing gebruiken om een aangepast, hoofdloos adaptief formuli
 
 ## Is het mogelijk om Zwaardeloze adaptieve vormen met douanekaders te gebruiken?
 
-Hoofdloze adaptieve vormen zijn gebaseerd op [ standaardspecificatie ](/help/assets/Headless-Adaptive-Form-Specification.pdf). U kunt de specificatie uitbreiden om het te gebruiken om douanecomponenten te bouwen. Bijvoorbeeld, componenten voor Chakra UI, Vue.js, en meer.
+Hoofdloze adaptieve vormen zijn gebaseerd op [ standaardspecificatie ](/help/assets/headless-adaptive-forms-specification.pdf). U kunt de specificatie uitbreiden om het te gebruiken om douanecomponenten te bouwen. Bijvoorbeeld, componenten voor Chakra UI, Vue.js, en meer.
 
 ## Worden trapsgewijze velden ondersteund door hulpformulieren zonder koptekst?
 
@@ -63,7 +63,7 @@ At this moment, you use the Adaptive Form Editor to specify the JSON structure a
 
 ## Kan ik hulpvormen zonder hoofd gebruiken met Angular SPA?
 
-U kunt de SDK van het Web gebruiken om Zwaardeloze adaptieve vormen met de SPA van de Angular te integreren. Het staat los van elk kader. U kunt React SDK als verwijzing gebruiken.
+U kunt de SDK van het Web gebruiken om Zwaardeloze adaptieve vormen met Angular SPA te integreren. Het staat los van elk kader. U kunt React SDK als referentie gebruiken.
 
 <!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 

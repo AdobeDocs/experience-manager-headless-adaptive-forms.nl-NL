@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: hoofdloze, adaptieve vorm, architectuur
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: 56ad9d8fefc4933847061ba6007ad367984bd2e0
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -62,19 +62,21 @@ In een doorsnee ontwikkelingscyclus begint u met het maken en hosten van adaptie
 
 Met de volgende gereedschappen kunt u adaptieve formulieren zonder koptekst maken en integreren in uw toepassingen:
 
-**SDK van het Web van Forms (Cliënt-Kant Runtime)**: Het Web SDK van Forms is een cliënt-kant bibliotheek van JavaScript. Hiermee kunt u clientvalidaties toepassen op formuliervelden, de status van het formulier behouden en kunt u koppelingen maken naar formulieren met een UI-laag of een component die adaptieve formulieren weergeeft. Klanten kunnen hiermee beperkingen valideren die zijn toegepast op verschillende velden van een formulier en haken om de JSON-formulierstructuur aan te sluiten op het UI-framework. De Forms Web SDK heeft de volgende componenten:
+**Forms Web SDK (Cliënt-Kant Runtime)**: SDK van het Web van Forms is een cliënt-kant JavaScript bibliotheek. Hiermee kunt u clientvalidaties toepassen op formuliervelden, de status van het formulier behouden en kunt u koppelingen maken naar formulieren met een UI-laag of een component die adaptieve formulieren weergeeft. Klanten kunnen hiermee beperkingen valideren die zijn toegepast op verschillende velden van een formulier en haken om de JSON-formulierstructuur aan te sluiten op het UI-framework. Forms Web SDK heeft de volgende componenten:
 
 * **Bedrijfs regelverwerker**: De bewerker van de bedrijfsregel keurt de vormJSON structuur als input goed, beheert de staat van de vormgebieden, voert regels uit, en gebeurtenismanagers huidig in JSON.
 * **Reageer binder**: Verzekert haken over controlemechanisme om staat aan de Componenten van de Vorm toe te voegen. Het is ook handig om een formulier vooraf in te vullen.
 * **de bibliotheek van Componenten**: Het verstrekt de Componenten van het Spectrum Reageren en gebruikt haken in React de module van de Bindder om staat aan die componenten toe te voegen.
 
-De Forms Web SDK beschikt niet alleen over de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier, maar biedt ook haken voor het verbinden van Headless Adaptive-formulieren met het UI-framework. Het biedt ook React Renderer-&#x200B; voor Headless adaptive-formulieren om een Headless adaptive-formulier in uw toepassing te integreren. De volgende componenten van Web SDK zijn beschikbaar:
+Naast het verschaffen van de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier, biedt Forms Web SDK haken om Zwaardeloze adaptieve formulieren aan te sluiten op het UI-framework. Het biedt ook React Renderer-&#x200B; voor Headless adaptive-formulieren om een Headless adaptive-formulier in uw toepassing te integreren. De volgende componenten van Web SDK zijn beschikbaar:
 
 * **[@aemforms/af-response-components ](https://www.npmjs.com/package/@aemforms/af-react-components)**
 * **[@aemforms/af-response-renderer ](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core ](https://www.npmjs.com/package/@aemforms/af-core)**
 
 Al deze componenten zijn inbegrepen in AEM Archetype. Wanneer u een project met AEM Archetype 37 of hoger maakt voor adaptieve koptekstformulieren, wordt de nieuwste versie van de hierboven vermelde bibliotheken opgenomen in het project.
+
+* **playground van de Code**: [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze Adaptieve Forms te testen.
 
 **Begonnen Toepassing**: de Adobe heeft ook een begonnen toepassing vrijgegeven om u te helpen snel met Zwaarteloze adaptieve vormen beginnen.
 
@@ -86,8 +88,9 @@ Core-Components: It enables use to render an Adaptive Form using JSON structure.
 
 **de Uitbreiding van de Code van Visual Studio**: [ de uitbreiding van de Code van Visual Studio ](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
 
-**Aangepaste Forms versie 2.0 specificaties**: De adaptieve versie 2.0 van Forms specificatie verstrekt gedetailleerde informatie over alle componenten, beperkingen, en methodes beschikbaar om Zwaartepunt te bepalen aanpassende vormen. De specificatie is beschikbaar in [ PDF ](/help/assets/Headless-Adaptive-Form-Specification.pdf) formaat.
-
 **HTTP en JavaScript APIs**: [ HTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) staat u toe om van hoofdvormen een lijst te maken, te halen, te bevestigen, voor te leggen, de status van de spoorvoorlegging te volgen. [ JS APIs ](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helpt u Zwaarloze aanpassingsvormen met om het even welk op JavaScript gebaseerd kader UI gebruiken.
 
 **JSON Formule**: Het is een implementatie van de grammatica van de vormenuitdrukking om u te helpen JSON structuur vragen en regels voor Zwaardeloze adaptieve vormen tot stand brengen. De grammatica is een masker van spreadsheet-als functies en exploitanten en [ JMESPath ](https://jmespath.org/) een JSON vraagtaal. U kunt [ playground ](https://opensource.adobe.com/json-formula/dist/index.html) gebruiken om JSON-formulesyntaxis en mogelijkheden te onderzoeken.
+
+**Aangepaste Forms versie 2.0 specificaties**: De adaptieve versie 2.0 van Forms specificatie verstrekt gedetailleerde informatie over alle componenten, beperkingen, en methodes beschikbaar om Zwaartepunt te bepalen aanpassende vormen. De specificatie is beschikbaar in [ PDF ](/help/assets/headless-adaptive-forms-specification.pdf) formaat.
+
