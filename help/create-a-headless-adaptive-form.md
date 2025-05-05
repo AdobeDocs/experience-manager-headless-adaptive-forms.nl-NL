@@ -77,7 +77,7 @@ U hebt het volgende nodig om een adaptief formulier te maken met de Adaptive For
 
 1. (Optioneel) Selecteer op het tabblad Gegevens een gegevensmodel:
 
-   * **het gegevensmodel van de Vorm**: Het Model van de Gegevens van de Vorm van A [ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html) laat u entiteiten en de diensten van ongelijksoortige gegevensbronnen aan een Aangepaste Vorm integreren. Kies Formuliergegevensmodel als het adaptieve formulier dat u maakt, bestaat uit het ophalen en schrijven van gegevens van en naar meerdere gegevensbron.
+   * **het gegevensmodel van de Vorm**: Het Model van de Gegevens van de Vorm van A [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html) laat u entiteiten en de diensten van ongelijksoortige gegevensbronnen aan een Aangepaste Vorm integreren. Kies Formuliergegevensmodel als het adaptieve formulier dat u maakt, bestaat uit het ophalen en schrijven van gegevens van en naar meerdere gegevensbron.
 
    * **JSON Schema**: [ JSON schema ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model.html?lang=en) de Aangepaste Vorm staat naadloze integratie met het achterste deelsysteem van uw organisatie toe door de capaciteit te verstrekken om een schema te associëren JSON, dat de structuur van de gegevens vertegenwoordigt die worden geproduceerd of worden verbruikt. Met deze koppeling kunnen auteurs dynamisch inhoud toevoegen aan het adaptieve formulier met behulp van de elementen van het schema. De elementen van het schema zijn tijdens het ontwerpproces gemakkelijk toegankelijk op het tabblad Gegevensmodelobjecten van de inhoudbrowser en alle velden worden automatisch toegevoegd aan elk nieuw gemaakt adaptief formulier.
 
@@ -85,7 +85,7 @@ U hebt het volgende nodig om een adaptief formulier te maken met de Adaptive For
 
 1. Selecteer op het tabblad **[!UICONTROL Submission]** een verzendactie:
 
-   * Wanneer u een sjabloon selecteert, wordt de verzendactie die in de sjabloon is opgegeven automatisch geselecteerd. U kunt een andere verzendactie selecteren op het tabblad Verzending. Op het tabblad **[!UICONTROL  Submission]** worden alle beschikbare verzendhandelingen weergegeven.
+   * Wanneer u een sjabloon selecteert, wordt de verzendactie die in de sjabloon is opgegeven automatisch geselecteerd. U kunt een andere verzendactie selecteren op het tabblad Verzending. Op het tabblad **[!UICONTROL &#x200B; Submission]** worden alle beschikbare verzendhandelingen weergegeven.
 
    * Wanneer de geselecteerde sjabloon geen verzendactie opgeeft, kunt u op het tabblad **[!UICONTROL Submission]** een verzendactie selecteren
 

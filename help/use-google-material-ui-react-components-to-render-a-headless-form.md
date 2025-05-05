@@ -35,7 +35,7 @@ De belangrijkste stappen die nodig zijn voor het weergeven van een formulier met
 
 ## 1. Interface voor Google-materiaal installeren
 
-Door gebrek, gebruikt de aanzetuitrusting ](https://spectrum.adobe.com/) componenten van het Spectrum van de Adobe [. Laat het plaatsen om [ Materiële UI van Google te gebruiken ](https://mui.com/):
+Door gebrek, gebruikt de aanzetuitrusting [&#128279;](https://spectrum.adobe.com/) componenten van het Spectrum van de Adobe . Laat het plaatsen om [ Materiële UI van Google te gebruiken ](https://mui.com/):
 
 1. Zorg ervoor dat de startkit niet wordt uitgevoerd. Om de starteruitrusting tegen te houden, open uw terminal, navigeer aan **reactie-starter-kit-a-headless-vormen**, en druk CTRL-C (het is het zelfde op Vensters, Mac &amp; Linux).
 
@@ -54,7 +54,7 @@ De Npm-bibliotheken voor materiaal van Google worden geïnstalleerd en de biblio
 
 ## 2. Aangepaste Reactie-componenten maken
 
-Laten wij een douanecomponent tot stand brengen die standaard ](https://spectrum.adobe.com/page/text-field/) component van de tekstinput [ met [ de Materiële UI van Google component van het Gebied van de Tekst ](https://mui.com/material-ui/react-text-field/) vervangt.
+Laten wij een douanecomponent tot stand brengen die standaard [&#128279;](https://spectrum.adobe.com/page/text-field/) component van de tekstinput  met [ de Materiële UI van Google component van het Gebied van de Tekst ](https://mui.com/material-ui/react-text-field/) vervangt.
 
 Een afzonderlijke component wordt vereist voor elk componenttype ([ fieldType ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) of :type) dat in een definitie van de Vorm zonder titel wordt gebruikt. Bijvoorbeeld, in de vorm van het Contact Us die u in de vorige sectie creeerde, zijn de Naam, E-mail, en de gebieden van de Telefoon van type `text-input` ([ fieldType: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)) en het berichtgebied van type `multiline-input` ([ &quot;fieldType&quot;: &quot;multiline-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input)).
 
@@ -71,7 +71,7 @@ Om de douanecomponent tot stand te brengen en de douanecomponent met het [ field
 
    ![ de materialtextfield douanecomponent in VSCode ](/help/assets/richtext-custom-component-in-vscode.png)
 
-1. Open het `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` -bestand en vervang de bestaande code door de onderstaande code. Deze code keert terug en geeft a [ Materiële UI de component van het Gebied van de Tekst van A {](https://mui.com/material-ui/react-text-field/) terug.
+1. Open het `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` -bestand en vervang de bestaande code door de onderstaande code. Deze code keert terug en geeft a [ Materiële UI de component van het Gebied van de Tekst van A &lbrace;](https://mui.com/material-ui/react-text-field/) terug.
 
 ```JavaScript
  

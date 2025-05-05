@@ -85,6 +85,7 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
 
    1. Open <https://requestbin.com/> in een nieuw browsertabblad.
    1. Klik **creeer een openbare bak** en kopieer het eindpunt URL.
+
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
@@ -92,23 +93,29 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
 1. Ontwerp een adaptief formulier met de wizard-interface:
 
    1. Navigeer in het browsertabblad dat wordt gebruikt in Les 1 naar AEM Forms als Cloud Service-webinterface en navigeer naar Forms en Documenten.
+
       ![](/help/assets/screenshot2028114029.png)
 
    1. Klik **creëren** en selecteer AanpassingsVorm.
+
       ![](/help/assets/screenshot2028114629.png)
 
    1. Selecteer **Leeg met het malplaatje van de Componenten van de Kern** van het scherm van de malplaatjeselectie zoals hieronder getoond:
+
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
    1. Klik het **lusje van de Stijl** en selecteer het **wknd-thema** thema zoals hieronder getoond:
+
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
    1. Klik het **lusje van de Verzending** en selecteer **voorleggen aan REST eind-punt** kaart en specificeer de openbare bak in **URL voor het gebied van het verzoek van de POST** zoals hieronder getoond:
+
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Klik **creëren**. Geef een naam en titel op voor het formulier. Bijvoorbeeld, **registratie**. Klik **creëren**.
 
    1. De aangepaste formuliereditor wordt geopend. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren. Klik componenten browser op linkerspoor en voeg de **Kopbal** toe en **Voettekst** componenten respectievelijk aan de bovenkant en de bodem van de lege vorm.
+
       ![](/help/assets/screenshot2028121929.png)
 
    1. Sleep componenten vanuit de browser Components om een formulier te maken, vergelijkbaar met het volgende:
@@ -120,6 +127,7 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
    1. Klik de **component van het aantal van de Telefoon** zodat pop-up menu wordt getoond. Klik het **pictogram van de Sleutel** in het menu om het gebied te vormen.
 
    1. Open het **bevestigingslusje**, merk het gebied **Vereiste**, en klik **Gedaan**. Het succesbericht wordt weergegeven.
+
       ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
@@ -131,9 +139,11 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
    1. Vul het formulier met dummygegevens.
 
    1. Verzend het formulier.
+
       ![](/help/assets/screenshot2028125729.png)
 
    1. Controleer de verzonden gegevens op het tabblad Aanvraagvak.
+
       ![](/help/assets/screenshot2028125829.png)
 
 1. Interactiviteit toevoegen aan formulier met regels:

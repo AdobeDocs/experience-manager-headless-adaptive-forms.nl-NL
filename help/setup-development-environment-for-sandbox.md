@@ -39,6 +39,7 @@ Als u Headless adaptive-formulieren wilt inschakelen op uw Forms as a Cloud Serv
 <tr>
   <td>
   1. Meld u aan bij <a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a> en selecteer de optie <b> Experience Manager </b> .
+
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -49,7 +50,7 @@ Als u Headless adaptive-formulieren wilt inschakelen op uw Forms as a Cloud Serv
 </tr>
 <tr>
   <td>
-  2. Voor de optie <b> Cloud Manager </b> klikt u op <b> Starten. </b> Er wordt een lijst met programma's voor uw organisatie weergegeven.
+  &#x200B;2. Voor de optie <b> Cloud Manager </b> klikt u op <b> Starten. </b> Er wordt een lijst met programma's voor uw organisatie weergegeven.
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -60,7 +61,7 @@ Als u Headless adaptive-formulieren wilt inschakelen op uw Forms as a Cloud Serv
 </tr>
 <tr>
   <td>
-    3. Tik voor uw programma op het pictogram ... en selecteer de optie <b> Programma bewerken </b> . Er wordt een dialoogvenster weergegeven. 
+    &#x200B;3. Tik voor uw programma op het pictogram ... en selecteer de optie <b> Programma bewerken </b> . Er wordt een dialoogvenster weergegeven. 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -71,7 +72,7 @@ Als u Headless adaptive-formulieren wilt inschakelen op uw Forms as a Cloud Serv
 </tr>
 <tr>
   <td>
-    4. Ga in het dialoogvenster Programma bewerken naar het tabblad <b> Oplossingen en invoegtoepassingen </b> , selecteer de optie <b> Forms - Digital Enrollment </b> en tik op <b> Bijwerken </b> . 
+    &#x200B;4. Ga in het dialoogvenster Programma bewerken naar het tabblad <b> Oplossingen en invoegtoepassingen </b> , selecteer de optie <b> Forms - Digital Enrollment </b> en tik op <b> Bijwerken </b> . 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -97,6 +98,7 @@ De gegevensopslagruimte klonen:
 <tr>
   <td>
   1. Tik in het pijplijnvak van uw programma op <b> Toegang tot repo-info. </b> Er verschijnt een dialoogvenster met informatie over opslagplaats 
+
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -107,7 +109,7 @@ De gegevensopslagruimte klonen:
 </tr>
 <tr>
   <td>
-  2. Tik op <b> Wachtwoord genereren </b> en kopieer de URL van de <b> gegevensopslagruimte. </b> 
+  &#x200B;2. Tik op <b> Wachtwoord genereren </b> en kopieer de URL van de <b> gegevensopslagruimte. </b> 
   </td>
   <td>
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/repository-info.png">
@@ -116,7 +118,7 @@ De gegevensopslagruimte klonen:
 </tr>
 <tr>
   <td>
-    3. Open op uw lokale computer de opdrachtregel, maak een map en voer de volgende opdracht uit. Geef vervolgens de gewenste gegevens op voor de bewaarplaats:
+    &#x200B;3. Open op uw lokale computer de opdrachtregel, maak een map en voer de volgende opdracht uit. Geef vervolgens de gewenste gegevens op voor de bewaarplaats:
     </br>
     <code> git clone [Repository URL] </code> </br></br>
     Bijvoorbeeld: </br> 
@@ -135,7 +137,7 @@ De gegevensopslagruimte klonen:
 
 Het archetype-project is een op maven gebaseerde sjabloon. Het leidt tot een minimaal project dat op beste praktijken wordt gebaseerd om met Headless aanpassings vormen te beginnen. Het omvat ook de kernfuncties voor het aanpassen van formulieren zonder koptekst voor Forms as a Cloud Service. Het is verplicht om het archetype 37 of later gebaseerde project tot stand te brengen en op te stellen.
 ®®
-Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een as a Cloud Service Experience Manager Forms-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) om de recentste versie van Archetype te vinden.[
+Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een as a Cloud Service Experience Manager Forms-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) om de recentste versie van Archetype te vinden.
 
 +++ Microsoft® Windows
 
@@ -218,6 +220,7 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
 <tr>
   <td>
   1. Meld u aan bij <a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a> en selecteer de optie <b> Experience Manager </b> .
+
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -228,7 +231,7 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
 </tr>
 <tr>
   <td>
-  2. Voor de optie <b> Cloud Manager </b> klikt u op <b> Starten. </b> Er wordt een lijst met programma's voor uw organisatie weergegeven. Open uw programma. 
+  &#x200B;2. Voor de optie <b> Cloud Manager </b> klikt u op <b> Starten. </b> Er wordt een lijst met programma's voor uw organisatie weergegeven. Open uw programma. 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
@@ -239,7 +242,7 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
 </tr>
 <tr>
   <td>
-    3. Tik voor de pijplijn op het pictogram ... en selecteer de optie <b> Uitvoeren </b> . Tik op <b> Uitvoeren </b> en wacht tot de status van de <b> pijplijn </b> verandert in <b> Voltooid </b> als u wordt gevraagd de pijplijn uit te voeren.  
+    &#x200B;3. Tik voor de pijplijn op het pictogram ... en selecteer de optie <b> Uitvoeren </b> . Tik op <b> Uitvoeren </b> en wacht tot de status van de <b> pijplijn </b> verandert in <b> Voltooid </b> als u wordt gevraagd de pijplijn uit te voeren.  
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">

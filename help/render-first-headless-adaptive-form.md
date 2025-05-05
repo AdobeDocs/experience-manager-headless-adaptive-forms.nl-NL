@@ -47,7 +47,7 @@ Voer de volgende stappen uit om uw eerste adaptieve vorm zonder koptekst te make
 
 ### 1. Maak en implementeer AEM project op basis van archetype {#create-an-archetype-based-project}
 
-Afhankelijk van het besturingssysteem voert u de onderstaande opdracht uit om een Experience Manager Forms as a Cloud Service project te maken. Gebruik archetype versie 37 of hoger. Zie, {de documentatie van 0} Archetype ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) om de recentste versie van Archetype te vinden.[
+Afhankelijk van het besturingssysteem voert u de onderstaande opdracht uit om een Experience Manager Forms as a Cloud Service project te maken. Gebruik archetype versie 37 of hoger. Zie, {de documentatie van 0} Archetype [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) om de recentste versie van Archetype te vinden.
 
 **Vensters van Microsoft**
 

@@ -78,7 +78,7 @@ De indeling is .zip. De ondersteunde versie is aem-sdk-2022.7.8085.20220725T1403
    > Dubbelklik niet op het .jar-bestand om het te starten. Het resulteert in een [ fout ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click).
 
 1. Open de opdrachtprompt:
-   * Op Vensters, gebruik de **looppas als 1} optie van de Beheerder om bevelherinnering op opgeheven wijze te openen.**
+   * Op Vensters, gebruik de **looppas als 1&rbrace; optie van de Beheerder om bevelherinnering op opgeheven wijze te openen.**
    * In Linux, zorg ervoor u het eindvenster als wortelgebruiker opent.
 
 1. Navigeer naar de installatielocatie die het gekopieerde .jar-bestand bevat en voer de volgende opdracht uit:

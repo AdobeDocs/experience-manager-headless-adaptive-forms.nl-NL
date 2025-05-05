@@ -88,9 +88,11 @@ In deze les ontwerpt u als zakelijke gebruiker een adaptief formulier voor meerd
 1. Maak een verzendeindpunt voor het formulier:
 
    1. Open <https://requestbin.com/> in een nieuw browsertabblad.
+
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
    1. Klik **creeer een openbare bak** en kopieer het eindpunt URL.
+
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    Dit specifieke eindpunt dient als voorbeeld voor het voorleggen en het bekijken van gegevens. In daadwerkelijke productie, gebruikt u uw eigen eindpunt of gegevensbronnen om de gevangen gegevens op te slaan.
@@ -100,17 +102,20 @@ In deze les ontwerpt u als zakelijke gebruiker een adaptief formulier voor meerd
    1. In het browser lusje dat in Les 1 wordt gebruikt, navigeer aan het Webinterface van AEM Forms en navigeer aan **Forms** > **Forms en Documenten**.
 
    1. Klik **creëren** en selecteer AanpassingsVorm.
+
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. Selecteer **Leeg met het malplaatje van de Componenten van de Kern** van het scherm van de malplaatjeselectie zoals hieronder getoond en klik **daarna**.
+
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
    1. Specificeer `Contact us` als **Titel** van de vorm. Zorg ervoor dat de **Naam** van de vorm `contact-us` is.
+
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
    1. Klik **creëren**. Er wordt een dialoogvenster weergegeven.
 
-   1. Voor de dialoogdoos, geeft de klik **** uit. Het formulier wordt geopend in de Adaptive Form Editor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
+   1. Voor de dialoogdoos, geeft de klik **&#x200B;**&#x200B;uit. Het formulier wordt geopend in de Adaptive Form Editor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
 
    1. Open de browser Components en sleep de component Panel naar het midden van het scherm.
 

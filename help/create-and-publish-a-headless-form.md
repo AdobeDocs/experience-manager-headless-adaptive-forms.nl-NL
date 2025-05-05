@@ -204,7 +204,7 @@ Stel de titel van de webpagina waarop het formulier zich bevindt in op `Contact 
 
 ## Volgende stap
 
-Door gebrek, gebruikt de aanzetuitrusting ](https://spectrum.adobe.com/) componenten van het Spectrum van de Adobe [ om de vorm terug te geven. U kunt uw eigen componenten of componenten van derden maken en gebruiken. Bijvoorbeeld met Google Material UI of Chakra UI.
+Door gebrek, gebruikt de aanzetuitrusting [&#128279;](https://spectrum.adobe.com/) componenten van het Spectrum van de Adobe  om de vorm terug te geven. U kunt uw eigen componenten of componenten van derden maken en gebruiken. Bijvoorbeeld met Google Material UI of Chakra UI.
 
 Laten wij [ materiaal UI van Google ](use-google-material-ui-react-components-to-render-a-headless-form.md) gebruiken om onze vorm van het Contact van ons terug te geven.
 
