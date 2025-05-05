@@ -533,12 +533,12 @@ Nu u hebt geleerd hoe u Adaptive Forms kunt bouwen en op meerdere kanalen kunt a
 
 ## Bronnen
 
-* [ Aangepaste Inleiding van de Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)
+* [ Aangepaste Inleiding van de Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL)
 
 * [ creeer Aangepast Vorm gebruikend de Componenten van de Kern ](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
-* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=en)
+* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=nl-NL)
 
-* [ Zwaarloze Adaptieve Forms ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=en)
+* [ Zwaarloze Adaptieve Forms ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=nl-NL)
 
-* [ Gebruikend Hoofdloze Reageer starterkit ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=en)
+* [ Gebruikend Hoofdloze Reageer starterkit ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=nl-NL)

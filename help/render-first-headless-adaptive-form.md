@@ -47,7 +47,7 @@ Voer de volgende stappen uit om uw eerste adaptieve vorm zonder koptekst te make
 
 ### 1. Maak en implementeer AEM project op basis van archetype {#create-an-archetype-based-project}
 
-Afhankelijk van het besturingssysteem voert u de onderstaande opdracht uit om een Experience Manager Forms as a Cloud Service project te maken. Gebruik archetype versie 37 of hoger. Zie, {de documentatie van 0} Archetype [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html) om de recentste versie van Archetype te vinden.
+Afhankelijk van het besturingssysteem voert u de onderstaande opdracht uit om een Experience Manager Forms as a Cloud Service project te maken. Gebruik archetype versie 37 of hoger. Zie, {de documentatie van 0} Archetype [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html?lang=nl-NL) om de recentste versie van Archetype te vinden.
 
 **Vensters van Microsoft**
 
@@ -71,7 +71,7 @@ Afhankelijk van het besturingssysteem voert u de onderstaande opdracht uit om ee
    * Stel `groupId` in om de Maven groupId en het Java Source-pakket te definiëren.
    * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
    * Gebruik de optie `includeFormsheadless=y` om Forms Core-componenten en afhankelijkheden op te nemen die vereist zijn om de Headless Adaptive Forms-functionaliteit toe te voegen. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-      * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en).
+      * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=nl-NL).
       * A frontend React module, `ui.frontend.react.forms.af`. Hiermee kunt u een hoofdloos adaptief formulier weergeven in een reactie-app.
 
 
@@ -97,7 +97,7 @@ Afhankelijk van het besturingssysteem voert u de onderstaande opdracht uit om ee
    * Stel `groupId` in om de Maven groupId en het Java Source-pakket te definiëren.
    * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
    * Gebruik de optie `includeFormsheadless=y` om Forms Core-componenten en afhankelijkheden op te nemen die vereist zijn om de Headless Adaptive Forms-functionaliteit toe te voegen. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-      * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en).
+      * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=nl-NL).
       * Een frontend reageert module, `ui.frontend.react.forms.af`. Hiermee kunt u een hoofdloos adaptief formulier weergeven in een reactie-app.
 
 Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam die in `appID` is opgegeven. Als u bijvoorbeeld `appID` met value `myheadlessform` gebruikt, wordt een map met de naam `myheadlessform` gemaakt. Het bevat het op Archetype gebaseerde project.
@@ -125,7 +125,7 @@ Wanneer u het project aan uw AEM instantie SDK opstelt, voegt het de Zwaardeloze
    Het kan lang duren om de gebiedsdelen op te lossen en het project op te stellen. Als er een mislukking in het opstellen van het project is, zie [ het oplossen van problemen](troubleshooting.md) artikel voor gemeenschappelijke kwesties en hun resolutie.
 
 
-<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
+<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=nl-NL#coding-against-the-right-aem-version) article : -->
 
 
 ### 3. Maak een JSON-schema van een hoofdloos adaptief formulier en upload het naar uw AEM SDK-exemplaar {#create-add-json-representation-of-headless-adaptive-forms}
@@ -180,9 +180,9 @@ You can deploy the project to local development environment. It adds Headless Ad
 
     `mvn -PautoInstallPackage clean install`
 
-If you are on Windows, run the above with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing).
+If you are on Windows, run the above with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=nl-NL#building-and-installing).
     
-<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
+<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=nl-NL#coding-against-the-right-aem-version) article : -->
 
 ### 4. Maak een adaptief formulier op basis van de sjabloon Blank met kerncomponenten {#create-adaptive-form-with-blank-with-core-components-template}
 

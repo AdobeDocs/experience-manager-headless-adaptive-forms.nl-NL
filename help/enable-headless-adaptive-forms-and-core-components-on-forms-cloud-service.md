@@ -304,7 +304,7 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
       git push origin
       ```
 
-1. Nadat de dossiers aan de Bewaarplaats van de Bewaarplaats van het Git worden geëngageerd, [ stel de pijpleiding ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html) in werking.
+1. Nadat de dossiers aan de Bewaarplaats van de Bewaarplaats van het Git worden geëngageerd, [ stel de pijpleiding ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html?lang=nl-NL) in werking.
 
    Nadat de pijpleidingslooppas succesvol is, worden de Adaptieve Componenten van de Kern van Forms toegelaten voor het overeenkomstige milieu. Bovendien worden een Adaptive Forms (Core Components)-sjabloon en een Canvas 3.0-thema toegevoegd aan uw Forms as a Cloud Service omgeving, zodat u opties kunt kiezen om de op Core Components gebaseerde Adaptive Forms aan te passen en te maken.
 
@@ -313,7 +313,7 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
 
 ### Wat zijn kerncomponenten? {#core-components}
 
-De [ Componenten van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en onderhoudskosten van uw websites te drukken.
+De [ Componenten van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=nl-NL) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en onderhoudskosten van uw websites te drukken.
 
 ### Welke mogelijkheden worden toegevoegd aan het toelaten van kerncomponenten? {#core-components-capabilities}
 

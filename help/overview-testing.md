@@ -28,7 +28,7 @@ Met behulp van hoofdloze adaptieve formulieren kunt u:
 * multikanaalformulieren van hoge kwaliteit maken in de programmeertaal van uw keuze
 * U kunt zelf formulieren integreren in uw bureaublad en mobiele apps, websites en chattoepassingen
 * gebruik uw eigen UI-componenten opnieuw met formuliertoepassingen
-* hefboomwerking de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)
+* hefboomwerking de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html?lang=nl-NL)
 
 Daarnaast hebt u de vrijheid om uw eigen componenten te ontwikkelen om een formulier te genereren met behulp van een willekeurig gebruikersinterface-framework en een door u gekozen programmeertaal. U kunt ook de React-componenten gebruiken die offline beschikbaar zijn om een Headless adaptief formulier te genereren.
 

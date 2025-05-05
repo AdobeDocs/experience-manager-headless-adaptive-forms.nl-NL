@@ -23,7 +23,7 @@ Door het AEM Archetype 41 op te stellen of later gebaseerd project aan uw AEM 6.
 
 Voordat u Headless Adaptive Forms op AEM 6.5 Forms-omgeving inschakelt,
 
-* [ Verbetering aan AEM 6.5 Forms Service Pack 16 (6.5.16.0) of later ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html).
+* [ Verbetering aan AEM 6.5 Forms Service Pack 16 (6.5.16.0) of later ](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=nl-NL).
 
 * Installeer de recentste versie van [ Apache Maven ](https://maven.apache.org/download.cgi).
 
@@ -115,7 +115,7 @@ Om een AEM Archetype 41 tot stand te brengen of [ later ](https://github.com/ado
 
    Nadat het project van Archetype van de AEM met succes wordt gebouwd, wordt een AEM Pakket geproduceerd. U kunt het pakket bij [ AEM Archetype de Omslag van het Project ] \all\target\ [appid].all- [ versie ] .zip vinden
 
-1. Gebruik de [ Manager van het Pakket ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en) om het [ AEM Archetype Omslag van het Project ] \all\target\[appid].all- [ versie ] .zip pakket op alle Instanties van Auteur en van Publish op te stellen.
+1. Gebruik de [ Manager van het Pakket ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL) om het [ AEM Archetype Omslag van het Project ] \all\target\[appid].all- [ versie ] .zip pakket op alle Instanties van Auteur en van Publish op te stellen.
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ De Core Components zijn ingeschakeld voor uw omgeving. Een lege die Componenten 
 
 ### Wat zijn kerncomponenten?
 
-De [ Componenten van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en onderhoudskosten van uw websites te drukken.
+De [ Componenten van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=nl-NL) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en onderhoudskosten van uw websites te drukken.
 
 ### Wat zijn alle mogelijkheden toegevoegd aan het toelaten van kerncomponenten?
 

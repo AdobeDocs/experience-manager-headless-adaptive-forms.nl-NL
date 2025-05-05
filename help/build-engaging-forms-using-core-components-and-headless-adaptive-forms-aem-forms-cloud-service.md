@@ -609,12 +609,12 @@ Nu u hebt geleerd hoe u adaptieve formulieren kunt maken en deze op meerdere kan
 
 ## Bronnen
 
-* [ Aangepaste de kerncomponenten van de Vorm inleiding ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html)
+* [ Aangepaste de kerncomponenten van de Vorm inleiding ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL)
 
 * [ creeer adaptieve vorm gebruikend kerncomponenten ](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
-* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=en)
+* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=nl-NL)
 
-* [ Hoofdloze adaptieve vormen ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=en)
+* [ Hoofdloze adaptieve vormen ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=nl-NL)
 
-* [ Gebruikend Hoofdloze Reageer starterkit ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=en)
+* [ Gebruikend Hoofdloze Reageer starterkit ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=nl-NL)
