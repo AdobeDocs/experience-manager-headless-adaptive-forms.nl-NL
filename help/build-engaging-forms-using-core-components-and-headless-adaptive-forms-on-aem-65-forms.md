@@ -535,12 +535,12 @@ U weet nu hoe u adaptieve formulieren kunt maken en deze via kanalen kunt levere
 
 ## Bronnen
 
-* [ Aangepaste Inleiding van de Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [ Aangepaste Inleiding van de Componenten van de Kern van de Vorm ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [ creeer Aangepast Vorm gebruikend de Componenten van de Kern ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [ creeer Aangepast Vorm gebruikend de Componenten van de Kern ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
+* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [ Zwaarloze Adaptieve Forms ](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/overview)
+* [ Zwaarloze Adaptieve Forms ](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [ Gebruikend een Hoofdloze Reageer starter uitrusting ](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [ Gebruikend een Hoofdloze Reageer starter uitrusting ](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)

@@ -30,8 +30,8 @@ ht-degree: 0%
 + Hoofdloze adaptieve formulieren maken {#authoring-headless-adaptive-forms}
    + [Een hoofdloos adaptief formulier maken met de Adaptieve Forms-editor](create-a-headless-adaptive-form.md)
 + Referentie ontwikkelaar {#developer-reference}
-   + [ portal van de Ontwikkelaar ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
-   + [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
+   + [ portal van de Ontwikkelaar ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=nl-NL)
+   + [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL)
    + [ Zwaardeloze adaptieve vormen APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [Veelgestelde vragen](faq.md)
 + [Problemen oplossen](troubleshooting.md)

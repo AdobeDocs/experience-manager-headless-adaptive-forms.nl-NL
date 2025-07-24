@@ -19,7 +19,7 @@ u wordt verwacht deze code te handhaven. Geef een onacceptabel gedrag aan
 
 ## Documentatie voor de bijdragegids
 
-Zie de [ Gids van de Medewerker ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Zie de [ Gids van de Medewerker ](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction).
 
 ## Heb je een vraag?
 
@@ -47,4 +47,4 @@ Adobe is blij met elke bijdrage en bekijkt je bijdrage. Als u een commissie met 
 
 ## Beveiligingsproblemen
 
-Beveiligingsproblemen moeten niet worden gerapporteerd in deze uitgavecontracker. In plaats daarvan, [ dossier een kwestie aan de veiligheidsdeskundigen van Adobe ](https://helpx.adobe.com/security/alertus.html)
+Beveiligingsproblemen moeten niet worden gerapporteerd in deze uitgavecontracker. In plaats daarvan, [ dossier een kwestie aan de veiligheidsdeskundigen van Adobe ](https://helpx.adobe.com/nl/security/alertus.html)

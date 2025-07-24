@@ -76,7 +76,7 @@ Naast het verschaffen van de API&#39;s voor het valideren van beperkingen die zi
 
 Al deze componenten zijn inbegrepen in Archetype van AEM. Wanneer u een AEM Archetype 37 of hoger project voor Zwaardeloze adaptieve formulieren maakt, wordt de nieuwste versie van de hierboven vermelde bibliotheken opgenomen in het project.
 
-* **playground van de Code**: [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze adaptieve Forms te testen.
+* **playground van de Code**: [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze adaptieve Forms te testen.
 
 **Begonnen Toepassing**: Adobe heeft ook een begonnen toepassing vrijgegeven om u te helpen snel met Hoofdloze adaptieve vormen beginnen.
 

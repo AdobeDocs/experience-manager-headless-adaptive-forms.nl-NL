@@ -28,7 +28,7 @@ Met hulpformulieren zonder koptelefoon kunt u het volgende doen:
 * U kunt hoogwaardige multikanaalformulieren maken in de programmeertaal van uw keuze.
 * U kunt zelf formulieren integreren in uw bureaublad en mobiele apps, websites en chattoepassingen.
 * Gebruik uw eigen UI-componenten opnieuw met formuliertoepassingen.
-* Gebruikend de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
+* Gebruikend de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
 
 Daarnaast hebt u de vrijheid om uw eigen componenten te ontwikkelen om een formulier te genereren met behulp van een willekeurig gebruikersinterface-framework en een door u gekozen programmeertaal. U kunt ook de React-componenten gebruiken die offline beschikbaar zijn om een Headless adaptief formulier te genereren.
 
