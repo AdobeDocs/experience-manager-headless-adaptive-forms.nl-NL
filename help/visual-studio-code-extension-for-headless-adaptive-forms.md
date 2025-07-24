@@ -9,21 +9,21 @@ level: Beginner, Intermediate
 keywords: hoofdloze, adaptieve vormen, de uitbreiding van de Code van Visual Studio
 hide: false
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # Microsoft Visual Studio Code-extensie voor adaptieve hoofdformulieren
 
-Als u Microsoft® Visual Studio Code als winde gebruikt, kunt u de Adaptieve uitbreiding van Forms voor de Code van Microsoft Visual Studio gebruiken. De extensie:
+Als u de Code van Microsoft® Visual Studio als winde (Geïntegreerde Ontwikkelomgeving) gebruikt, kunt u de Adaptieve uitbreiding van Forms voor de Code van Microsoft Visual Studio gebruiken. De extensie:
 
-* Voegt mogelijkheden IntelliSense voor Adaptive Forms aan de Code van Visual Studio toe
-* Helpt de JSON-syntaxis te valideren en automatisch in te vullen voor componenten van Creless adaptieve formulieren
-* Biedt een deelvenster waarmee u gemakkelijk door de structuur van een adaptief formulier zonder koptekst kunt navigeren
-* Helpt een Headless adaptive-formulier te vertalen
+* Voegt mogelijkheden IntelliSense voor Adaptive Forms aan de Code van Visual Studio toe.
+* Hiermee kunt u de JSON-syntaxis valideren en automatisch aanvullen voor componenten van Creative Cloud-adaptieve formulieren.
+* Met dit deelvenster kunt u eenvoudig door een deelvenster navigeren in de structuur van een adaptief formulier zonder kop.
+* Hiermee kunt u een Headless adaptive-formulier vertalen.
 
 <!-- 
 
@@ -35,12 +35,12 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
 ## Vereisten
 
-* De download en installeert [ Code 1.62.0 van Microsoft Visual Studio of later ](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). Als u een oudere versie of geen geïnstalleerde versie hebt, download de recentste versie van [ de Website van Microsoft ](https://code.visualstudio.com/docs/setup/setup-overview). Om Visual Studio van bevellijn op Apple macOS te gebruiken, zie [ Lancering van de bevellijn ](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+* De download en installeert [ Code 1.62.0 van Microsoft Visual Studio of later ](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). Als u een oudere versie of geen geïnstalleerde versie hebt, download de recentste versie van de [ Website van Microsoft ](https://code.visualstudio.com/docs/setup/setup-overview). Om Visual Studio van de bevellijn op Apple macOS te gebruiken, zie [ Lancering van de bevellijn ](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
 * Download de [ Adaptieve uitbreiding van de vormenbouwer ](/help/assets/adaptive-form-builder-0.12.0.vsix).
 
 ## De extensie installeren
 
-1. Open bevelherinnering en navigeer aan de folder die het gedownloade uitbreidingsdossier, *adaptive-form-builder [ versie ] .vsix* bevat.
+1. Open de bevelherinnering en navigeer aan de folder die het gedownloade uitbreidingsdossier, *adaptive-form-builder [ versie ] .vsix* bevat.
 
 1. Voer de volgende opdracht uit om de extensie te installeren:
 
@@ -51,4 +51,4 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
    ![ Installerend uitbreiding ](/help/assets/install-extension.png)
 
 
-   Voor informatie over .vsix dossiers, zie [ de Hulp van de Code van Microsoft Visual Studio ](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
+   Voor informatie over .vsix dossiers, zie [ de Hulp van de Code van Microsoft Visual Studio ](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_install-from-a-vsix).

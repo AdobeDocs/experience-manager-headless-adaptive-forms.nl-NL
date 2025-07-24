@@ -1,8 +1,6 @@
 ---
-title: Hoofdloze adaptieve Forms inschakelen op AEM Forms as a Cloud Service
-seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM Forms as a Cloud Service
-description: Leer hoe u adaptieve formulieren zonder hoofd kunt inschakelen op AEM Forms as a Cloud Service met onze stapsgewijze handleiding. In onze zelfstudie wordt u door het proces geleid, zodat u deze krachtige functie eenvoudig kunt inschakelen voor uw AEM Forms-omgeving.
-seo-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
+title: Headless Adaptive Forms inschakelen op AEM Forms as a Cloud Service
+description: Een stapsgewijze handleiding voor het inschakelen van Zwaarloze adaptieve formulieren in AEM Forms as a Cloud Service, waarmee u de installatie en activering in uw omgeving kunt vereenvoudigen.
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
@@ -13,36 +11,35 @@ docset: CloudService
 hide: true
 hidefromtoc: true
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
-# Hoofdloze adaptieve Forms inschakelen op AEM Forms as a Cloud Service {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
+# Headless Adaptive Forms inschakelen op AEM Forms as a Cloud Service {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
 Als u Headless Adaptive Forms inschakelt op AEM Forms as a Cloud Service, kunt u uw Forms zonder koppen maken, publiceren en leveren via uw AEM Forms Cloud Service-instanties naar meerdere kanalen. Voor het gebruik van Headless Adaptive Forms hebt u de omgeving geschikt voor Adaptive Forms Core Components nodig.
 
 ## Overwegingen
 
-* Wanneer u een vers as a Cloud Service programma van AEM Forms creeert, [ Koploze Adaptieve Forms wordt reeds toegelaten voor uw milieu&#39;s ](#are-adaptive-forms-core-components-enabled-for-my-environment).
+* Wanneer u een vers programma van AEM Forms as a Cloud Service creeert, [ Zwaarloze Adaptieve Forms wordt reeds toegelaten voor uw milieu&#39;s ](#are-adaptive-forms-core-components-enabled-for-my-environment).
 
-* Als u een ouder as a Cloud Service programma van Forms hebt waar de Componenten van de Kern [ niet ](#enable-components) worden toegelaten, kunt u [ de Aangepaste gebiedsdelen van de Componenten van de Kern van Forms ](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment) toevoegen aan uw bewaarplaats van AEM as a Cloud Service en de bewaarplaats opstellen aan uw milieu&#39;s van de Cloud Service om Zwaardeloze Aanpassings Forms toe te laten.
+* Als u een ouder programma van Forms as a Cloud Service in werking stelt waar de Componenten van de Kern [ niet ](#enable-components) worden toegelaten, [ voeg eerst de Adaptieve gebiedsdelen van de Componenten van de Kern van Forms ](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment) aan uw bewaarplaats van Cloud Service toe. Implementeer de bijgewerkte opslagplaats in elke omgeving om Zwaardeloze adaptieve formulieren in te schakelen.
 
-* Als uw bestaand milieu van de Cloud Service optie [ verstrekt om op kern-componenten-Gebaseerde Aangepaste Forms ](create-a-headless-adaptive-form.md) tot stand te brengen, zijn de Zwaardeloze Aanpassings Forms reeds toegelaten voor uw milieu en u kunt op de Component gebaseerde Aangepaste Forms van de Kern als hoofdloze vormen aan kanalen zoals mobiel, Web, inheemse apps, en de diensten dienen die een headless vertegenwoordiging van Aanpassings Forms vereisen.
-
+* Als uw milieu van Cloud Service u [ reeds laat creeren de op componenten-Gebaseerde aanpassingsvormen van de Kern ](create-a-headless-adaptive-form.md), worden de Zwaardeloze Adaptieve vormen automatisch toegelaten. U kunt deze formulieren vervolgens als een headless-ervaring aanbieden aan mobiele apparaten, het web, native apps of elke service waarvoor ze nodig zijn.
 
 >[!NOTE]
 >
 >
-> De Adobe verstrekt Aangepaste Forms [ starter uitrusting (React App) ](create-and-publish-a-headless-form.md) om ontwikkelaars te helpen snel met de Zwaardeloze Aanpassings ontwikkeling van Forms beginnen, zonder Zwaardeloze Aanpassings Forms op het as a Cloud Service milieu van AEM Forms toe te laten. U kunt de Zwaardeloze Aanpassings Forms op een as a Cloud Service milieu van Forms later na a [ snelle hands-on met het ontwikkelen van kransloze vormen ](create-and-publish-a-headless-form.md) toelaten.
+> Adobe verstrekt een AanpassingsForms [ starter uitrusting (React App) ](create-and-publish-a-headless-form.md) om ontwikkelaars te helpen snel met de Zwaardeloze AanpassingsOntwikkeling van Forms beginnen, zonder Zwaardeloze Aanpassings Forms op het milieu van AEM Forms as a Cloud Service toe te laten. U kunt de Zwaardeloze Aanpassings Forms op een milieu van Forms later na a [ snelle hands-on met het ontwikkelen van kransloze vormen ](create-and-publish-a-headless-form.md) toelaten.
 
-## Hoofdloze adaptieve Forms inschakelen voor een as a Cloud Service AEM Forms-omgeving
+## Hoofdloze adaptieve Forms inschakelen voor een AEM Forms as a Cloud Service-omgeving
 
-Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Forms voor een AEM Forms as a Cloud Service omgeving in te schakelen
+Voer de volgende stappen uit in de aangegeven volgorde om Headless Adaptive Forms voor een AEM Forms as a Cloud Service-omgeving in te schakelen
 
-
+<!-- Missing image ALT tag -->
 ![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 
@@ -50,7 +47,9 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
 
 1. Login aan [ Cloud Manager ](https://my.cloudmanager.adobe.com/) en selecteer uw organisatie en programma.
 
-1. Navigeer aan de **Pipelines** kaart van uw **pagina van het Overzicht van het Programma**, klik de **Info van de Reactie van de Toegang** knoop om tot uw Bewaarplaats van het Bezit van het Bezit toegang te hebben en te beheren. De pagina bevat de volgende informatie:
+1. Navigeer aan de **Pipelines** kaart van uw **pagina van het Overzicht van het Programma**.
+
+1. Klik de **knoop van Info van de Reactie van de Toegang** om tot uw Bewaarplaats van de Bezit van het Git toegang te hebben en te beheren. De pagina bevat de volgende informatie:
 
    * URL naar de Cloud Manager Git Repository.
    * Referenties van de Git Repository (Gebruikersnaam en Wachtwoord) Gebruikersnaam.
@@ -66,7 +65,7 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
    Geef de gegevens op wanneer u hierom wordt gevraagd. De opslagplaats is gekloond op uw lokale computer.
 
 
-## 2. Voeg adaptieve Forms Core Components-afhankelijkheden toe aan uw Git Repository {#add-adaptive-forms-core-components-dependencies}
+## &#x200B;2. Voeg adaptieve Forms Core Components-afhankelijkheden toe aan uw Git Repository {#add-adaptive-forms-core-components-dependencies}
 
 1. Open de map Git Repository in een tekstcode-editor zonder opmaak. Bijvoorbeeld, de Code van VS.
 1. Open het `[AEM Repository Folder]\pom.xml` -bestand om het te bewerken.
@@ -202,7 +201,7 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
    >
    >  Vervang `${appId}` door uw appId.
    >
-   >  Zoek in het `[AEM Repository Folder]/all/pom.xml` -bestand naar de term `-packages/application/install` om de term `${appId}` te zoeken. De tekst voor de term `-packages/application/install` is de `${appId}` . De volgende code, `myheadlessform` is bijvoorbeeld `${appId}` .
+   >  Zoek in het `${appId}` -bestand naar de term `[AEM Repository Folder]/all/pom.xml` om de term `-packages/application/install` te zoeken. De tekst voor de term `-packages/application/install` is de `${appId}` . De volgende code, `myheadlessform` is bijvoorbeeld `${appId}` .
    >
    >   ```
    >             <embedded>
@@ -283,14 +282,14 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
 
 1. Sla het bestand op en sluit het.
 
-## 3. Werk het project bij met de nieuwste versie van Forms Core Components:
+## &#x200B;3. Werk het project bij en voeg de nieuwste versie van Forms Core Components toe:
 
-1. Open de [ AEM Archetype Omslag van het Project ] /pom.xml voor het uitgeven.
+1. Open de [ Omslag van het Project van de Archetype van AEM ] /pom.xml voor het uitgeven.
 
 
 1. Sla het bestand op en sluit het.
 
-## 4. Leg de updates vast aan uw Git Repository en voer pijpleiding uit om de repository te implementeren {#Commit-the-updates-to-your-git-repository}
+## &#x200B;4. Leg de updates vast aan uw Git Repository en voer een pijplijn uit om de repository te implementeren {#Commit-the-updates-to-your-git-repository}
 
 1. U kunt als volgt code toewijzen aan uw Git Repository:
    1. Open de terminal of opdrachtprompt.
@@ -304,16 +303,16 @@ Voer de volgende stappen uit, in de vermelde volgorde, om Headless Adaptive Form
       git push origin
       ```
 
-1. Nadat de dossiers aan de Bewaarplaats van de Bewaarplaats van het Git worden geëngageerd, [ stel de pijpleiding ](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html?lang=nl-NL) in werking.
+1. Nadat de dossiers aan de Bewaarplaats van de Bewaarplaats van het Git worden geëngageerd, [ stel de pijpleiding ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment) in werking.
 
-   Nadat de pijpleidingslooppas succesvol is, worden de Adaptieve Componenten van de Kern van Forms toegelaten voor het overeenkomstige milieu. Bovendien worden een Adaptive Forms (Core Components)-sjabloon en een Canvas 3.0-thema toegevoegd aan uw Forms as a Cloud Service omgeving, zodat u opties kunt kiezen om de op Core Components gebaseerde Adaptive Forms aan te passen en te maken.
+   Nadat de pijpleidingslooppas succesvol is, worden de Adaptieve Componenten van de Kern van Forms toegelaten voor het overeenkomstige milieu. Bovendien worden een Adaptive Forms (Core Components)-sjabloon en Canvas 3.0-thema toegevoegd aan uw Forms as a Cloud Service-omgeving, zodat u opties hebt voor het aanpassen en maken van op Core Components gebaseerde Adaptive Forms.
 
 
 ## Veelgestelde vragen {#faq}
 
-### Wat zijn kerncomponenten? {#core-components}
+### Wat zijn de kerncomponenten? {#core-components}
 
-De [ Componenten van de Kern ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=nl-NL) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en onderhoudskosten van uw websites te drukken.
+De [ Componenten van de Kern ](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te drukken.
 
 ### Welke mogelijkheden worden toegevoegd aan het toelaten van kerncomponenten? {#core-components-capabilities}
 
@@ -328,7 +327,7 @@ Wanneer de Adaptive Forms Core Components voor uw omgeving is ingeschakeld, word
 
 Om te controleren of Adaptive Forms Core Components geschikt zijn voor uw omgeving:
 
-1. [ Kloon uw as a Cloud Service bewaarplaats van AEM Forms ](#1-clone-your-aem-forms-as-a-cloud-service-git-repository).
+1. [ kloon uw bewaarplaats van AEM Forms as a Cloud Service ](#1-clone-your-aem-forms-as-a-cloud-service-git-repository).
 
 1. Open het `[AEM Repository Folder]/all/pom.xml` -bestand van de AEM Forms Cloud Service Git Repository.
 

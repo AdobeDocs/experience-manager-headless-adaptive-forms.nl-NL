@@ -1,11 +1,11 @@
 ---
-title: Ontwikkelomgeving instellen voor AEM adaptieve hoofdvormen
-description: Ontwikkelomgeving instellen voor AEM adaptieve hoofdvormen
+title: Ontwikkelomgeving instellen voor adaptieve AEM Headless-formulieren
+description: Ontwikkelomgeving instellen voor adaptieve AEM Headless-formulieren
 hide: true
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
-source-git-commit: 41286ff4303e0f4d404deb113fd59d1499768da5
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een lokale ontwikkelomgeving instellen {#headless-adaptive-forms-setup-development-environment}
 
-U kunt een lokale ontwikkelomgeving instellen om adaptieve formulieren zonder koptekst te maken en te testen op uw lokale computer. De ontwikkelomgeving bestaat uit AEM SDK en AEM Forms Feature Archive die op AEM SDK zijn geïnstalleerd.
+U kunt een lokale ontwikkelomgeving instellen om adaptieve formulieren zonder koptekst te maken en te testen op uw lokale computer. De ontwikkelomgeving bestaat uit het AEM SDK- en AEM Forms-functiearchief dat op AEM SDK is geïnstalleerd.
 <!--
  After a Headless adaptive form or related assets are ready on the local development environment, you can deploy the Headless adaptive form application to your publishing environment. -- >
 
@@ -40,9 +40,9 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 
 Als u AEM SDK wilt installeren, moet uw lokale computer aan de volgende minimale vereisten voldoen:
 
-* [ Uitrusting van de Ontwikkeling van Java 11 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=software-type%3Atooling&amp;fulltext=Oracle%7E+JDK%7E+11%7E&amp;orderby=%40jcr%3Acontent%2 Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=14)
+* [ Uitrusting van de Ontwikkeling van Java 11 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2fx jcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
 * [ Latest versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-* [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). Als u aan Node.js nieuw bent, zie [ hoe te Node.js ](https://nodejs.dev/en/learn/how-to-install-nodejs) installeren.
+* [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). <!-- URL is 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs). -->
 * [ Gemaakt 3.6 of later ](https://maven.apache.org/download.cgi). Als u aan Gemaakt nieuw bent, zie [ Installerend Apache Gemaakt ](https://maven.apache.org/install.html).
 
 ## Ontwikkelomgeving instellen {#headless-adaptive-forms-procedure-to-setup-development-environment}
@@ -50,7 +50,7 @@ Als u AEM SDK wilt installeren, moet uw lokale computer aan de volgende minimale
 Een nieuwe lokale ontwikkelomgeving instellen en deze gebruiken voor het ontwikkelen en testen van hulpformulieren zonder hoofd:
 
 1. [ Opstelling AEM as a Cloud Service SDK ](#setup-author-instance).
-1. [ voeg het archief van AEM Forms (de Cloud Service van AEM Forms toe) aan AEM SDK ](#add-forms-archive) toe.
+1. [ voeg het archief van AEM Forms (toe:voegen-aan AEM Forms Cloud Service) aan AEM SDK ](#add-forms-archive) toe.
 
 <!--
 
@@ -59,9 +59,9 @@ Een nieuwe lokale ontwikkelomgeving instellen en deze gebruiken voor het ontwikk
 
 -->
 
-### 1. AEM as a Cloud Service SDK instellen {#setup-author-instance}
+### &#x200B;1. AEM as a Cloud Service SDK instellen {#setup-author-instance}
 
-AEM as a Cloud Service SDK (AEM SDK) biedt ontwikkelaars een lokale ervaring om adaptieve formulieren zonder koppen te maken en te testen. Met de SDK van AEM as a Cloud Service kunt u adaptieve formulieren zonder koptekst maken en er een voorvertoning van weergeven, zodat u de meeste validaties die betrekking hebben op ontwikkeling lokaal kunt uitvoeren. Een instantie van een lokale auteur instellen:
+AEM as a Cloud Service SDK (AEM SDK) biedt ontwikkelaars een lokale ervaring om adaptieve formulieren zonder koppen te maken en te testen. U kunt de AEM as a Cloud Service SDK gebruiken om adaptieve formulieren zonder koptekst te maken en voor te vertonen, zodat u de meeste validaties die betrekking hebben op ontwikkeling lokaal kunt uitvoeren. Een instantie van een lokale auteur instellen:
 
 1. [ Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) recentste [!DNL Adobe Experience Manager] as a Cloud Service SDK. Met de kolom Datum gepubliceerd kunt u de nieuwste SDK sorteren en gemakkelijk vinden.
 De indeling is .zip. De ondersteunde versie is aem-sdk-2022.7.8085.20220725T140323Z-220700.zip en hoger.
@@ -75,11 +75,11 @@ De indeling is .zip. De ondersteunde versie is aem-sdk-2022.7.8085.20220725T1403
 
    >[!NOTE]
    >
-   > Dubbelklik niet op het .jar-bestand om het te starten. Het resulteert in een [ fout ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=nl-NL#troubleshooting-double-click).
+   > Dubbelklik niet op het .jar-bestand om het te starten. Het resulteert in een [ fout ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click).
 
 1. Open de opdrachtprompt:
-   * Op Vensters, gebruik de **looppas als 1&rbrace; optie van de Beheerder om bevelherinnering op opgeheven wijze te openen.**
-   * In Linux, zorg ervoor u het eindvenster als wortelgebruiker opent.
+   * Op Vensters, gebruik de **looppas als 1} optie van de Beheerder om de bevelherinnering op opgeheven wijze te openen.**
+   * In Linux®, zorg ervoor u het eindvenster als wortelgebruiker opent.
 
 1. Navigeer naar de installatielocatie die het gekopieerde .jar-bestand bevat en voer de volgende opdracht uit:
 
@@ -90,22 +90,22 @@ De indeling is .zip. De ondersteunde versie is aem-sdk-2022.7.8085.20220725T1403
    * Met de schakeloptie `-r prerelease` schakelt u de functies in die alleen beschikbaar zijn in het kader van de prerelease- en beperkte releaseprogramma&#39;s.
    * U kunt `admin` gebruiken als gebruikersnaam en wachtwoord voor lokale ontwikkeling om de cognitieve belasting te verminderen.
 
-   Nadat AEM begint, opent de login pagina in Webbrowser. U kunt de aanmeldingspagina voor AEM SDK-instantie ook openen op adres `http://localhost:<port>` in uw webbrowser. Bijvoorbeeld, [ http://localhost:4502 ](http://localhost:4502).
+   Nadat AEM is gestart, wordt de aanmeldingspagina in de webbrowser geopend. U kunt de aanmeldingspagina voor de AEM SDK-instantie ook openen op het adres `http://localhost:<port>` in uw webbrowser. Bijvoorbeeld, [ http://localhost :4502 ](http://localhost:4502).
 
-1. Meld u aan bij de instantie Auteur. Tik het ![ hulp ](/help/assets/Help-icon.svg) pictogram, ontvang Ongeveer Adobe Experience Manager, en zorg ervoor dat het versieaantal PRERELEASE postfix omvat.
+1. Meld u aan bij de auteur. Tik het ![ hulp ](/help/assets/Help-icon.svg) pictogram, ontvang Ongeveer Adobe Experience Manager, en zorg ervoor dat het versieaantal PRERELEASE postfix omvat.
 
    ![ hulp ](/help/assets/prerelease.png)
 
 Als u de PRERELEASE-postfix niet ziet, stopt u de server, verwijdert u `[AEM SDK installation]/crx-quickstart folder` en start u het AEM SDK .jar-bestand opnieuw met de `-r prerelease` -switch. Voor meer opties, zie [ het Oplossen van problemen ](/help/troubleshooting.md).
 
-### 2. Voeg AEM Forms-archief (invoegtoepassing AEM Forms Cloud Service) toe aan AEM SDK {#add-forms-archive}
+### &#x200B;2. Voeg AEM Forms-archief (AEM Forms Cloud Service add-on) toe aan AEM SDK {#add-forms-archive}
 
-AEM Forms as a Cloud Service-functiearchief (AEM Forms Cloud Service add-on) biedt hulpprogramma&#39;s voor het maken van adaptieve formulieren zonder koptekst in een lokale ontwikkelomgeving. Het functiearchief installeren:
+Het AEM Forms as a Cloud Service-functiearchief (AEM Forms Cloud Service-add-on) biedt tools om adaptieve formulieren zonder koptekst te maken in een lokale ontwikkelomgeving. Het functiearchief installeren:
 
-1. De download en haalt het recentste [!DNL AEM Forms] eigenschaparchief (AEM Forms toe:voegen-op) van [ de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=20). Met de kolom Datum gepubliceerd kunt u de nieuwste SDK sorteren en gemakkelijk vinden. De ondersteunde versie is aem-forms-addon-2022.07.06.02-220600 en hoger.
+1. De download en haalt het recentste [!DNL AEM Forms] eigenschaparchief (AEM Forms toe:voegen-op) van [ de Distributie van de Software ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20). Met de kolom Datum gepubliceerd kunt u de nieuwste SDK sorteren en gemakkelijk vinden. De ondersteunde versie is aem-forms-addon-2022.07.06.02-220600 en hoger.
 
 1. Navigeer naar de map crx-quickstart/install. Als de map niet bestaat, maakt u deze.
-1. Stop uw AEM SDK-instantie. U kunt uw opdrachtpromptvenster beëindigen waarop AEM SDK-instantie wordt uitgevoerd om AEM te stoppen.
+1. Stop je AEM SDK-exemplaar. U kunt het opdrachtpromptvenster beëindigen waarin een AEM SDK-instantie wordt uitgevoerd om AEM te stoppen.
 1. Kopieer het archief met [!DNL AEM Forms] add-onfuncties van het bestand `aem-forms-addon-<version>.far` , dat u in stap 1 hebt uitgepakt, naar de installatiemap.
 1. Gebruik de volgende opdracht om de AEM SDK-instantie opnieuw te starten:
 
@@ -227,4 +227,4 @@ Adaptive forms renderer component is a react based component. It requires a reac
     ```
  
 -->
-Uw lokale omgeving is klaar. U kunt doorgaan met het maken van een hoofdloos adaptief formulier.
+Uw lokale omgeving is klaar. U kunt doorgaan en een koploos adaptief formulier maken.

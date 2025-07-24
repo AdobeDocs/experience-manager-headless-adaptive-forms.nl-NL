@@ -9,9 +9,9 @@ role: Admin, Developer
 level: Beginner, Intermediate
 hide: false
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ### Probleem
 
-Wanneer u `mvn -PautoInstallPackage clean install` of gelijkaardige bevelen gebruikt om een AEM project op te stellen Archeype, ontbreekt het project om op te stellen.
+Wanneer u de `mvn -PautoInstallPackage clean install` of gelijkaardige bevelen gebruikt om een project van het Archetype van AEM op te stellen, ontbreekt het project om op te stellen.
 
 ### Reden
 
-Dit kan gebeuren door een niet-ondersteunde versie of beschadigde installatie van node.js of NPM.
+Dit kan gebeuren door een niet-ondersteunde versie of een beschadigde installatie van `node.js` of `NPM` .
 
 ### Oplossing
 
 1. Volledig [ verwijdert huidige installaties van Node.JS ](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/) uit uw milieu.
 
-1. Installeer Node.JS 16.13.0 of later met NPM.
+1. Installeer `node.JS 16.13.0` of hoger met `NPM` .
 
 1. Start de computer opnieuw op.
 
@@ -41,7 +41,7 @@ Dit kan gebeuren door een niet-ondersteunde versie of beschadigde installatie va
 
 ### Probleem
 
-Wanneer u `mvn clean install` of gelijkaardige bevelen gebruikt om een AEM project op te stellen Archeype, ontbreekt het bevel om te lopen.
+Wanneer u de opdrachten `mvn clean install` of vergelijkbaar gebruikt om een AEM Archetype-project te implementeren, wordt de opdracht niet uitgevoerd.
 
 ### Reden
 

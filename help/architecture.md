@@ -1,6 +1,6 @@
 ---
 title: Architectuur van niet-adaptieve formulieren
-description: Leer meer over de architectuur van AEM Forms Headless Adaptive Forms en hoe u hiermee snel formulieren kunt maken voor verschillende platforms. Dit artikel biedt inzicht in hoe Headless Adaptive Forms werkt en hoe deze kan worden geïntegreerd met verschillende toepassingen om het maken van formulieren te vereenvoudigen.
+description: Leer meer over de architectuur van de AEM Forms Headless adaptieve Forms en hoe u hiermee snel formulieren kunt maken voor verschillende platforms. Dit artikel biedt inzicht in hoe Headless adaptive Forms werkt en hoe deze kan worden geïntegreerd met verschillende toepassingen om het proces voor het maken van formulieren te vereenvoudigen.
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: hoofdloze, adaptieve vorm, architectuur
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Hoe werkt het adaptieve formulier zonder hoofd?
 
-Een Headless adaptief formulier is in feite een JSON-structuur (schema) bestaande uit formuliervelden (Tekstvak, keuzen en nog veel meer velden) en de bijbehorende regels (voorwaardelijke logica) om interactief gedrag aan het formulier toe te voegen. U kunt REST API&#39;s in uw toepassing of website gebruiken om de gehoste JSON-structuur aan te vragen en de JSON-structuur zelf als een formulier in uw app of website weer te geven. Eén hoofdloos adaptief formulier kan meerdere webpagina&#39;s en toepassingen gebruiken zonder dat er toepassingsspecifieke of websitespecifieke wijzigingen in worden aangebracht.
+Een Headless adaptief formulier is in wezen een JSON-structuur (schema) bestaande uit formuliervelden (Tekstvak, keuzen en nog veel meer velden) en de bijbehorende regels (voorwaardelijke logica) om interactief gedrag aan het formulier toe te voegen. U kunt REST API&#39;s in uw toepassing of website gebruiken om de gehoste JSON-structuur aan te vragen en de JSON-structuur zelf als een formulier in uw app of website weer te geven. Eén hoofdloos adaptief formulier kan meerdere webpagina&#39;s en toepassingen gebruiken zonder dat er toepassingsspecifieke of websitespecifieke wijzigingen in worden aangebracht.
 
 ![ hoe de Hoofdloze adaptieve vorm ](/help/assets/how-headless-adaprive-forms-work.png) werkt
 
 ## Architectuur {#architecture}
 
-Een standaardarchitectuur voor adaptieve formulieren zonder koptekst vormt een Adobe Experience Manager Forms Server, hulpformulieren zonder koptekst die worden gehost op Adobe Experience Manager Forms Server en uw frontend-apps (website, mobiele toepassing, JavaScript-apps, chattoepassingen en meer) voor kanaalspecifieke formulieruitvoeringen.
+Een typische Headless adaptive-vormarchitectuur centreert zich op een Adobe Experience Manager Forms-server die als host fungeert voor adaptieve, hoofdloze formulieren. Voor-end apps—web, mobiel, JavaScript, chatbots en meer—genereren de formulieren voor elk kanaal.
 
 De typische architectuur van een Zwaardeloze adaptieve vormenplaatsing kijkt als het volgende:
 
@@ -43,14 +43,14 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 **de Server van Adobe Experience Manager**: Samen met het dienen als gastheer voor Zwaardeloze adaptieve vormen, verstrekt Adobe Experience Manager de volgende achterste eindmogelijkheden:
 
-* RESTful-API&#39;s voor het weergeven, ophalen, vooraf invullen, valideren, verzenden, volgen van de verzendstatus van formulieren zonder kop.
+* RESTful-API&#39;s voor het weergeven, ophalen, vooraf invullen, valideren, verzenden en volgen van de verzendstatus van formulieren zonder kop.
 * Visuele redacteur om een Headless adaptieve vorm gemakkelijk te ontwikkelen.
 * Forms-gegevensmodel voor het ontvangen of verzenden van gegevens naar verschillende gegevensbronnen.
-* Workflowengine om complexe taken te automatiseren.
+* Een workflow-engine voor het automatiseren van complexe taken.
 
 **Koploze adaptieve vormen**: Een Headless adaptieve vorm wordt vertegenwoordigd als .json dossier. De JSON-structuur definieert componenten, beperkingen en structuur van een formulier.
 
-**Voorste-end Apps**: Voorste-end apps zoals, SPA (de Toepassingen van de Enige Pagina), Mobiele Apps, de Apps van JavaScript, verbruiken Zwaardeloze adaptieve vormen (de Vertegenwoordiging van de Vorm JSON) en geven de vorm op een cliënt terug. U kunt de React-rendercomponent die wordt geleverd met Headless adaptive-formulieren, gebruiken om een adaptief formulier te genereren of uw eigen aangepaste component te maken om dynamisch adaptieve formulieren zonder koptekst te genereren.
+**Voorste-end Apps**: Voorste-end apps zoals, KUUROORD (de Toepassingen van de Enige Pagina), Mobiele Apps, de Apps van JavaScript, gebruiken Zwaardeloze adaptieve vormen (de Vertegenwoordiging van de Vorm JSON) en geven de vorm op een cliënt terug. U kunt de React-rendercomponent die wordt geleverd met Headless adaptive-formulieren, gebruiken om een adaptief formulier te genereren of uw eigen aangepaste component te maken om Headless adaptieve formulieren native te genereren.
 
 <!-- ### Understanding Headless adaptive forms definition -->
 
@@ -62,23 +62,23 @@ In een doorsnee ontwikkelingscyclus begint u met het maken en hosten van adaptie
 
 Met de volgende gereedschappen kunt u adaptieve formulieren zonder koptekst maken en integreren in uw toepassingen:
 
-**Forms Web SDK (Cliënt-Kant Runtime)**: SDK van het Web van Forms is een cliënt-kant JavaScript bibliotheek. Hiermee kunt u clientvalidaties toepassen op formuliervelden, de status van het formulier behouden en kunt u koppelingen maken naar formulieren met een UI-laag of een component die adaptieve formulieren weergeeft. Klanten kunnen hiermee beperkingen valideren die zijn toegepast op verschillende velden van een formulier en haken om de JSON-formulierstructuur aan te sluiten op het UI-framework. Forms Web SDK heeft de volgende componenten:
+**Forms Web SDK (Cliënt-Kant Runtime)**: SDK van het Web van Forms is een cliënt-kant JavaScript bibliotheek. Hiermee kunt u clientvalidaties toepassen op formuliervelden, de status van het formulier behouden en kunt u koppelingen maken naar formulieren met een UI-laag of een component die adaptieve formulieren weergeeft. Klanten kunnen hiermee beperkingen valideren die zijn toegepast op verschillende velden van een formulier en haken om de JSON-structuur van het formulier aan te sluiten op het UI-framework. Forms Web SDK heeft de volgende componenten:
 
 * **Bedrijfs regelverwerker**: De bewerker van de bedrijfsregel keurt de vormJSON structuur als input goed, beheert de staat van de vormgebieden, voert regels uit, en gebeurtenismanagers huidig in JSON.
 * **Reageer binder**: Verzekert haken over controlemechanisme om staat aan de Componenten van de Vorm toe te voegen. Het is ook handig om een formulier vooraf in te vullen.
-* **de bibliotheek van Componenten**: Het verstrekt de Componenten van het Spectrum Reageren en gebruikt haken in React de module van de Bindder om staat aan die componenten toe te voegen.
+* **de bibliotheek van Componenten**: Het verstrekt de Componenten van het Spectrum Reageren en gebruikt haken in de React module van de Bindder om staat aan die componenten toe te voegen.
 
-Naast het verschaffen van de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier, biedt Forms Web SDK haken om Zwaardeloze adaptieve formulieren aan te sluiten op het UI-framework. Het biedt ook React Renderer-&#x200B; voor Headless adaptive-formulieren om een Headless adaptive-formulier in uw toepassing te integreren. De volgende componenten van Web SDK zijn beschikbaar:
+Naast het verschaffen van de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier, biedt Forms Web SDK haken om Zwaardeloze adaptieve formulieren aan te sluiten op het UI-framework. Het biedt ook een React-renderer voor Headless adaptieve formulieren waarmee een Headless adaptief formulier kan worden geïntegreerd in uw toepassing. De volgende componenten van het Web SDK zijn beschikbaar:
 
 * **[@aemforms/af-response-components ](https://www.npmjs.com/package/@aemforms/af-react-components)**
 * **[@aemforms/af-response-renderer ](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core ](https://www.npmjs.com/package/@aemforms/af-core)**
 
-Al deze componenten zijn inbegrepen in AEM Archetype. Wanneer u een project met AEM Archetype 37 of hoger maakt voor adaptieve koptekstformulieren, wordt de nieuwste versie van de hierboven vermelde bibliotheken opgenomen in het project.
+Al deze componenten zijn inbegrepen in Archetype van AEM. Wanneer u een AEM Archetype 37 of hoger project voor Zwaardeloze adaptieve formulieren maakt, wordt de nieuwste versie van de hierboven vermelde bibliotheken opgenomen in het project.
 
-* **playground van de Code**: [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze Adaptieve Forms te testen.
+* **playground van de Code**: [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze adaptieve Forms te testen.
 
-**Begonnen Toepassing**: de Adobe heeft ook een begonnen toepassing vrijgegeven om u te helpen snel met Zwaarteloze adaptieve vormen beginnen.
+**Begonnen Toepassing**: Adobe heeft ook een begonnen toepassing vrijgegeven om u te helpen snel met Hoofdloze adaptieve vormen beginnen.
 
 <!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless adaptive forms Super Component, provided out-of-the-box, inside a react application to render a Headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. 
 
@@ -88,7 +88,7 @@ Core-Components: It enables use to render an Adaptive Form using JSON structure.
 
 **de Uitbreiding van de Code van Visual Studio**: [ de uitbreiding van de Code van Visual Studio ](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
 
-**HTTP en JavaScript APIs**: [ HTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) staat u toe om van hoofdvormen een lijst te maken, te halen, te bevestigen, voor te leggen, de status van de spoorvoorlegging te volgen. [ JS APIs ](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helpt u Zwaarloze aanpassingsvormen met om het even welk op JavaScript gebaseerd kader UI gebruiken.
+**HTTP en JavaScript APIs**: [ HTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) laat u een lijst maken, vinden, bevestigen, voorleggen en volgen voorleggingsstatus van hoofdloze vormen. <!-- URL is 404!! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
 
 **JSON Formule**: Het is een implementatie van de grammatica van de vormenuitdrukking om u te helpen JSON structuur vragen en regels voor Zwaardeloze adaptieve vormen tot stand brengen. De grammatica is een masker van spreadsheet-als functies en exploitanten en [ JMESPath ](https://jmespath.org/) een JSON vraagtaal. U kunt [ playground ](https://opensource.adobe.com/json-formula/dist/index.html) gebruiken om JSON-formulesyntaxis en mogelijkheden te onderzoeken.
 

@@ -1,34 +1,34 @@
 ---
-title: Overzicht van AEM hulpformulieren zonder koptekst
-description: AEM Forms Headless Adaptive Forms biedt een snelle en efficiënte manier om formulieren te maken voor verschillende platformen, zoals headless of Headful CMS, React-toepassingen, Single Page Applications (SPA), Web Apps, Mobile apps, Amazon Alexa, Google Assistant, WhatsApp en meer. Met Headless Adaptive Forms kunt u het proces van het samenstellen van formulieren stroomlijnen, waardoor het eenvoudiger wordt om gegevens van uw gebruikers te verzamelen op verschillende apparaten en platforms.
+title: Overzicht van AEM Headless Adaptive Forms
+description: Maak één keer formulieren en lever ze af aan CMS, React, SPA's, web, mobile, Alexa, WhatsApp en meer met de adaptieve formulieren van AEM Headless voor snelle, schaalbare gegevensvastlegging.
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-keywords: CMS zonder kop, adaptieve formulieren, headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp-architectuur
+keywords: Headless CMS, adaptieve formulieren, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp-architectuur
 hide: true
 hidefromtoc: true
 exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
-source-git-commit: 1f70e2bb0e5f12e8ee5d948ef1d3cd2935f2274f
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
 # Inleiding
 
-Adobe Experience Manager (AEM) Headless Adaptive Forms is een oplossing voor het maken en beheren van webformulieren zonder hoofd binnen het Adobe Experience Manager-platform. Met deze functie kunnen organisaties interactieve formulieren maken, publiceren en beheren die via API&#39;s kunnen worden benaderd en waarmee interactie mogelijk is, in plaats van via een traditionele grafische gebruikersinterface. AEM Headless Adaptive Forms biedt meer flexibiliteit en schaalbaarheid bij de ontwikkeling en implementatie van formulieren en een verbeterde gebruikerservaring doordat het formulierontwerp en de functionaliteit op specifieke behoeften kunnen worden afgestemd. Door gebruik te maken van de mogelijkheden van AEM en technologie zonder kop, biedt deze oplossing een robuust platform voor het maken, beheren en implementeren van webformulieren voor verschillende gebruiksgevallen en -toepassingen.
+Adobe Experience Manager (AEM) Headless Adaptive Forms is een oplossing voor het maken en beheren van webformulieren zonder hoofd binnen het Adobe Experience Manager-platform. Met deze functie kunnen organisaties interactieve formulieren maken, publiceren en beheren die via API&#39;s kunnen worden benaderd en waarmee interactie mogelijk is, in plaats van via een traditionele grafische gebruikersinterface. AEM Headless adaptive Forms biedt meer flexibiliteit en schaalbaarheid bij de ontwikkeling en implementatie van formulieren en een verbeterde gebruikerservaring doordat het formulierontwerp en de functionaliteit op specifieke behoeften kunnen worden afgestemd. Door de mogelijkheden van AEM en technologie zonder kop te gebruiken, biedt deze oplossing een robuust platform voor het creëren van, het beheren van, en het opstellen van Webformulieren voor diverse gebruiksgevallen en toepassingen.
 
 ![ bouwt en geeft native een vorm in om het even welke website, een toepassing, of niet-visuele interactie terug ](/help/assets/headless-forms-for-any-device.jpeg)
 
-Met behulp van hoofdloze adaptieve formulieren kunt u:
+Met hulpformulieren zonder koptelefoon kunt u het volgende doen:
 
-* multikanaalformulieren van hoge kwaliteit maken in de programmeertaal van uw keuze
-* U kunt zelf formulieren integreren in uw bureaublad en mobiele apps, websites en chattoepassingen
-* gebruik uw eigen UI-componenten opnieuw met formuliertoepassingen
-* hefboomwerking de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html?lang=nl-NL)
+* U kunt hoogwaardige multikanaalformulieren maken in de programmeertaal van uw keuze.
+* U kunt zelf formulieren integreren in uw bureaublad en mobiele apps, websites en chattoepassingen.
+* Gebruik uw eigen UI-componenten opnieuw met formuliertoepassingen.
+* Gebruikend de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
 
 Daarnaast hebt u de vrijheid om uw eigen componenten te ontwikkelen om een formulier te genereren met behulp van een willekeurig gebruikersinterface-framework en een door u gekozen programmeertaal. U kunt ook de React-componenten gebruiken die offline beschikbaar zijn om een Headless adaptief formulier te genereren.
 

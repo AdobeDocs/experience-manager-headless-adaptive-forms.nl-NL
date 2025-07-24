@@ -5,7 +5,7 @@ description: Forms inschakelen met behulp van kerncomponenten en zonder hoofd
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
 source-wordcount: '2452'
 ht-degree: 0%
@@ -14,11 +14,13 @@ ht-degree: 0%
 
 # Forms inschakelen met behulp van Core Components en Headless Adaptive Forms op AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
+<!-- This article is completely missing the image ALT tags (descriptions) for each added image asset. That is impacting the CQI score for Experience Manager in a negative way. Be sure you add the required missing image ALT tags.  -->
+
 ## Overzicht van Lab {#lab-overview}
 
-In dit hands-on laboratorium, leert u:
+In dit hands-on laboratorium, leert u het volgende:
 
-Hoe u AEM Forms kunt gebruiken om gemakkelijk adaptieve formulieren te maken met de nieuwste kerncomponenten die consistent zijn met AEM Sites, waardoor het mogelijk wordt om gegevens op te halen door de adaptieve formulieren als headless formulieren aan het web, mobiele apparaten en chatten te leveren. U leert ook beste praktijken rond het stileren, aanpassingen, en front-end ontwikkeling.
+AEM Forms gebruiken om adaptieve formulieren te maken met de nieuwste kerncomponenten. Deze componenten zijn consistent met AEM Sites en maken het mogelijk om alominkanaalgegevens vast te leggen door de adaptieve formulieren als headless-formulieren aan het web, mobiele apparaten en chatten te leveren. U leert ook beste praktijken rond het stileren, aanpassingen, en front-end ontwikkeling.
 
 ## Toetsen {#key-takeaways}
 
@@ -30,15 +32,15 @@ Hoe u AEM Forms kunt gebruiken om gemakkelijk adaptieve formulieren te maken met
 
 ## Vereisten {#prerequisites}
 
-Om deze handen op laboratorium te gebruiken:
+Om dit hands-on laboratorium te gebruiken:
 
 * Installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 * Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). Als u aan Node.js nieuw bent, zie [ hoe te Node.js ](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) installeren.
 
-* [ laat de Aangepaste Componenten van de Kern van Forms ](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) voor uw as a Cloud Service milieu van AEM Forms toe.
+* [ laat de Aangepaste Componenten van de Kern van Forms ](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) voor uw milieu van AEM Forms as a Cloud Service toe.
 
-* Installeer [ Code van Microsoft Visual Studio ](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in document maken gebruik van de Code van Microsoft Visual Studio.
+* Installeer [ Code van Microsoft Visual Studio ](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
 
 
 
@@ -46,18 +48,17 @@ Om deze handen op laboratorium te gebruiken:
 
 ### Doelstelling {#lesson-1-objectives}
 
-Verken uzelf met de as a Cloud Service AEM Forms-omgeving.
+Verken uzelf met de AEM Forms as a Cloud Service-omgeving.
 
 ### Lessencontext {#lesson-1-context}
 
-In deze les, vertrouwt u zich met het as a Cloud Service milieu van AEM Forms door het gebruikersinterface te navigeren.
+In deze les, vertrouwt u zich met het milieu van AEM Forms as a Cloud Service door het gebruikersinterface te navigeren.
 
 ### Uitoefening {#lesson-1-excercise}
 
-1. Open uw browser en ga URL van het auteursmilieu van de Cloud Service in. Bijvoorbeeld:
-   [ https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
+1. Open uw browser en voer de URL van de Cloud Service-auteursomgeving in. <!-- URL is 404! EXPLAIN THE URL IS FOR ILLUSTRATION PURPOSES ONLY? For example: [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html) -->
 
-1. Meld u aan bij de ontwikkelomgeving van de Cloud Service.
+1. Meld u aan bij de Cloud Service-ontwikkelomgeving.
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. Om aan AEM Forms UI te navigeren, klik **Forms > Forms &amp; Documenten**.
@@ -83,9 +84,8 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
 
 1. Maak een verzendeindpunt voor het formulier:
 
-   1. Open <https://requestbin.com/> in een nieuw browsertabblad.
+   1. Open <https://pipedream.com/requestbin> in een nieuw browsertabblad.
    1. Klik **creeer een openbare bak** en kopieer het eindpunt URL.
-
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
@@ -93,41 +93,34 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
 1. Ontwerp een adaptief formulier met de wizard-interface:
 
    1. Navigeer in het browsertabblad dat wordt gebruikt in Les 1 naar AEM Forms als Cloud Service-webinterface en navigeer naar Forms en Documenten.
-
       ![](/help/assets/screenshot2028114029.png)
 
-   1. Klik **creëren** en selecteer AanpassingsVorm.
-
+   1. Klik **creëren** > **AanpassingsVorm**.
       ![](/help/assets/screenshot2028114629.png)
 
    1. Selecteer **Leeg met het malplaatje van de Componenten van de Kern** van het scherm van de malplaatjeselectie zoals hieronder getoond:
-
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
    1. Klik het **lusje van de Stijl** en selecteer het **wknd-thema** thema zoals hieronder getoond:
-
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Klik het **lusje van de Verzending** en selecteer **voorleggen aan REST eind-punt** kaart en specificeer de openbare bak in **URL voor het gebied van het verzoek van de POST** zoals hieronder getoond:
-
+   1. Klik het **lusje van de Verzending** en selecteer **voorleggen aan REST eind-punt** kaart en specificeer de openbare bak in **URL voor het POST verzoek** gebied zoals hieronder getoond:
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
-   1. Klik **creëren**. Geef een naam en titel op voor het formulier. Bijvoorbeeld, **registratie**. Klik **creëren**.
+   1. Klik **creëren**. Geef een naam en titel op het formulier op. Bijvoorbeeld, **registratie**. Klik **creëren**.
 
-   1. De aangepaste formuliereditor wordt geopend. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren. Klik componenten browser op linkerspoor en voeg de **Kopbal** toe en **Voettekst** componenten respectievelijk aan de bovenkant en de bodem van de lege vorm.
-
+   1. De aangepaste formuliereditor wordt geopend. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren. Klik componenten browser op het linkerspoor en voeg de **Kopbal** en **Voettekst** componenten respectievelijk aan de bovenkant en de bodem van de lege vorm toe.
       ![](/help/assets/screenshot2028121929.png)
 
    1. Sleep componenten vanuit de browser Components om een formulier te maken, vergelijkbaar met het volgende:
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
 
-1. Validaties toevoegen aan formulier:
+1. Validaties toevoegen aan het formulier:
 
    1. Klik de **component van het aantal van de Telefoon** zodat pop-up menu wordt getoond. Klik het **pictogram van de Sleutel** in het menu om het gebied te vormen.
 
    1. Open het **bevestigingslusje**, merk het gebied **Vereiste**, en klik **Gedaan**. Het succesbericht wordt weergegeven.
-
       ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
@@ -139,24 +132,22 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
    1. Vul het formulier met dummygegevens.
 
    1. Verzend het formulier.
-
       ![](/help/assets/screenshot2028125729.png)
 
    1. Controleer de verzonden gegevens op het tabblad Aanvraagvak.
-
       ![](/help/assets/screenshot2028125829.png)
 
-1. Interactiviteit toevoegen aan formulier met regels:
+1. Interactiviteit aan het formulier toevoegen met regels:
 
-   1. Klik de **Controle de doos om 5% van** component te ontvangen. Klik op het pictogram Regels op de optiewerkbalk. De bewerkingsoptie Regel wordt geopend.
+   1. Klik de **Controle de doos om 5% van** component te ontvangen. Klik op het pictogram Regels op de optiewerkbalk. De redacteursoptie van de Regel opent.
 
    1. Creeer een regel, wanneer de **Controle de doos om 5% van** optie te ontvangen wordt geselecteerd, worden de opties om creditcard toe te passen onbruikbaar gemaakt.
 
-1. Publish het formulier.
+1. Publiceer het formulier.
 
    1. Open bijvoorbeeld de AEM Forms-beheerinterface `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments` en selecteer het formulier.
 
-   1. Klik **Publish**.
+   1. Klik **publiceren**.
 
       ![](/help/assets/screenshot2028115629.png)
 
@@ -164,7 +155,7 @@ In deze les zult u als zakelijke gebruiker een adaptief formulier ontwerpen voor
 
       ![](/help/assets/screenshot2028115729.png)
 
-      De publicatie-URL van het formulier komt overeen met `https://publish-p105303-e986623.adobeaemcloud.com/content/forms/af/registration.html` .
+      De gepubliceerde URL van het formulier komt overeen met `https://publish-p105303-e986623.adobeaemcloud.com/content/forms/af/registration.html` .
 
    1. Als u het gepubliceerde formulier wilt weergeven, vervangt u de programma-id (pXXXXXX) en de milieu-id (eXXXXXX) in de bovenstaande URL door de id&#39;s van uw
 milieu.
@@ -181,7 +172,7 @@ In deze les leert u als front-end ontwikkelaar hoe u de opmaak van het eerder ge
 
 ### Uitoefening
 
-Stel de lokale opslagruimte van het thema in:
+Stel een lokale opslagplaats in voor het thema:
 
 1. Open de Herinnering of shell van het Bevel met beheerderrechten:
 
@@ -223,18 +214,17 @@ Stel de lokale opslagruimte van het thema in:
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand en sla het bestand op:
 
-   * **AEM_URL**: Specificeer uw de dienstpublicatiemilieu van de wolk. Bijvoorbeeld: `https://publish-p105303-e986623.adobeaemcloud.com/`
+   * **AEM_URL**: Specificeer uw wolkendienst publiceert milieu. Bijvoorbeeld: `https://publish-p105303-e986623.adobeaemcloud.com/`
 
    * **AEM_ADAPTIVE_FORM**: Specificeer de weg van de vorm. Als het formulierpad bijvoorbeeld `/content/forms/af/registration` is, is de waarde van deze variabele `registration` .
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
-1. Maak een lokale gebruiker in AEM omgeving.
+1. Maak een lokale gebruiker in de AEM-omgeving.
 
    >[!NOTE]
-   > Een lokale gebruiker maken:
-   > Ga naar `AEM Home` > `Tools` > `Security` > `Users`
-   > Zorg ervoor dat de gebruiker lid is van de groep met gebruikers van formulieren.
+   > Ga naar `AEM Home` > `Tools` > `Security` > `Users` om een lokale gebruiker te maken.
+   > Zorg ervoor dat de gebruiker lid is van de groep met gebruikers van het formulier.
 
 
 1. Voer in het venster Opdrachtprompt de volgende opdracht uit:
@@ -247,8 +237,8 @@ Stel de lokale opslagruimte van het thema in:
 
    >[!NOTE]
    >
-   > * Als u een bericht krijgt waarin u wordt gevraagd om npm bij te werken via de opdracht `npm notice Run npm nstall -g npm@9.6.0` , negeert u het bericht.
-   > * Stel geen andere npm bevelen in werking tenzij geïnstrueerd in het werkboek.
+   > * Als u een bericht ontvangt waarin u wordt gevraagd `npm` bij te werken via de opdracht `npm notice Run npm nstall -g npm@9.6.0` , negeert u het bericht.
+   > * Voer geen andere `npm` opdrachten uit, tenzij u instructies in het werkboek hebt gekregen.
 
 1. Voer nu de volgende opdracht uit om een voorbeeld van het formulier te bekijken.
 
@@ -258,14 +248,14 @@ Stel de lokale opslagruimte van het thema in:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Nadat de bovenstaande opdracht is uitgevoerd, wacht u op het `webpack compiled` -bericht en wordt u omgeleid naar een AEM aanmeldingspagina.
+   Nadat de bovenstaande opdracht is uitgevoerd, wacht u op het `webpack compiled` -bericht en wordt u omgeleid naar een AEM-aanmeldingspagina.
 
-1. Klik **binnen Teken Lokaal (slechts Taken Admin)** op de AEM login pagina.
+1. Klik **binnen Teken Lokaal (slechts Taken Admin)** op de login van AEM pagina.
 1. Voer de referenties in voor de lokale gebruiker die is gemaakt en het formulier wordt weergegeven op een browsertabblad.
 
    >[!NOTE]
    >
-   >Als u een leeg scherm in browser na het uitvoeren van het `npm run live` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en druk **binnengaan**.
+   >Als u een leeg scherm in browser na het uitvoeren van het `npm run live` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en duik **binnengaan**.
 
 
    ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
@@ -283,7 +273,7 @@ Stel de lokale opslagruimte van het thema in:
 
    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
-1. Vernieuw de browser en verzend het formulier. De kleur van de foutmelding in het veld Voornaam is dienovereenkomstig gewijzigd.
+1. Vernieuw de browser en verzend het formulier. De foutkleur in het veld Voornaam is dienovereenkomstig gewijzigd.
 
    ![](/help/assets/screenshot2028121129.png)
 
@@ -294,15 +284,15 @@ Stel de lokale opslagruimte van het thema in:
 
 ### Doelstelling
 
-Het formulier weergeven op web/mobiele en andere interfaces als een headless-formulier.
+Het formulier weergeven als een headless-formulier op Web/Mobile en andere interfaces.
 
 ### Lessencontext
 
-In deze les leert u als ontwikkelaar vooraf hoe u het adaptieve formulier dat u eerder hebt gemaakt, kunt weergeven als een vorm zonder kop met behulp van het raamwerk voor het ontwerpen van het spectrum met reacties.
+In deze les leert u als ontwikkelaar vooraf hoe u het adaptieve formulier dat u eerder hebt gemaakt, kunt weergeven als een vorm zonder kop met behulp van een React spectrumontwerpframework.
 
 ### Uitoefening
 
-De lokale bewaarplaats van de opstelling gebruikend reactie starter project:
+Stel een lokale opslagplaats in met behulp van het startproject React:
 
 1. Open de Herinnering van het Bevel gebruikend beheerderrechten.
 
@@ -314,7 +304,7 @@ De lokale bewaarplaats van de opstelling gebruikend reactie starter project:
    cd c:\git
    ```
 
-1. Gebruik de volgende opdracht om het aanpasbare formulier te klonen om te starten:
+1. Gebruik de volgende opdracht om het adaptieve formulier React te klonen aan het startproject:
 
    ```Shell
    git clone https://github.com/adobe/react-starter-kit-aem-headless-forms
@@ -339,21 +329,20 @@ De lokale bewaarplaats van de opstelling gebruikend reactie starter project:
 
 U kunt als volgt het formulier weergeven dat wordt gehost op uw cloudservice-publicatieomgeving:
 
-1. Wijzig de naam van het env_template-bestand in .env-bestand. Om anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen** optie.
+1. Wijzig de naam van het env_template-bestand in het .env-bestand. Om anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen** optie.
 
    ![](/help/assets/screenshot2028117629.png){width="50%" align="left"}
 
    ![](/help/assets/screenshot2028117729.png)
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt.
-
    * **AEM_URL**: Specificeer URL van de wolkendienst publiceert milieu. Bijvoorbeeld: `https://publish-p105303-e986623.adobeaemcloud.com`
 
    * **AEM_FORM_PATH**: Specificeer de weg van de adaptieve vorm die in de vorige les wordt gecreeerd. Bijvoorbeeld: `/content/forms/af/registration/`
 
      ![](/help/assets/screenshot202023-03-0820at202.49.1820pm.png)
 
-1. Open het opdrachtvenster, controleer of u zich in de map met formulieren zonder hoofdletter en hoofdletter bevindt voor de reactie en voer de volgende opdracht uit:
+1. Open het bevelvenster, zorg ervoor u bij de **reactie-starter-kit-a-headless-vormen** folder bent, en stel het volgende bevel in werking:
 
    ```Shell
    npm install
@@ -370,18 +359,18 @@ U kunt als volgt het formulier weergeven dat wordt gehost op uw cloudservice-pub
 
    ![](/help/assets/screenshot2028118129.png)
 
-   Met de bovenstaande opdracht start u een lokale ontwikkelingsserver waarmee de formulierdefinitie die is opgehaald van AEM, zonder kop wordt weergegeven met behulp van de frontend bibliotheek met het spectrum voor reacties.
+   Met de bovenstaande opdracht start u een lokale ontwikkelingsserver waarmee de formulierdefinitie die van AEM is opgehaald, zonder kop wordt weergegeven met behulp van de frontendbibliotheek van het spectrum Reageren.
 
    >[!NOTE]
    >
    > 
-   > Als u een leeg scherm in browser na het uitvoeren van het `npm start` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en druk **binnengaan**.
+   > Als u een leeg scherm in browser na het uitvoeren van het `npm start` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en duik **binnengaan**.
 
    ![](/help/assets/screenshot2028118229.png)
 
-Laten we de uitvoering van regels in deze vorm zonder kop controleren:
+Laten we de uitvoering van de regels in deze vorm zonder kop controleren:
 
-1. Selecteer de **Controle de doos om 5% van** optie te ontvangen. De volgende optie voor het toepassen van een creditcard is uitgeschakeld.
+1. Selecteer de **Controle de doos om 5% van** optie te ontvangen. De volgende optie voor het aanvragen van een creditcard is uitgeschakeld.
 
    ![](/help/assets/screenshot2028126229.png)
 
@@ -391,12 +380,12 @@ Laten we de uitvoering van regels in deze vorm zonder kop controleren:
 
 We brengen wijzigingen aan in het formulier op de server als een zakelijke gebruiker. Wijzigingen worden dan automatisch doorgevoerd in het formulier zonder kop.
 
-1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld, [ https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments ](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments).
+1. Open de AEM Forms-beheerinterface in de browser. <!-- URL is 404. Consider saying the path is for illlustration purposes only. For example, [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments). -->
 
-1. Selecteer de **contactus** vorm en klik **uitgeven.** Hiermee opent u het formulier in de editor voor adaptieve formulieren.
+1. Selecteer de **`contactus`** vorm en klik **uitgeven.** Hiermee opent u het formulier in de editor voor adaptieve formulieren.
 
 
-1. Selecteer het **aantal van de Telefoon** gebied en klik **uitgeven pictogram (het pictogram van het Potlood)** in de toolbar. Als u niet de pop op toolbar kunt zien, schakelaar om wijze uit te geven door **te klikken geeft** knoop in hoogste recht uit, links naar **Voorproef** knoop.
+1. Selecteer het **aantal van de Telefoon** gebied en klik **uitgeven pictogram (het pictogram van het Potlood)** in de toolbar. Schakel over naar de modus Bewerken als u de pop-upwerkbalk niet kunt zien. Klik **uitgeven** knoop in hoogste recht, links aan **Voorproef** knoop.
 
    ![](/help/assets/screenshot2028119629.png)
 
@@ -404,15 +393,15 @@ We brengen wijzigingen aan in het formulier op de server als een zakelijke gebru
 
    ![](/help/assets/screenshot2028119729.png)
 
-Laten we het bijgewerkte formulier publiceren om de wijzigingen in de publicatieomgeving door te geven.
+Laten we het bijgewerkte formulier publiceren om de wijzigingen in de gepubliceerde omgeving door te geven.
 
 1. In het lusje van de het beheersinterface van AEM Forms, selecteer de registratieformulier, en klik **unpublish**. Als u niet **ziet unpublish** knoop, overslaan aan stap 3 om de veranderingen direct te publiceren.
 
-1. Klik **unpublish**. Klik **Sluiten** in respectieve dialoog.
+1. Klik **unpublish**. Klik **dicht** in de respectieve dialoog.
 
-1. Nadat browser verfrist, selecteer de registratieformulier en klik **Publish**.
+1. Nadat browser verfrist, selecteer de registratieformulier en klik **publiceren**.
 
-1. Klik **Publish**. Klik **dicht** in de respectieve dialoog.
+1. Klik **publiceren**. Klik **dicht** in de respectieve dialoog.
 
 1. Vernieuw de browsertab met de koploze vorm. Het label Telefoonnummer is gewijzigd in Mobiel nummer.
 
@@ -436,7 +425,7 @@ In deze les leert u als ontwikkelaar aan de voorzijde hoe u het adaptieve formul
 
 ### Uitoefening
 
-Stel lokale opslagruimte in met een project voor het starten van een materiaalinterface:
+Stel een lokale opslagplaats in met behulp van het startproject voor de materiaalgebruikersinterface:
 
 1. Open de Herinnering van het Bevel gebruikend beheerderrechten.
 
@@ -449,7 +438,7 @@ Stel lokale opslagruimte in met een project voor het starten van een materiaalin
    cd c:\git
    ```
 
-1. Voer de volgende opdrachten in de vermelde volgorde uit om een map met de naam mui te maken en naar de map mui te navigeren met de volgende opdrachten:
+1. Voer de volgende opdrachten in de vermelde volgorde uit om een map met de naam `mui` te maken en met de volgende opdrachten naar de map `mui` te navigeren:
 
    ```Shell
    mkdir mui
@@ -457,7 +446,7 @@ Stel lokale opslagruimte in met een project voor het starten van een materiaalin
    cd mui
    ```
 
-1. Gebruik de volgende opdracht om het aanpasbare formulier te klonen om te starten:
+1. Gebruik de volgende opdracht om het adaptieve formulier React te klonen aan het startproject:
 
    ```Shell
    git clone -b mui-lab https://github.com/adobe/react-starter-kit-aem-headless-forms
@@ -477,7 +466,7 @@ Stel lokale opslagruimte in met een project voor het starten van een materiaalin
 
 U kunt als volgt het formulier weergeven dat wordt gehost op uw cloudservice-publicatieomgeving:
 
-1. Wijzig de naam van het **env_template** dossier aan **.env** dossier. Om anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen**.
+1. Wijzig de naam van het **env_template** dossier aan het **.env** dossier. Om anders te noemen, klik het **env_template** dossier met de rechtermuisknop aan en selecteer **anders noemen**.
 
    ![](/help/assets/screenshot2028126629.png){width="50%" align="left"}
 
@@ -510,13 +499,13 @@ Materiële UI-frontendbibliotheek.
 
    >[!NOTE]
    >
-   >Als u een leeg scherm in browser na het uitvoeren van het `npm start` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en druk **binnengaan**.
+   >Als u een leeg scherm in browser na het uitvoeren van het `npm start` bevel meer dan 3-4 minuten ervaart, verander `localhost` in browser URL in 127.0.0.1 en duik **binnengaan**.
 
    ![](/help/assets/screenshot2028127229.png)
 
 1. U kunt als volgt de uitvoering van dezelfde bedrijfslogica in deze formulieruitvoering evalueren:
 
-   Selecteer **Controle de doos om 5% van** te ontvangen. De verdere optie **zou u voor het Vorm van de BedrijfsCreditcard van Wij.Financiën willen toepassen?** wordt uitgeschakeld.
+   Selecteer **Controle de doos om 5% van** te ontvangen. De volgende optie **Wilt u het formulier voor `We.Finance` bedrijfscreditcard aanvragen?** wordt uitgeschakeld.
 
    ![](/help/assets/screenshot2028127329.png){width="50%" align="left"}
 
@@ -528,7 +517,7 @@ Een ander uiterlijk van de vorm zonder kop maken met behulp van variaties in de 
 
 ### Lessencontext
 
-In deze les leert u als front-end ontwikkelaar hoe u een alternatieve representatie van verschillende componenten kunt maken met behulp van materiaalinterface voor het adaptieve formulier dat eerder door de zakelijke gebruiker is gemaakt.
+In deze les leert u als front-end ontwikkelaar hoe u een alternatieve representatie van verschillende componenten kunt maken. U gebruikt de materiaalinterface voor het adaptieve formulier dat eerder door de zakelijke gebruiker is gemaakt.
 
 ### Uitoefening
 
@@ -542,7 +531,7 @@ Werk de variatie van componenten in het hoofdloze project bij. U kunt als volgt 
    //const Cmp = \'outlined\' === appliedCssClassNames ? OutlinedInput: Input;
    ```
 
-1. Voeg het volgende toe op regel 104 om een andere variant van component te gebruiken en het dossier op te slaan. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
+1. Voeg het volgende toe op regel 104 om een andere variant van de component te gebruiken en het dossier op te slaan. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
 
    ```Shell
    const Cmp = OutlinedInput;
@@ -550,7 +539,7 @@ Werk de variatie van componenten in het hoofdloze project bij. U kunt als volgt 
 
    ![](/help/assets/screenshot2028127629.png)
 
-   Het is essentieel om correcte kapitalisatie voor &quot;OutlinedInput&quot;variant anders te gebruiken zou compilatie ontbreken. De lokale compilatie van de ontwikkelomgeving begint automatisch in Bevel. Wacht tot u het volgende bericht ziet
+   Het is essentieel om correcte kapitalisatie voor de &quot;OutlinedInput&quot;variant anders te gebruiken de compilatie zou ontbreken. De lokale compilatie van de ontwikkelomgeving begint automatisch in Bevel. Wacht tot u het volgende bericht ziet
 
    `webpack 5.75.0 compiled with 3 warnings in 6659 ms`
    `inside proxy req`
@@ -562,16 +551,16 @@ Werk de variatie van componenten in het hoofdloze project bij. U kunt als volgt 
 
 
    Deze wijziging vindt plaats voor eindgebruikers zonder dat de formulierdefinitie wordt gewijzigd op AEM Forms Server en is specifiek voor de headless
-betrokken kanaal. Bijvoorbeeld, Webkanaal in dit laboratorium.
+betrokken kanaal. Bijvoorbeeld, een Webkanaal in dit laboratorium.
 
    ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
 
 
-1. Sluit de Code van Visual Studio en de Snelle Vensters van het Bevel.
+1. Sluit de Code van Visual Studio en de Snelle vensters van het Bevel.
 
 ## Veelgestelde vragen
 
-+++ Is de wizard Adaptief formulier openbaar?
++++ Is de Adaptieve Tovenaar van de Vorm openbaar beschikbaar?
 
 Ja, het is beschikbaar bij AEM Forms als Cloud Service.
 
@@ -580,7 +569,7 @@ Ja, het is beschikbaar bij AEM Forms als Cloud Service.
 
 +++ Zijn de kerncomponenten openbaar?
 
-Ja, Adaptive Forms core-componenten zijn beschikbaar met AEM Forms als Cloud Service.
+Ja, Adaptive Forms-kerncomponenten zijn beschikbaar met AEM Forms als Cloud Service.
 
 +++
 
@@ -596,7 +585,7 @@ Nee, voor Headless-formulieren wordt dezelfde licentiewaarde gebruikt, uitgedruk
 
 +++
 
-+++ Zijn de componenten van de Kern en Zwaarloze vormen beschikbaar met AEM 6.5 Forms?
++++ Zijn er kerncomponenten en headless formulieren beschikbaar met AEM 6.5 Forms?
 
 Ja, beide adaptieve formulieren bevatten kerncomponenten en headless formulieren die beschikbaar zijn met AEM Forms 6.5 Service Pack 16 en hoger.
 
@@ -605,16 +594,17 @@ Ja, beide adaptieve formulieren bevatten kerncomponenten en headless formulieren
 
 ## Volgende stappen
 
-Nu u hebt geleerd hoe u adaptieve formulieren kunt maken en deze op meerdere kanalen kunt aanbieden met behulp van headless-formulieren, moet u proberen uw nieuwe vaardigheden in werking te stellen. Maak plezier en ga door met het creëren en leveren van uitzonderlijke ervaringen voor het vastleggen van gegevens aan uw eindgebruikers, waar ze zich bevinden, op schaal!
+U weet nu hoe u adaptieve formulieren kunt maken en deze via kanalen kunt leveren met formulieren zonder kop. Gebruik deze vaardigheden om schaalbare, kwalitatief hoogwaardige ervaringen met het vastleggen van gegevens te creëren, waar uw gebruikers zich ook bevinden.
+
 
 ## Bronnen
 
-* [ Aangepaste de kerncomponenten van de Vorm inleiding ](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=nl-NL)
+* [ Aangepaste de kerncomponenten van de Vorm inleiding ](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [ creeer adaptieve vorm gebruikend kerncomponenten ](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+* [ creeer een adaptieve vorm gebruikend kerncomponenten ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=nl-NL)
+* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [ Hoofdloze adaptieve vormen ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/overview.html?lang=nl-NL)
+* [ Hoofdloze adaptieve vormen ](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [ Gebruikend Hoofdloze Reageer starterkit ](https://experienceleague.adobe.com/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form.html?lang=nl-NL)
+* [ Gebruikend een Hoofdloze Reageer starter uitrusting ](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
