@@ -37,7 +37,7 @@ De belangrijkste stappen die nodig zijn voor het weergeven van een formulier met
 
 ## &#x200B;1. Interface voor Google-materiaal installeren
 
-Door gebrek, gebruikt de starterKit [ ](https://spectrum.adobe.com/) componenten van het Spectrum van Adobe. Laat het plaatsen om [ Materiële UI van Google te gebruiken ](https://mui.com/):
+Door gebrek, gebruikt de starterKit [&#128279;](https://spectrum.adobe.com/) componenten van het Spectrum van Adobe. Laat het plaatsen om [ Materiële UI van Google te gebruiken ](https://mui.com/):
 
 1. Zorg ervoor dat de startkit niet wordt uitgevoerd. Om de starteruitrusting tegen te houden, open uw terminal, navigeer aan **reactie-starter-kit-a-headless-vormen**, en druk CTRL-C (het is het zelfde op Vensters, Mac, en Linux®).
 
@@ -73,7 +73,7 @@ Om de douanecomponent tot stand te brengen en de douanecomponent met het [ field
 
    ![ de materialtextfield douanecomponent in VSCode ](/help/assets/richtext-custom-component-in-vscode.png)
 
-1. Open het `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` -bestand en vervang de bestaande code door de onderstaande code. Deze code keert terug en geeft a [ Materiële UI de component van het Gebied van de Tekst van A {](https://mui.com/material-ui/react-text-field/) terug.
+1. Open het `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` -bestand en vervang de bestaande code door de onderstaande code. Deze code keert terug en geeft a [ Materiële UI de component van het Gebied van de Tekst van A &lbrace;](https://mui.com/material-ui/react-text-field/) terug.
 
 ```JavaScript
  
