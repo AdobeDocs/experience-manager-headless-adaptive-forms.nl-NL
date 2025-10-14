@@ -25,12 +25,12 @@ Adobe Experience Manager Headless Adaptive-formulieren bieden dergelijke organis
 
 ## Voordat u begint
 
-* Opstelling het [ ontwikkelmilieu ](setup-development-environment.md) om u toe te laten om een Zwaartepunt te creëren en te testen Aanpassings Vorm op uw lokale machine.
+* Opstelling het [&#x200B; ontwikkelmilieu &#x200B;](setup-development-environment.md) om u toe te laten om een Zwaartepunt te creëren en te testen Aanpassings Vorm op uw lokale machine.
 * De volgende software moet op uw lokale ontwikkelcomputer worden geïnstalleerd:
-   * [ Uitrusting van de Ontwikkeling van Java 11 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2fx jcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
-   * [ Latest versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-   * [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). <!-- URL is 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs). -->
-   * [ Gemaakt 3.6 of later ](https://maven.apache.org/download.cgi). Als u aan Gemaakt nieuw bent, zie [ Installerend Apache Gemaakt ](https://maven.apache.org/install.html).
+   * [&#x200B; Uitrusting van de Ontwikkeling van Java 11 &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2fx jcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
+   * [&#x200B; Latest versie van Git &#x200B;](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+   * [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/). <!-- URL is 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs). -->
+   * [&#x200B; Gemaakt 3.6 of later &#x200B;](https://maven.apache.org/download.cgi). Als u aan Gemaakt nieuw bent, zie [&#x200B; Installerend Apache Gemaakt &#x200B;](https://maven.apache.org/install.html).
 
 
 ## Gebruik het archetype-project om een Headless adaptief formulier te maken
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om uw eerste adaptieve vorm zonder koptekst te make
 
 ### &#x200B;1. Een project maken en implementeren dat is gebaseerd op AEM Archetype {#create-an-archetype-based-project}
 
-Voer afhankelijk van het besturingssysteem de onderstaande opdracht uit om een Experience Manager Forms as a Cloud Service-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [ om de recentste versie van Archetype te vinden.](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/developing/archetype/overview)
+Voer afhankelijk van het besturingssysteem de onderstaande opdracht uit om een Experience Manager Forms as a Cloud Service-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [&#x200B; om de recentste versie van Archetype te vinden.](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/developing/archetype/overview)
 
 **Vensters van Microsoft**
 
@@ -71,7 +71,7 @@ Voer afhankelijk van het besturingssysteem de onderstaande opdracht uit om een E
    * Stel `groupId` in om de Maven groupId en het Java Source-pakket te definiëren.
    * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
    * Gebruik de optie `includeFormsheadless=y` om Forms Core-componenten en afhankelijkheden op te nemen die vereist zijn om de Headless Adaptive Forms-functionaliteit toe te voegen. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-      * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
+      * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
       * A frontend React module, `ui.frontend.react.forms.af`. Hiermee kunt u een Zwaarloos adaptief formulier weergeven in een reactie-app.
 
 
@@ -97,7 +97,7 @@ Voer afhankelijk van het besturingssysteem de onderstaande opdracht uit om een E
    * Stel `groupId` in om de Maven groupId en het Java Source-pakket te definiëren.
    * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
    * Gebruik de optie `includeFormsheadless=y` om Forms Core-componenten en afhankelijkheden op te nemen die vereist zijn om de Headless Adaptive Forms-functionaliteit toe te voegen. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-      * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
+      * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
       * Een frontend reageert module, `ui.frontend.react.forms.af`. Hiermee kunt u een Zwaarloos adaptief formulier weergeven in een reactie-app.
 
 Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam die in `appID` is opgegeven. Als u bijvoorbeeld `appID` met value `myheadlessform` gebruikt, wordt een map met de naam `myheadlessform` gemaakt. Het bevat het op Archetype gebaseerde project.
@@ -107,11 +107,11 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
 
 Wanneer u het project aan uw instantie van AEM SDK opstelt, voegt het de Zwaardeloze Adaptieve functionaliteit van Forms toe, **Lege met kerncomponenten** malplaatje, en andere middelen inbegrepen in het project aan uw ontwikkelomgeving. <!-- Deploy the project to your local development environment to locally create Headless Adaptive Forms. or deploy directly to your Forms as a Cloud Service environment. !--> Distribueren naar uw AEM SDK-exemplaar:
 
-1. Open de opdrachtprompt. Als u op Vensters bent, open de bevelherinnering met Administratieve voorrechten (de bevelherinnering van de Looppas of [ Git bash shell ](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/) als beheerder).
+1. Open de opdrachtprompt. Als u op Vensters bent, open de bevelherinnering met Administratieve voorrechten (de bevelherinnering van de Looppas of [&#x200B; Git bash shell &#x200B;](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/) als beheerder).
 
 1. Navigeer naar de projectmap die u in de vorige stap hebt gemaakt. Bijvoorbeeld: `/myheadlessform`
 
-   ![ project-folder ](assets/project-directory.png)
+   ![&#x200B; project-folder &#x200B;](assets/project-directory.png)
 
 1. Voer de volgende opdracht uit:
 
@@ -120,9 +120,9 @@ Wanneer u het project aan uw instantie van AEM SDK opstelt, voegt het de Zwaarde
    ```
 
    Wacht op het bericht &#39;BUILD SUCCESS&#39;.
-   ![ met succes opgesteld Project ](assets/project-deployed-successfully.png)
+   ![&#x200B; met succes opgesteld Project &#x200B;](assets/project-deployed-successfully.png)
 
-   Het kan lang duren om de gebiedsdelen op te lossen en het project op te stellen. Als er een mislukking in het opstellen van het project is, zie het [ oplossen van problemen ](troubleshooting.md) artikel voor gemeenschappelijke kwesties en hun resolutie.
+   Het kan lang duren om de gebiedsdelen op te lossen en het project op te stellen. Als er een mislukking in het opstellen van het project is, zie het [&#x200B; oplossen van problemen &#x200B;](troubleshooting.md) artikel voor gemeenschappelijke kwesties en hun resolutie.
 
 
 <!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=nl-NL#coding-against-the-right-aem-version) article : -->
@@ -130,7 +130,7 @@ Wanneer u het project aan uw instantie van AEM SDK opstelt, voegt het de Zwaarde
 
 ### &#x200B;3. Maak een JSON-schema met een hoofdloos adaptief formulier en upload het naar uw AEM SDK-exemplaar {#create-add-json-representation-of-headless-adaptive-forms}
 
-Een Headless Adaptive Forms wordt weergegeven als een JSON-bestand. U kunt een steekproefvorm van [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) krijgen of de steekproefvorm gebruiken omvat in archetype project bij `[Archetype Project]\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\af_model_sample.json`. Dit document gebruikt de [ inleiding ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) vorm van Storybook. Het is één veldformulier waarmee u snel aan de slag kunt met Headless Adaptive Forms. <!-- The [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document provides detailed information about various components, rules, and constraints for Headless Adaptive Forms -->
+Een Headless Adaptive Forms wordt weergegeven als een JSON-bestand. U kunt een steekproefvorm van [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) krijgen of de steekproefvorm gebruiken omvat in archetype project bij `[Archetype Project]\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\af_model_sample.json`. Dit document gebruikt de [&#x200B; inleiding &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) vorm van Storybook. Het is één veldformulier waarmee u snel aan de slag kunt met Headless Adaptive Forms. <!-- The [specifications](/help/assets/Headless-Adaptive-Form-Specification.pdf) document provides detailed information about various components, rules, and constraints for Headless Adaptive Forms -->
 
 Het schema maken en uploaden:
 
@@ -158,13 +158,13 @@ Het schema maken en uploaden:
 
    Er wordt één veld toegevoegd aan het formulier:
 
-   ![ de Wereld van Hello ](assets/introduction.png)
+   ![&#x200B; de Wereld van Hello &#x200B;](assets/introduction.png)
 
-1. Login aan uw [ lokale instantie van AEM SDK ](setup-development-environment.md#setup-author-instance)
+1. Login aan uw [&#x200B; lokale instantie van AEM SDK &#x200B;](setup-development-environment.md#setup-author-instance)
 1. Ga naar Adobe Experience Manager > Forms > Forms en Documents. Tik op Maken > Bestand uploaden.
 1. Selecteer de `.json` die in stap 2 is gemaakt en upload deze. U kunt het Zwaarloze Adaptieve Formulier maken. Als u het .json-bestand opslaat naar een op AEM Archetype gebaseerd project op `\<project-name>\ui.content\src\main\content\jcr_root\content\dam\myheadlessform\<formname>.json` . U kunt `mvn -PautoInstallPackage clean install` gebruiken om het project in te voeren aan uw AEM SDK en `<formname>.json` samen met het.
 
-Als er een mislukking in het uploaden van `.json` is, zorg ervoor dat het [ project van Archetype van AEM met succes ](#deploy-the-project-to-a-local-development-environment) wordt opgesteld.
+Als er een mislukking in het uploaden van `.json` is, zorg ervoor dat het [&#x200B; project van Archetype van AEM met succes &#x200B;](#deploy-the-project-to-a-local-development-environment) wordt opgesteld.
 
 <!-- 1. Open the [contact form](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--contact) and tap the [![Raw](assets/raw.png)](faq.md#storybook-example) icon on bottom-right side of the Storybook page to view the source code of the headless . 
 
@@ -186,13 +186,13 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 ### &#x200B;4. Maak een adaptief formulier op basis van de sjabloon Blank met kerncomponenten {#create-adaptive-form-with-blank-with-core-components-template}
 
-1. Login aan uw [ instantie van AEM SDK ](http://localhost:4502/).
+1. Login aan uw [&#x200B; instantie van AEM SDK &#x200B;](http://localhost:4502/).
 
 1. Ga naar Adobe Experience Manager > Forms > Forms en Documents.
 
 1. Tik op Maken en selecteer Adaptief formulier. Selecteer **Leeg met kerncomponenten** malplaatje en de Tik creeert.
 
-   ![ Malplaatje ](assets/template.png)
+   ![&#x200B; Malplaatje &#x200B;](assets/template.png)
 
 1. Geef de waarden op voor de volgende eigenschapvelden. De velden Titel en Naam zijn verplicht:
 
@@ -201,13 +201,13 @@ If you are on Windows, run the above with Administrative privileges (Run command
 
 1. Tik op Maken. Er wordt een adaptief formulier gemaakt.
 
-Als u niet **Lege met kerncomponenten** malplaatje ziet, zorg ervoor dat het [ project van Archetype van AEM met succes ](#deploy-the-project-to-a-local-development-environment) wordt opgesteld.
+Als u niet **Lege met kerncomponenten** malplaatje ziet, zorg ervoor dat het [&#x200B; project van Archetype van AEM met succes &#x200B;](#deploy-the-project-to-a-local-development-environment) wordt opgesteld.
 
 ### &#x200B;5. Configureer het adaptieve formulier voor gebruik van het JSON-schema {#configure-adaptive-form-to-use-the-JSON-representation}
 
 Het adaptieve formulier dat u in de vorige stap hebt gemaakt, is leeg. Configureer het adaptieve formulier voor gebruik van het JSON-schema:
 
-1. Login aan uw [ instantie van AEM SDK ](http://localhost:4502/).
+1. Login aan uw [&#x200B; instantie van AEM SDK &#x200B;](http://localhost:4502/).
 
 1. Ga naar Adobe Experience Manager > Forms > Forms en Documents. Selecteer het adaptieve formulier dat u in de vorige stap hebt gemaakt en tik op Bewerken. Het adaptieve formulier wordt geopend in de editor.
 
@@ -228,4 +228,4 @@ Het adaptieve formulier dat u in de vorige stap hebt gemaakt, is leeg. Configure
    1. Na voltooiing, open localhost :3000 in uw browser venster om een teruggegeven Koploze Adaptieve Vorm te bekijken.
    1. Om de voorleggingsfunctionaliteit te testen, login aan uw Server van AEM Forms, en gebruik **Voorproef de vorm in HTML** optie om de vorm op voorproefwijze te openen.
 
-Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een lijst van componenten en regels die op diverse Zwaardeloze Adaptieve Forms samen met één of ander voorbeeld van het schema JSON van Zwaardeloze Adaptieve Forms kunnen worden geplaatst. U kunt ook naar het [ specificaties ](/help/assets/Headless-Adaptive-Form-Specification.pdf) document kijken om over diverse regels en eigenschappen te leren met betrekking tot Hoofdloze Adaptieve Forms.
+Het [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een lijst van componenten en regels die op diverse Zwaardeloze Adaptieve Forms samen met één of ander voorbeeld van het schema JSON van Zwaardeloze Adaptieve Forms kunnen worden geplaatst. U kunt ook naar het [&#x200B; specificaties &#x200B;](/help/assets/Headless-Adaptive-Form-Specification.pdf) document kijken om over diverse regels en eigenschappen te leren met betrekking tot Hoofdloze Adaptieve Forms.

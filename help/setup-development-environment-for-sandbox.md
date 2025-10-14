@@ -19,20 +19,20 @@ Klaar om adaptieve formulieren voor Headless te bouwen en te testen op Cloud Ser
 
 ## Voordat u begint
 
-* Installeer de [ Meest recente versie van Git ](https://git-scm.com/downloads) op uw lokale machine. Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Met de Git-opslagplaats kunt u formulieren en aangepaste code die in uw lokale ontwikkelomgeving zijn ontwikkeld, naar uw Cloud Service-ontwikkelomgeving verzenden.
+* Installeer de [&#x200B; Meest recente versie van Git &#x200B;](https://git-scm.com/downloads) op uw lokale machine. Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Met de Git-opslagplaats kunt u formulieren en aangepaste code die in uw lokale ontwikkelomgeving zijn ontwikkeld, naar uw Cloud Service-ontwikkelomgeving verzenden.
 
-* Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/) op uw lokale machine. <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.org/en/learn/how-to-install-nodejs). -->
+* Installeer [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/) op uw lokale machine. <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.org/en/learn/how-to-install-nodejs). -->
 
 
-* Creeer een programma van AEM as a Cloud Service: Volg stap 1-7 van [ creeer programma ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program) artikel om een programma voor uw organisatie tot stand te brengen.
+* Creeer een programma van AEM as a Cloud Service: Volg stap 1-7 van [&#x200B; creeer programma &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program) artikel om een programma voor uw organisatie tot stand te brengen.
 
-* Laat het [ Kanaal van de preRelease voor uw programma van Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments) toe.
+* Laat het [&#x200B; Kanaal van de preRelease voor uw programma van Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments) toe.
 
 ## Workflow instellen
 
 Schakel `Forms - Digital enrolment` -oplossing in voor uw AEM Cloud Service-programma om Zwaarloze adaptieve formulieren in te schakelen op uw Forms as a Cloud Service-sandbox. Maak vervolgens een project Archetype 37 of hoger op uw lokale computer en duw het naar uw Forms as a Cloud Service-omgeving. Het volledige proces is:
 
-![ Werkschema aan opstellingsontwikkelomgeving voor een zandbak van Forms as a Cloud Service ](assets/FORMS-HLAF-SANDBOX-PRODUCTION-ENR.png)
+![&#x200B; Werkschema aan opstellingsontwikkelomgeving voor een zandbak van Forms as a Cloud Service &#x200B;](assets/FORMS-HLAF-SANDBOX-PRODUCTION-ENR.png)
 
 ### &#x200B;1. Forms inschakelen voor uw programma
 
@@ -138,7 +138,7 @@ De gegevensopslagruimte klonen:
 
 Het archetype-project is een op maven gebaseerde sjabloon. Het leidt tot een minimaal project dat op beste praktijken wordt gebaseerd om met Headless aanpassings vormen te beginnen. Het omvat ook de kernfuncties voor het aanpassen van formulieren zonder koptekst voor Forms as a Cloud Service. Het is verplicht om het archetype 37 of later gebaseerde project tot stand te brengen en op te stellen.
 ®®
-Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Experience Manager Forms as a Cloud Service-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [ om de recentste versie van Archetype te vinden.](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/developing/archetype/overview)
+Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Experience Manager Forms as a Cloud Service-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [&#x200B; om de recentste versie van Archetype te vinden.](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/developing/archetype/overview)
 
 +++ Microsoft® Windows
 
@@ -164,7 +164,7 @@ Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Exper
 * Stel `groupId` in om de Maven GroupId en het Java™ Source-pakket te definiëren.
 * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
 * Met de optie `includeFormsheadless=y` kunt u Forms Core-componenten en afhankelijkheden opnemen die vereist zijn om de functionaliteit voor Zwaardeloze adaptieve formulieren te kunnen gebruiken. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-   * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
+   * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
    * A frontend React module, `ui.frontend.react.forms.af`. Hiermee kunt u een adaptieve vorm zonder koptekst weergeven in een reactie-app.
 
 +++®®
@@ -193,7 +193,7 @@ Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Exper
 * Stel `groupId` in om de Maven GroupId en het Java™ Source-pakket te definiëren.
 * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
 * Met de optie `includeFormsheadless=y` kunt u Forms Core-componenten en afhankelijkheden opnemen die vereist zijn om de functionaliteit voor Zwaardeloze adaptieve formulieren te kunnen gebruiken. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-   * **Leeg met kerncomponenten** malplaatje met [ kerncomponenten ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
+   * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
    * Een frontend reageert module, `ui.frontend.react.forms.af`. Hiermee kunt u een adaptieve vorm zonder koptekst weergeven in een reactie-app.
 
 +++
@@ -255,4 +255,4 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
 </tr>
 </table>
 
-Nu is uw omgeving klaar voor gebruik van hulpformulieren zonder koptekst. U kunt nu een JSON-definitie van een formulier uploaden naar uw Cloud Service-omgeving. Dan, creeer een Hoofdloze adaptieve vorm die op het wordt gebaseerd, en gebruik [ getForm ](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) en andere rest APIs om de Zwaarteloze adaptieve vorm in uw toepassing of dienst te gebruiken.
+Nu is uw omgeving klaar voor gebruik van hulpformulieren zonder koptekst. U kunt nu een JSON-definitie van een formulier uploaden naar uw Cloud Service-omgeving. Dan, creeer een Hoofdloze adaptieve vorm die op het wordt gebaseerd, en gebruik [&#x200B; getForm &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition/operation/getForm) en andere rest APIs om de Zwaarteloze adaptieve vorm in uw toepassing of dienst te gebruiken.

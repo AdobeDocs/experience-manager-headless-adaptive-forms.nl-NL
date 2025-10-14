@@ -21,7 +21,7 @@ AEM Forms as a Cloud Service biedt een gebruiksvriendelijke editor om Headless A
 
 >[!NOTE]
 >
->Als u aan Koploze Aangepaste vormen nieuw bent, begin met het leerprogramma [ creeer en publiceer een hoofdloze vorm gebruikend de starteruitrusting ](create-and-publish-a-headless-form.md). Het behandelt de basisbeginselen en begeleidt u door met de hand een formulier te maken voordat u overschakelt naar de Adaptieve Forms-editor voor koploze formulieren.
+>Als u aan Koploze Aangepaste vormen nieuw bent, begin met het leerprogramma [&#x200B; creeer en publiceer een hoofdloze vorm gebruikend de starteruitrusting &#x200B;](create-and-publish-a-headless-form.md). Het behandelt de basisbeginselen en begeleidt u door met de hand een formulier te maken voordat u overschakelt naar de Adaptieve Forms-editor voor koploze formulieren.
 
 
 Voer de volgende stappen uit om een Headless adaptive-formulier te maken met de Adaptive Forms-editor:
@@ -45,16 +45,16 @@ U hebt het volgende nodig om een adaptief formulier te maken met de Adaptive For
 
 **voor AEM Forms as a Cloud Service**
 
-* De toegang tot een [ de auteursinstantie van AEM Forms as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service) of a [ lokale as a Cloud Service SDK ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment) milieu van AEM Forms.
+* De toegang tot een [&#x200B; de auteursinstantie van AEM Forms as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service) of a [&#x200B; lokale as a Cloud Service SDK &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment) milieu van AEM Forms.
 
 * **een Adaptief malplaatje van de Vorm**: Een malplaatje verstrekt een basisstructuur en bepaalt de verschijning (lay-outs en stijlen) van een Aangepast Vorm. Het heeft vooraf opgemaakte componenten die bepaalde eigenschappen en inhoudsstructuur bevatten. Het biedt ook de opties om een thema te definiëren en een actie te verzenden. In het thema wordt de actie look and feel and submit gedefinieerd voor de actie die moet worden ondernomen bij het verzenden van een adaptief formulier. Bijvoorbeeld, verzendend de verzamelde gegevens naar een gegevensbron. De cloudservice biedt een OOTB-sjabloon met de naam blank:
 
    * De sjabloon `blank Adaptive Forms (Core Components)` wordt opgenomen in elk nieuw AEM Forms as a Cloud Service-programma.
-   * U kunt ook [ een nieuw Adaptief malplaatje van Forms (de Componenten van de Kern) ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor) van kras tot stand brengen.
+   * U kunt ook [&#x200B; een nieuw Adaptief malplaatje van Forms (de Componenten van de Kern) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor) van kras tot stand brengen.
 
 * **een Adaptief thema van de Vorm**: Een thema bevat het stileren details voor de componenten en de panelen. Stijlen omvatten eigenschappen zoals achtergrondkleuren, statuskleuren, transparantie, uitlijning en grootte. Wanneer u een thema toepast, weerspiegelt de opgegeven stijl de corresponderende componenten.  De sjabloon `Canvas` wordt opgenomen in elk nieuw AEM Forms as a Cloud Service-programma.
 
-* **Toestemmingen**: Voeg uw gebruikers aan de [!DNL forms-users] groep toe. De leden van de groep [!DNL forms-users] hebben machtigingen om een adaptief formulier te maken. Voor een gedetailleerde lijst van vormen voor specifieke gebruikersgroepen, zie [ Groepen en toestemmingen ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/forms-groups-privileges-tasks).
+* **Toestemmingen**: Voeg uw gebruikers aan de [!DNL forms-users] groep toe. De leden van de groep [!DNL forms-users] hebben machtigingen om een adaptief formulier te maken. Voor een gedetailleerde lijst van vormen voor specifieke gebruikersgroepen, zie [&#x200B; Groepen en toestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/forms-groups-privileges-tasks).
 
 
 ## Een adaptief formulier maken {#create-an-adaptive-form-components}
@@ -65,7 +65,7 @@ U hebt het volgende nodig om een adaptief formulier te maken met de Adaptive For
 
 1. Tik op **[!UICONTROL Create]** > **[!UICONTROL Adaptive Forms]** . De wizard wordt geopend. Selecteer op het tabblad Source een sjabloon:
 
-   ![ Malplaatje ](/help/assets/core-components-template.png)
+   ![&#x200B; Malplaatje &#x200B;](/help/assets/core-components-template.png)
 
    Wanneer u een sjabloon selecteert, wordt de in de sjabloon opgegeven actie voor het thema en het verzenden automatisch geselecteerd en wordt de knop **[!UICONTROL Create]** ingeschakeld. U kunt naar de tabbladen **[!UICONTROL Style]** of **[!UICONTROL Submission]** gaan om een ander thema te selecteren of een actie te verzenden. Als de geselecteerde sjabloon geen thema opgeeft, blijft de knop Maken uitgeschakeld. U kunt naar het tabblad **[!UICONTROL Styles]** gaan om handmatig een thema te selecteren.
 
@@ -79,7 +79,7 @@ U hebt het volgende nodig om een adaptief formulier te maken met de Adaptive For
 
    * **het gegevensmodel van de Vorm**: Het Model van de Gegevens van de Vorm van A [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration) laat u entiteiten en de diensten van ongelijksoortige gegevensbronnen aan een Aangepaste Vorm integreren. Kies Formuliergegevensmodel als het adaptieve formulier dat u maakt, bestaat uit het ophalen en schrijven van gegevens van en naar meerdere gegevensbron.
 
-   * **JSON Schema**: [ het schema JSON ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model) Aangepaste Forms staat naadloze integratie met het achterste deelsysteem van uw organisatie toe door de capaciteit te verstrekken om een schema te associëren JSON, dat de structuur van de gegevens vertegenwoordigt die worden geproduceerd of worden verbruikt. Met deze koppeling kunnen auteurs inhoud dynamisch toevoegen aan het adaptieve formulier met behulp van de elementen van het schema. Tijdens het ontwerpen hebt u snel toegang tot schema-elementen op het tabblad Gegevensmodelobjecten van de inhoudbrowser. Wanneer u een nieuw adaptief formulier maakt, voegt de editor automatisch alle velden toe.
+   * **JSON Schema**: [&#x200B; het schema JSON &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model) Aangepaste Forms staat naadloze integratie met het achterste deelsysteem van uw organisatie toe door de capaciteit te verstrekken om een schema te associëren JSON, dat de structuur van de gegevens vertegenwoordigt die worden geproduceerd of worden verbruikt. Met deze koppeling kunnen auteurs inhoud dynamisch toevoegen aan het adaptieve formulier met behulp van de elementen van het schema. Tijdens het ontwerpen hebt u snel toegang tot schema-elementen op het tabblad Gegevensmodelobjecten van de inhoudbrowser. Wanneer u een nieuw adaptief formulier maakt, voegt de editor automatisch alle velden toe.
 
    Standaard worden alle velden van het gekoppelde JSON-schema automatisch geselecteerd en geconverteerd naar de overeenkomstige componenten van het adaptieve formulier, waardoor het ontwerpproces wordt gestroomlijnd. De wizard biedt het extra gebruiksgemak waarmee u via selectievakjes kunt kiezen welke velden in het adaptieve formulier moeten worden opgenomen.
 
@@ -108,7 +108,7 @@ Selecteer de Adaptieve Vorm en tik **Voorproef**. Het voorbeeld van het formulie
 
 Bijvoorbeeld, http:// [ auteur-server ]:[ haven ] /editor.html/content/forms/af/contact-us.model.json
 
-U kunt Headless Adaptive Forms [ gebruiken getForm ](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition) API om de vormdefinitie (JSON) te halen en het in uw toepassing te gebruiken.
+U kunt Headless Adaptive Forms [&#x200B; gebruiken getForm &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/#tag/Get-Form-Definition) API om de vormdefinitie (JSON) te halen en het in uw toepassing te gebruiken.
 
-![ de vormdefinitie van de Mening (JSOI) ](assets/json-definantion.png)
+![&#x200B; de vormdefinitie van de Mening (JSOI) &#x200B;](assets/json-definantion.png)
 

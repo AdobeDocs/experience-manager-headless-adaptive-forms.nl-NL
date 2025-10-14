@@ -18,7 +18,7 @@ Welkom bij de Experience Manager Headless adaptive-release. Lees verder voor bro
 Gebruik adaptieve Adobe Experience Manager-formulieren zonder hoofd om formuliertoepassingen te maken met front-end frameworks, zoals React, Angular en andere. Gebruik de Adaptive Forms Web SDK voor staatsbeheer, bevestiging, en integratie met extra touchpoints.
 
 
-De vroege adopterversie verleent u toegang om de Zwaarteloze adaptieve vormen in a [ lokale ontwikkelomgeving ](setup-development-environment.md) te gebruiken. U kunt de lokale ontwikkelomgeving gebruiken om adaptieve formulieren zonder hoofd te maken en te testen.
+De vroege adopterversie verleent u toegang om de Zwaarteloze adaptieve vormen in a [&#x200B; lokale ontwikkelomgeving &#x200B;](setup-development-environment.md) te gebruiken. U kunt de lokale ontwikkelomgeving gebruiken om adaptieve formulieren zonder hoofd te maken en te testen.
 
 Hoofdloze adaptieve formulieren worden voortdurend verbeterd. Bezoek deze pagina regelmatig om op de hoogte te blijven van de meest recente ontwikkelingen. Deze pagina biedt u informatie over het volgende:
 
@@ -62,15 +62,15 @@ AEM Forms as a Cloud Service SDK helpt u bij het maken, opslaan en ophalen van a
 
 Forms Web SDK biedt de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier en haken voor het verbinden van de JSON-structuur van het formulier met het UI-framework. Het biedt ook React Renderer-&#x200B; voor Headless adaptive-formulieren om een Headless adaptive-formulier in uw toepassing te integreren. De volgende componenten van het Web SDK zijn beschikbaar:
 
-* **[@aemforms/af-response-components ](https://www.npmjs.com/package/@aemforms/af-react-components)**
-* **[@aemforms/af-response-renderer ](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
-* **[@aemforms/af-core ](https://www.npmjs.com/package/@aemforms/af-core)**
+* **[@aemforms/af-response-components &#x200B;](https://www.npmjs.com/package/@aemforms/af-react-components)**
+* **[@aemforms/af-response-renderer &#x200B;](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
+* **[@aemforms/af-core &#x200B;](https://www.npmjs.com/package/@aemforms/af-core)**
 
 <!-- npm i --save @aemforms/af-react-components @aemforms/af-react-renderer @aemforms/af-core -->
 
 #### Winkelboek
 
-Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een overzicht van de verschillende componenten van Zwaartepunt aanpassende vormen. Het verstrekt ook een lijst van alle gesteunde componenten, hun overeenkomstige eigenschappen, en beperkingen.
+Het [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een overzicht van de verschillende componenten van Zwaartepunt aanpassende vormen. Het verstrekt ook een lijst van alle gesteunde componenten, hun overeenkomstige eigenschappen, en beperkingen.
 
 ### Forms Core-component
 
@@ -80,15 +80,15 @@ De Componenten van de kern zijn een reeks gestandaardiseerde componenten van het
 
 ### Adaptieve Forms V2-specificaties
 
-Specificatie voor hulpformulieren zonder koptekst biedt gedetailleerde informatie over alle componenten, beperkingen en methoden die beschikbaar zijn om adaptieve formulieren zonder koptekst te definiëren. De specificatie is beschikbaar in [ PDF ](/help/assets/Headless-Adaptive-Form-Specification.pdf) formaat.
+Specificatie voor hulpformulieren zonder koptekst biedt gedetailleerde informatie over alle componenten, beperkingen en methoden die beschikbaar zijn om adaptieve formulieren zonder koptekst te definiëren. De specificatie is beschikbaar in [&#x200B; PDF &#x200B;](/help/assets/Headless-Adaptive-Form-Specification.pdf) formaat.
 
 ### HTTP en JS API
 
-[ HTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) staat u toe om van een lijst te maken, te halen, te bevestigen, voor te leggen, en de status van de spoorvoorlegging van hoofdloze vormen. <!-- URL is 404! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
+[&#x200B; HTTP APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) staat u toe om van een lijst te maken, te halen, te bevestigen, voor te leggen, en de status van de spoorvoorlegging van hoofdloze vormen. <!-- URL is 404! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
 
 ### Visual Studio-extensie
 
-[ de uitbreiding van de Code van Visual Studio ](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
+[&#x200B; de uitbreiding van de Code van Visual Studio &#x200B;](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
 
 <!-- ## What's next
 

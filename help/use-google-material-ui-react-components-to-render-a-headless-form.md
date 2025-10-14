@@ -26,7 +26,7 @@ Deze componenten hebben twee hoofddoelen: de weergave of stijl van formulierveld
 
 In deze zelfstudie worden UI-componenten voor materiaal van Google gebruikt om aan te tonen hoe een Zwaartepunt-adaptief formulier kan worden gegenereerd met behulp van aangepaste React-componenten. U bent echter niet beperkt tot deze bibliotheek en u kunt elke React-componentenbibliotheek gebruiken of uw eigen aangepaste componenten ontwikkelen.
 
-Door de conclusie van dit artikel, de _vorm van het Contact van ons_ die in [ wordt gecreeerd creeert en publiceert een hoofdloze vorm gebruikend het starterkit ](create-and-publish-a-headless-form.md) artikel zet in het volgende om:
+Door de conclusie van dit artikel, de _vorm van het Contact van ons_ die in [&#x200B; wordt gecreeerd creeert en publiceert een hoofdloze vorm gebruikend het starterkit &#x200B;](create-and-publish-a-headless-form.md) artikel zet in het volgende om:
 
 ![](assets/headless-adaptive-form-with-google-material-ui-components.png)
 
@@ -37,7 +37,7 @@ De belangrijkste stappen die nodig zijn voor het weergeven van een formulier met
 
 ## &#x200B;1. Interface voor Google-materiaal installeren
 
-Door gebrek, gebruikt de starterKit [&#128279;](https://spectrum.adobe.com/) componenten van het Spectrum van Adobe. Laat het plaatsen om [ Materiële UI van Google te gebruiken ](https://mui.com/):
+Door gebrek, gebruikt de starterKit [&#128279;](https://spectrum.adobe.com/) componenten van het Spectrum van Adobe. Laat het plaatsen om [&#x200B; Materiële UI van Google te gebruiken &#x200B;](https://mui.com/):
 
 1. Zorg ervoor dat de startkit niet wordt uitgevoerd. Om de starteruitrusting tegen te houden, open uw terminal, navigeer aan **reactie-starter-kit-a-headless-vormen**, en druk CTRL-C (het is het zelfde op Vensters, Mac, en Linux®).
 
@@ -56,24 +56,24 @@ De Npm-bibliotheken voor materiaal van Google worden geïnstalleerd en de biblio
 
 ## &#x200B;2. Aangepaste Reactie-componenten maken
 
-Laten wij een douanecomponent tot stand brengen die de standaard [ component van de tekstinput ](https://spectrum.adobe.com/page/text-field/) met de [ Materiële UI van Google component ](https://mui.com/material-ui/react-text-field/) vervangt.
+Laten wij een douanecomponent tot stand brengen die de standaard [&#x200B; component van de tekstinput &#x200B;](https://spectrum.adobe.com/page/text-field/) met de [&#x200B; Materiële UI van Google component &#x200B;](https://mui.com/material-ui/react-text-field/) vervangt.
 
-Een afzonderlijke component wordt vereist voor elk componenttype ([ fieldType ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) of `:type`) dat in een definitie van de Vorm van de Zwaartepunt wordt gebruikt. Bijvoorbeeld, in de vorm van het Contact Us die u in de vorige sectie creeerde, zijn de Naam, E-mail, en de gebieden van de Telefoon van type `text-input` ([ fieldType: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)) en het berichtgebied van type `multiline-input` ([ &quot;fieldType&quot;: &quot;multiline-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input)).
-
-
-Laat een douanecomponent tot stand brengen om alle vormgebieden te bedekken die [ fieldType gebruiken: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) bezit met de [ Materiële UI component van het Gebied van de Tekst ](https://mui.com/material-ui/react-text-field/).
+Een afzonderlijke component wordt vereist voor elk componenttype ([&#x200B; fieldType &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) of `:type`) dat in een definitie van de Vorm van de Zwaartepunt wordt gebruikt. Bijvoorbeeld, in de vorm van het Contact Us die u in de vorige sectie creeerde, zijn de Naam, E-mail, en de gebieden van de Telefoon van type `text-input` ([&#x200B; fieldType: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)) en het berichtgebied van type `multiline-input` ([&#x200B; &quot;fieldType&quot;: &quot;multiline-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input)).
 
 
-Om de douanecomponent tot stand te brengen en de douanecomponent met het [ fieldType ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) bezit in kaart te brengen:
+Laat een douanecomponent tot stand brengen om alle vormgebieden te bedekken die [&#x200B; fieldType gebruiken: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) bezit met de [&#x200B; Materiële UI component van het Gebied van de Tekst &#x200B;](https://mui.com/material-ui/react-text-field/).
+
+
+Om de douanecomponent tot stand te brengen en de douanecomponent met het [&#x200B; fieldType &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) bezit in kaart te brengen:
 
 1. Open de **reactie-starter-kit-a-headless-vormen** folder in een coderedacteur en navigeer aan `\react-starter-kit-aem-headless-forms\src\components`.
 
 
 1. Creeer een exemplaar van de **`slider`** of **`richtext`** omslag, en noem de gekopieerde omslag anders aan **materialtextfield**. De `slider` en `richtext` zijn twee aangepaste voorbeeldcomponenten die beschikbaar zijn in de starttoepassing. Met deze componenten kunt u uw eigen aangepaste componenten maken.
 
-   ![ de materialtextfield douanecomponent in VSCode ](/help/assets/richtext-custom-component-in-vscode.png)
+   ![&#x200B; de materialtextfield douanecomponent in VSCode &#x200B;](/help/assets/richtext-custom-component-in-vscode.png)
 
-1. Open het `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` -bestand en vervang de bestaande code door de onderstaande code. Deze code keert terug en geeft a [ Materiële UI de component van het Gebied van de Tekst van A &lbrace;](https://mui.com/material-ui/react-text-field/) terug.
+1. Open het `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` -bestand en vervang de bestaande code door de onderstaande code. Deze code keert terug en geeft a [&#x200B; Materiële UI de component van het Gebied van de Tekst van A &lbrace;](https://mui.com/material-ui/react-text-field/) terug.
 
 ```JavaScript
  
@@ -109,13 +109,13 @@ Het `state.visible` -onderdeel controleert of de component is ingesteld op zicht
 ![](/help/assets/material-text-field.png)
 
 
-Uw aangepaste component `materialtextfield` is gereed. Laten wij deze douanecomponent plaatsen om alle instanties van [ fieldType te vervangen: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) met het Materiële UI- Gebied van de Tekst van Google.
+Uw aangepaste component `materialtextfield` is gereed. Laten wij deze douanecomponent plaatsen om alle instanties van [&#x200B; fieldType te vervangen: &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) met het Materiële UI- Gebied van de Tekst van Google.
 
 ## &#x200B;3. Aangepaste component toewijzen met formuliervelden zonder kop
 
-Het proces waarbij een externe bibliotheekcomponent wordt gebruikt om formuliervelden te genereren, wordt mapping genoemd. U brengt elk ([ fieldType ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)) aan een overeenkomstige component van een derdebibliotheek in kaart.
+Het proces waarbij een externe bibliotheekcomponent wordt gebruikt om formuliervelden te genereren, wordt mapping genoemd. U brengt elk ([&#x200B; fieldType &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)) aan een overeenkomstige component van een derdebibliotheek in kaart.
 
-Alle informatie over toewijzingen wordt toegevoegd aan het `mappings.ts` -bestand. De `...mappings` verklaring in het `mappings.ts` dossier verwijst naar de standaardafbeeldingen, die ([ fieldType ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) of `:type`) met [ Adobe Spectrum ](https://spectrum.adobe.com/page/text-field/) componenten bedekken.
+Alle informatie over toewijzingen wordt toegevoegd aan het `mappings.ts` -bestand. De `...mappings` verklaring in het `mappings.ts` dossier verwijst naar de standaardafbeeldingen, die ([&#x200B; fieldType &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) of `:type`) met [&#x200B; Adobe Spectrum &#x200B;](https://spectrum.adobe.com/page/text-field/) componenten bedekken.
 
 Als u toewijzingen wilt toevoegen voor de component `materialtextfield` , die u in de laatste stap hebt gemaakt:
 
@@ -149,14 +149,14 @@ Als u toewijzingen wilt toevoegen voor de component `materialtextfield` , die u 
         export default customMappings;
    ```
 
-1. Sla de app op en voer deze uit. De eerste drie gebieden van de vorm worden teruggegeven gebruikend [ Materiële UI het Gebied van de Tekst van Google ](https://mui.com/material-ui/react-text-field/):
+1. Sla de app op en voer deze uit. De eerste drie gebieden van de vorm worden teruggegeven gebruikend [&#x200B; Materiële UI het Gebied van de Tekst van Google &#x200B;](https://mui.com/material-ui/react-text-field/):
 
    ![](assets/material-text-field-form-rendetion.png)
 
 
    Op dezelfde manier kunt u aangepaste componenten maken voor het bericht (&quot;fieldType&quot;: &quot;multiline-input&quot;) en de velden Service (&quot;fieldType&quot;:&quot;number-input&quot;) beoordelen. U kunt de volgende gegevensopslagplaats van de Git voor douanecomponenten van het bericht klonen en de de dienstgebieden schatten:
 
-   [ https://github.com/singhkh/react-starter-kit-aem-headless-forms](https://github.com/singhkh/react-starter-kit-aem-headless-forms)
+   [&#x200B; https://github.com/singhkh/react-starter-kit-aem-headless-forms](https://github.com/singhkh/react-starter-kit-aem-headless-forms)
 
 ## Volgende stap
 

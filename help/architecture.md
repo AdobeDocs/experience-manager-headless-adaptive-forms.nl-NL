@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Een Headless adaptief formulier is in wezen een JSON-structuur (schema) bestaande uit formuliervelden (Tekstvak, keuzen en nog veel meer velden) en de bijbehorende regels (voorwaardelijke logica) om interactief gedrag aan het formulier toe te voegen. U kunt REST API&#39;s in uw toepassing of website gebruiken om de gehoste JSON-structuur aan te vragen en de JSON-structuur zelf als een formulier in uw app of website weer te geven. Eén hoofdloos adaptief formulier kan meerdere webpagina&#39;s en toepassingen gebruiken zonder dat er toepassingsspecifieke of websitespecifieke wijzigingen in worden aangebracht.
 
-![ hoe de Hoofdloze adaptieve vorm ](/help/assets/how-headless-adaprive-forms-work.png) werkt
+![&#x200B; hoe de Hoofdloze adaptieve vorm &#x200B;](/help/assets/how-headless-adaprive-forms-work.png) werkt
 
 ## Architectuur {#architecture}
 
@@ -70,13 +70,13 @@ Met de volgende gereedschappen kunt u adaptieve formulieren zonder koptekst make
 
 Naast het verschaffen van de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier, biedt Forms Web SDK haken om Zwaardeloze adaptieve formulieren aan te sluiten op het UI-framework. Het biedt ook een React-renderer voor Headless adaptieve formulieren waarmee een Headless adaptief formulier kan worden geïntegreerd in uw toepassing. De volgende componenten van het Web SDK zijn beschikbaar:
 
-* **[@aemforms/af-response-components ](https://www.npmjs.com/package/@aemforms/af-react-components)**
-* **[@aemforms/af-response-renderer ](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
-* **[@aemforms/af-core ](https://www.npmjs.com/package/@aemforms/af-core)**
+* **[@aemforms/af-response-components &#x200B;](https://www.npmjs.com/package/@aemforms/af-react-components)**
+* **[@aemforms/af-response-renderer &#x200B;](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
+* **[@aemforms/af-core &#x200B;](https://www.npmjs.com/package/@aemforms/af-core)**
 
 Al deze componenten zijn inbegrepen in Archetype van AEM. Wanneer u een AEM Archetype 37 of hoger project voor Zwaardeloze adaptieve formulieren maakt, wordt de nieuwste versie van de hierboven vermelde bibliotheken opgenomen in het project.
 
-* **playground van de Code**: [ playground van de Code ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze adaptieve Forms te testen.
+* **playground van de Code**: [&#x200B; playground van de Code &#x200B;](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL) is een interactief milieu dat voor ontwikkelaars wordt ontworpen om met te experimenteren, over te leren, en de mogelijkheden van Hoofdloze adaptieve Forms te testen.
 
 **Begonnen Toepassing**: Adobe heeft ook een begonnen toepassing vrijgegeven om u te helpen snel met Hoofdloze adaptieve vormen beginnen.
 
@@ -84,13 +84,13 @@ Al deze componenten zijn inbegrepen in Archetype van AEM. Wanneer u een AEM Arch
 
 Core-Components: It enables use to render an Adaptive Form using JSON structure. It uses rule grammar to help create dynamic field interactions. The rule grammar is based on [JSON formula](http://github.com/adobe/json-formula/). You can develop your own renderer or embed the React based Adaptive Forms renderer, provided OOTB, in your front-end app to render the form. -->
 
-**Storybook**: [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een overzicht van verschillende componenten van de adaptieve vormen zonder Titel. Het verstrekt ook een lijst van alle gesteunde componenten, hun overeenkomstige eigenschappen, en beperkingen.
+**Storybook**: [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een overzicht van verschillende componenten van de adaptieve vormen zonder Titel. Het verstrekt ook een lijst van alle gesteunde componenten, hun overeenkomstige eigenschappen, en beperkingen.
 
-**de Uitbreiding van de Code van Visual Studio**: [ de uitbreiding van de Code van Visual Studio ](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
+**de Uitbreiding van de Code van Visual Studio**: [&#x200B; de uitbreiding van de Code van Visual Studio &#x200B;](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
 
-**HTTP en JavaScript APIs**: [ HTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) laat u een lijst maken, vinden, bevestigen, voorleggen en volgen voorleggingsstatus van hoofdloze vormen. <!-- URL is 404!! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
+**HTTP en JavaScript APIs**: [&#x200B; HTTP APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) laat u een lijst maken, vinden, bevestigen, voorleggen en volgen voorleggingsstatus van hoofdloze vormen. <!-- URL is 404!! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
 
-**JSON Formule**: Het is een implementatie van de grammatica van de vormenuitdrukking om u te helpen JSON structuur vragen en regels voor Zwaardeloze adaptieve vormen tot stand brengen. De grammatica is een masker van spreadsheet-als functies en exploitanten en [ JMESPath ](https://jmespath.org/) een JSON vraagtaal. U kunt [ playground ](https://opensource.adobe.com/json-formula/dist/index.html) gebruiken om JSON-formulesyntaxis en mogelijkheden te onderzoeken.
+**JSON Formule**: Het is een implementatie van de grammatica van de vormenuitdrukking om u te helpen JSON structuur vragen en regels voor Zwaardeloze adaptieve vormen tot stand brengen. De grammatica is een masker van spreadsheet-als functies en exploitanten en [&#x200B; JMESPath &#x200B;](https://jmespath.org/) een JSON vraagtaal. U kunt [&#x200B; playground &#x200B;](https://opensource.adobe.com/json-formula/dist/index.html) gebruiken om JSON-formulesyntaxis en mogelijkheden te onderzoeken.
 
-**Aangepaste Forms versie 2.0 specificaties**: De adaptieve versie 2.0 van Forms specificatie verstrekt gedetailleerde informatie over alle componenten, beperkingen, en methodes beschikbaar om Zwaartepunt te bepalen aanpassende vormen. De specificatie is beschikbaar in [ PDF ](/help/assets/headless-adaptive-forms-specification.pdf) formaat.
+**Aangepaste Forms versie 2.0 specificaties**: De adaptieve versie 2.0 van Forms specificatie verstrekt gedetailleerde informatie over alle componenten, beperkingen, en methodes beschikbaar om Zwaartepunt te bepalen aanpassende vormen. De specificatie is beschikbaar in [&#x200B; PDF &#x200B;](/help/assets/headless-adaptive-forms-specification.pdf) formaat.
 

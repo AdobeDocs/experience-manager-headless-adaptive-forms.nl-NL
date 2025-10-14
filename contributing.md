@@ -15,11 +15,11 @@ Hieronder volgt een reeks richtlijnen die moeten worden gevolgd wanneer u een bi
 
 Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Door deelname,
 u wordt verwacht deze code te handhaven. Geef een onacceptabel gedrag aan
-[ Grp-opensourceoffice@adobe.com ](mailto:Grp-opensourceoffice@adobe.com).
+[&#x200B; Grp-opensourceoffice@adobe.com &#x200B;](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentatie voor de bijdragegids
 
-Zie de [ Gids van de Medewerker ](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction).
+Zie de [&#x200B; Gids van de Medewerker &#x200B;](https://experienceleague.adobe.com/nl/docs/contributor/contributor-guide/introduction).
 
 ## Heb je een vraag?
 
@@ -29,7 +29,7 @@ consensus over de richting van projecten en het uitwerken van oplossingen binnen
 
 ## Licentieovereenkomst voor contribuant
 
-Medewerkers moeten een licentieovereenkomst voor contribuanten ondertekenen voordat zij bijdragen van derden aan dit project indienen. Deze overeenkomst geeft Adobe toestemming om uw bijdragen te herverdelen als onderdeel van het project. [ het Teken Adobe CLA ](https://opensource.adobe.com/cla.html). U hoeft slechts één keer een Adobe CLA in te dienen, dus als u eerder een CLA hebt verzonden, kunt u het beste gaan!
+Medewerkers moeten een licentieovereenkomst voor contribuanten ondertekenen voordat zij bijdragen van derden aan dit project indienen. Deze overeenkomst geeft Adobe toestemming om uw bijdragen te herverdelen als onderdeel van het project. [&#x200B; het Teken Adobe CLA &#x200B;](https://opensource.adobe.com/cla.html). U hoeft slechts één keer een Adobe CLA in te dienen, dus als u eerder een CLA hebt verzonden, kunt u het beste gaan!
 
 ## Codebeoordelingen
 
@@ -47,4 +47,4 @@ Adobe is blij met elke bijdrage en bekijkt je bijdrage. Als u een commissie met 
 
 ## Beveiligingsproblemen
 
-Beveiligingsproblemen moeten niet worden gerapporteerd in deze uitgavecontracker. In plaats daarvan, [ dossier een kwestie aan de veiligheidsdeskundigen van Adobe ](https://helpx.adobe.com/nl/security/alertus.html)
+Beveiligingsproblemen moeten niet worden gerapporteerd in deze uitgavecontracker. In plaats daarvan, [&#x200B; dossier een kwestie aan de veiligheidsdeskundigen van Adobe &#x200B;](https://helpx.adobe.com/nl/security/alertus.html)

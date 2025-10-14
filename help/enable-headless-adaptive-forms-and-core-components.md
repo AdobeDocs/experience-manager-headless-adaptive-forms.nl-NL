@@ -16,21 +16,21 @@ ht-degree: 0%
 
 Als u Headless Adaptive Forms wilt inschakelen voor uw AEM 6.5 Forms-omgeving, maakt u een AEM Archetype 41 of hoger gebaseerd project en implementeert u dit in al uw auteur- en publicatieinstanties.
 
-Door het op Archetype 41 of recenter gebaseerde project van AEM aan uw AEM 6.5 Forms instanties op te stellen, bereikt u de capaciteit om [ de Componenten van de Kern te creëren die Aangepaste Forms ](create-a-headless-adaptive-form.md) worden gebaseerd. Deze formulieren worden weergegeven in JSON-indeling en worden gebruikt als `Headful` en `Headless` Adaptieve Forms, zodat u over een groot aantal kanalen, zoals mobiele, web- en native apps, beschikt met meer flexibiliteit en aanpassing.
+Door het op Archetype 41 of recenter gebaseerde project van AEM aan uw AEM 6.5 Forms instanties op te stellen, bereikt u de capaciteit om [&#x200B; de Componenten van de Kern te creëren die Aangepaste Forms &#x200B;](create-a-headless-adaptive-form.md) worden gebaseerd. Deze formulieren worden weergegeven in JSON-indeling en worden gebruikt als `Headful` en `Headless` Adaptieve Forms, zodat u over een groot aantal kanalen, zoals mobiele, web- en native apps, beschikt met meer flexibiliteit en aanpassing.
 
 ## Vereisten {#prerequisites}
 
 Voordat u Headless Adaptive Forms inschakelt in de AEM 6.5 Forms-omgeving,
 
-* [ Verbetering aan AEM 6.5 Forms Service Pack 16 (6.5.16.0) of later ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions).
+* [&#x200B; Verbetering aan AEM 6.5 Forms Service Pack 16 (6.5.16.0) of later &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions).
 
-* Installeer de recentste versie van [ Apache Maven ](https://maven.apache.org/download.cgi).
+* Installeer de recentste versie van [&#x200B; Apache Maven &#x200B;](https://maven.apache.org/download.cgi).
 
 * Installeer een teksteditor zonder opmaak. Bijvoorbeeld, de Code van Microsoft Visual Studio.
 
 ## Het nieuwste AEM Archetype-project maken en implementeren
 
-Om een archetype van AEM te creëren 41 of [ later ](https://github.com/adobe/aem-project-archetype) gebaseerd project en het op elk van uw Auteur en publiceer instanties op te stellen:
+Om een archetype van AEM te creëren 41 of [&#x200B; later &#x200B;](https://github.com/adobe/aem-project-archetype) gebaseerd project en het op elk van uw Auteur en publiceer instanties op te stellen:
 
 1. Meld u aan bij uw computer en host en voer uw AEM 6.5 Forms-exemplaar als beheerder uit.
 1. Open de opdrachtprompt of terminal.
@@ -83,14 +83,14 @@ Om een archetype van AEM te creëren 41 of [ later ](https://github.com/adobe/ae
       </sly>
       ```
 
-      ![ voeg bovengenoemde code op lijn 21 toe ](/help/assets/code-to-enable-themes.png)
+      ![&#x200B; voeg bovengenoemde code op lijn 21 toe &#x200B;](/help/assets/code-to-enable-themes.png)
 
    1. Sla het bestand op en sluit het.
 
 1. Werk het project bij en voeg de nieuwste versie van Forms Core Components toe:
 
    1. Open de [ Omslag van het Project van de Archetype van AEM ] /pom.xml voor het uitgeven.
-   1. Plaats versie van `core.forms.components.version` en `core.forms.components.af.version` aan [ recentste versie van de Componenten van de Kern van Forms ](https://github.com/adobe/aem-core-forms-components/tree/release/650).
+   1. Plaats versie van `core.forms.components.version` en `core.forms.components.af.version` aan [&#x200B; recentste versie van de Componenten van de Kern van Forms &#x200B;](https://github.com/adobe/aem-core-forms-components/tree/release/650).
 
    1. Sla het bestand op en sluit het.
 
@@ -106,12 +106,12 @@ Om een archetype van AEM te creëren 41 of [ later ](https://github.com/adobe/ae
       mvn clean install
       ```
 
-      ![ archetypebuild-success ](assets/corecomponent-build-successful.png)
+      ![&#x200B; archetypebuild-success &#x200B;](assets/corecomponent-build-successful.png)
 
 
    Nadat het AEM Archetype-project is voltooid, wordt een AEM Package gegenereerd. U kunt het pakket in [ Archetype van AEM de Omslag van het Project ] \all\target\ [appid].all- [ versie ] .zip vinden
 
-1. Gebruik de [ Manager van het Pakket ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) om de [ Archetype Omslag van het Project van AEM ] \all\target\[appid].all- [ versie ] .zip pakket op alle Auteur op te stellen en instanties te publiceren.
+1. Gebruik de [&#x200B; Manager van het Pakket &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) om de [ Archetype Omslag van het Project van AEM ] \all\target\[appid].all- [ versie ] .zip pakket op alle Auteur op te stellen en instanties te publiceren.
 
 >[!NOTE]
 >
@@ -120,13 +120,13 @@ Om een archetype van AEM te creëren 41 of [ later ](https://github.com/adobe/ae
 >Als u problemen ontmoet die tot de login dialoogdoos toegang hebben op publiceer instantie om het pakket door de Manager van het Pakket te installeren, probeer login door volgende URL: `http://[Publish Server URL]`:[ HAVEN ]/systeem/console. Dit proces geeft u toegang tot login aan de het Publiceren instantie, en laat u met het installatieproces te werk gaan.
 
 
-De Core Components zijn ingeschakeld voor uw omgeving. Een lege die Componenten van de Kern op het Adaptieve malplaatje van de Vorm en het thema van Canvas 3.0 worden opgesteld aan uw milieu, toelatend u om [ tot de Componenten van de Kern te leiden die Adaptieve Forms ](create-a-headless-adaptive-form.md) worden gebaseerd.
+De Core Components zijn ingeschakeld voor uw omgeving. Een lege die Componenten van de Kern op het Adaptieve malplaatje van de Vorm en het thema van Canvas 3.0 worden opgesteld aan uw milieu, toelatend u om [&#x200B; tot de Componenten van de Kern te leiden die Adaptieve Forms &#x200B;](create-a-headless-adaptive-form.md) worden gebaseerd.
 
 ## Veelgestelde vragen
 
 ### Wat zijn de kerncomponenten?
 
-De [ Componenten van de Kern ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te drukken.
+De [&#x200B; Componenten van de Kern &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction) zijn een reeks gestandaardiseerde componenten van het Beheer van de Inhoud van het Web (WCM) voor AEM om ontwikkelingstijd te versnellen en de onderhoudskosten van uw websites te drukken.
 
 ### Wat zijn alle mogelijkheden toegevoegd aan het toelaten van kerncomponenten?
 

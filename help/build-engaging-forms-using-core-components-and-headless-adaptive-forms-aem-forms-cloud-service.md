@@ -34,13 +34,13 @@ AEM Forms gebruiken om adaptieve formulieren te maken met de nieuwste kerncompon
 
 Om dit hands-on laboratorium te gebruiken:
 
-* Installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installeer de [&#x200B; recentste versie van Git &#x200B;](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). Als u aan Node.js nieuw bent, zie [ hoe te Node.js ](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) installeren.
+* Installeer [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/). Als u aan Node.js nieuw bent, zie [&#x200B; hoe te Node.js &#x200B;](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) installeren.
 
-* [ laat de Aangepaste Componenten van de Kern van Forms ](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) voor uw milieu van AEM Forms as a Cloud Service toe.
+* [&#x200B; laat de Aangepaste Componenten van de Kern van Forms &#x200B;](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) voor uw milieu van AEM Forms as a Cloud Service toe.
 
-* Installeer [ Code van Microsoft Visual Studio ](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
+* Installeer [&#x200B; Code van Microsoft Visual Studio &#x200B;](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
 
 
 
@@ -482,7 +482,7 @@ U kunt als volgt het formulier weergeven dat wordt gehost op uw cloudservice-pub
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
 
-   * **AEM_URL**: Specificeer URL van de wolkendienst publiceert milieu. Bijvoorbeeld, [ https://publish-p105303-e986623.adobeaemcloud.com](https://publish-p105303-e986623.adobeaemcloud.com/)
+   * **AEM_URL**: Specificeer URL van de wolkendienst publiceert milieu. Bijvoorbeeld, [&#x200B; https://publish-p105303-e986623.adobeaemcloud.com](https://publish-p105303-e986623.adobeaemcloud.com/)
 
    * **AEM_FORM_PATH**: Specificeer de weg van de adaptieve vorm die in de vorige les wordt gecreeerd. Bijvoorbeeld: /content/forms/af/registration/
 
@@ -609,12 +609,12 @@ U weet nu hoe u adaptieve formulieren kunt maken en deze via kanalen kunt levere
 
 ## Bronnen
 
-* [ Aangepaste de kerncomponenten van de Vorm inleiding ](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [&#x200B; Aangepaste de kerncomponenten van de Vorm inleiding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [ creeer een adaptieve vorm gebruikend kerncomponenten ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [&#x200B; creeer een adaptieve vorm gebruikend kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [ stileren van de Update voor kern op component-gebaseerde AF ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
+* [&#x200B; stileren van de Update voor kern op component-gebaseerde AF &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [ Hoofdloze adaptieve vormen ](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/overview)
+* [&#x200B; Hoofdloze adaptieve vormen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [ Gebruikend een Hoofdloze Reageer starter uitrusting ](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [&#x200B; Gebruikend een Hoofdloze Reageer starter uitrusting &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)

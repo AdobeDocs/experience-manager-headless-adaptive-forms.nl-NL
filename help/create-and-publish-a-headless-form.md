@@ -36,9 +36,9 @@ Laten we beginnen:
 
 Als u een React-app wilt maken en uitvoeren, moet het volgende op uw computer zijn geïnstalleerd:
 
-* Installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installeer de [&#x200B; recentste versie van Git &#x200B;](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). <!-- URL is 404!! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs). -->
+* Installeer [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/). <!-- URL is 404!! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs). -->
 
 ## Aan de slag
 
@@ -110,7 +110,7 @@ Nadat u de startkit hebt ingesteld, kunt u een voorbeeld van het blokloze adapti
 
    Met deze opdracht start u een lokale ontwikkelingsserver en opent u het voorbeeldformulier Headless Adaptive, dat in de starttoepassing is opgenomen, in uw standaardwebbrowser.
 
-   ![ Vorm zonder hoofd van de steekproef ](assets/sample-headless-adaptive-form.png)
+   ![&#x200B; Vorm zonder hoofd van de steekproef &#x200B;](assets/sample-headless-adaptive-form.png)
 
    Alles klaar! U kunt beginnen met het ontwikkelen van een aangepast, adaptief formulier zonder koptekst.
 
@@ -184,13 +184,13 @@ Maak een `Contact Us` -formulier met vier velden: &quot;Naam&quot;, &quot;E-mail
 >[!NOTE]
 >
 > * Het kenmerk &quot;afModelDefinition&quot; is alleen nodig voor React-toepassingen en maakt geen deel uit van de formulierdefinitie.
-> * U kunt de vormJSON manueel-ambachtelijk of de [ AEM adaptieve vormenredacteur (de adaptieve redacteur van vormenWYSIWYG) ](create-a-headless-adaptive-form.md) gebruiken om vormJSON tot stand te brengen en te leveren. In een productieomgeving gebruikt u AEM Forms om het formulier JSON later meer te leveren.
+> * U kunt de vormJSON manueel-ambachtelijk of de [&#x200B; AEM adaptieve vormenredacteur (de adaptieve redacteur van vormenWYSIWYG) &#x200B;](create-a-headless-adaptive-form.md) gebruiken om vormJSON tot stand te brengen en te leveren. In een productieomgeving gebruikt u AEM Forms om het formulier JSON later meer te leveren.
 > * De zelfstudie gebruikt de map https://pipedream.com/ om formulierverzendingen te testen. U gebruikt uw eigen eindpunten of eindpunten van derden die door uw organisatie zijn goedgekeurd om de gegevens van een Zwaartepunt-adaptief formulier te ontvangen.
 
 
 Als u het formulier wilt genereren, vervangt u het voorbeeld Koploos adaptief formulier JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` door de bovenstaande JSON, slaat u het bestand op, wacht u tot de startkit het formulier heeft gecompileerd en vernieuwt u het.
 
-![ vervang de steekproefKoploze Aangepaste vorm JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` met de douaneloze Aangepaste Vorm JSON ](assets/render-custom-headless-adaptive-form.png)
+![&#x200B; vervang de steekproefKoploze Aangepaste vorm JSON `/react-starter-kit-aem-headless-forms/form-definations/form-model.json` met de douaneloze Aangepaste Vorm JSON &#x200B;](assets/render-custom-headless-adaptive-form.png)
 
 <!-- Your form is ready. Let's add some validations and make "Name", "Email", and "Message" fields mandatory. -->
 
@@ -206,9 +206,9 @@ Stel de titel van de webpagina waarop het formulier zich bevindt in op `Contact 
 
 ## Volgende stap
 
-Door gebrek, gebruikt de aanzetuitrusting [ Adobe ](https://spectrum.adobe.com/) componenten van het Spectrum om de vorm terug te geven. U kunt uw eigen componenten of componenten van derden maken en gebruiken. Bijvoorbeeld met Google Material UI of Chakra UI.
+Door gebrek, gebruikt de aanzetuitrusting [&#x200B; Adobe &#x200B;](https://spectrum.adobe.com/) componenten van het Spectrum om de vorm terug te geven. U kunt uw eigen componenten of componenten van derden maken en gebruiken. Bijvoorbeeld met Google Material UI of Chakra UI.
 
-Laten wij [ materiaal UI van Google ](use-google-material-ui-react-components-to-render-a-headless-form.md) gebruiken om de `Contact Us` vorm terug te geven.
+Laten wij [&#x200B; materiaal UI van Google &#x200B;](use-google-material-ui-react-components-to-render-a-headless-form.md) gebruiken om de `Contact Us` vorm terug te geven.
 
 
 
