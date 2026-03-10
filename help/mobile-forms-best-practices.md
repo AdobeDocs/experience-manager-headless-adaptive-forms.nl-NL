@@ -38,4 +38,4 @@ Deze benadering zorgt ervoor dat uw app behouden blijft terwijl Android en iOS v
 * [&#x200B; Koploze adaptieve vormen APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) - Lijst, haal, bevestigt, en verzend vormen programmatically.
 * [&#x200B; Architectuur &#x200B;](architecture.md) - hoe de Koploze adaptieve vormen werken en hoe front-end toepassingen hen verbruiken.
 
-Voor geleidelijke integratie, zie [&#x200B; creeer en publiceer een headless vorm &#x200B;](create-and-publish-a-headless-form.md) en het [&#x200B; portaal van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en).
+Voor geleidelijke integratie, zie [&#x200B; creeer en publiceer een headless vorm &#x200B;](create-and-publish-a-headless-form.md) en het [&#x200B; portaal van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=nl-NL).

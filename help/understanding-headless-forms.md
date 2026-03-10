@@ -222,5 +222,5 @@ Voor mobiele en off-line scenario&#39;s, is de geadviseerde benadering uw eigen 
 * [Veelgestelde vragen](faq.md)
 * [Een formulier zonder kop maken en publiceren](create-and-publish-a-headless-form.md)
 * [API&#39;s voor hulpformulieren zonder hoofd](https://opensource.adobe.com/aem-forms-af-runtime/api/)
-* [Codespeelplaats](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
+* [Codespeelplaats](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL)
 * [Winkelboek](https://opensource.adobe.com/aem-forms-af-runtime/storybook/)
