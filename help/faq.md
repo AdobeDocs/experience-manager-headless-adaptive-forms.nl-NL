@@ -41,21 +41,21 @@ archetype project to deploy the finished Headless adaptive forms and correspondi
 
 ## Waar kan ik een voorvertoning van een Headless adaptive-formulier krijgen? {#storybook-example}
 
-U kunt de starttoepassing gebruiken om een aangepast, hoofdloos adaptief formulier te genereren en voor te vertonen. U kunt a [ storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples—Introductie) voorbeeld ook wijzigen om een Headless adaptieve vorm voor te vertonen.
+U kunt de starttoepassing gebruiken om een aangepast, hoofdloos adaptief formulier te genereren en voor te vertonen. U kunt a [&#x200B; storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples—Introductie) voorbeeld ook wijzigen om een Headless adaptieve vorm voor te vertonen.
 
 ![](/help/assets/storybook-example.png)
 
 ## Is het mogelijk om Zwaardeloze adaptieve vormen met douanekaders te gebruiken?
 
-Hoofdloze adaptieve vormen zijn gebaseerd op [ standaardspecificatie ](/help/assets/headless-adaptive-forms-specification.pdf). U kunt de specificatie uitbreiden om het te gebruiken om douanecomponenten te bouwen. Bijvoorbeeld, componenten voor Chakra UI, Vue.js, en meer.
+Hoofdloze adaptieve vormen zijn gebaseerd op [&#x200B; standaardspecificatie &#x200B;](/help/assets/headless-adaptive-forms-specification.pdf). U kunt de specificatie uitbreiden om het te gebruiken om douanecomponenten te bouwen. Bijvoorbeeld, componenten voor Chakra UI, Vue.js, en meer.
 
 ## Worden trapsgewijze velden ondersteund door hulpformulieren zonder koptekst?
 
-In trapsgewijze velden hangt de inhoud van het tweede veld af van de inhoud die in het eerste veld is gekozen. Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behavior—options&args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJS son.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) verstrekt een voorbeeld van het trapsgewijze gebieden.
+In trapsgewijze velden hangt de inhoud van het tweede veld af van de inhoud die in het eerste veld is gekozen. Het [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behavior—options&args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJS son.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) verstrekt een voorbeeld van het trapsgewijze gebieden.
 
 ## Kunnen formulieren zonder koptekst en aanpassingen vooraf worden ingevuld met gepersonaliseerde gegevens?
 
-Met adaptieve formulieren zonder koppen kunnen formulieren vooraf worden ingevuld met gepersonaliseerde gegevens. Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples—Prefill-form-with-personalized-data) verstrekt een voorbeeld van hoe te om een Zwaarteloze adaptieve vorm vooraf in te vullen.
+Met adaptieve formulieren zonder koppen kunnen formulieren vooraf worden ingevuld met gepersonaliseerde gegevens. Het [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples—Prefill-form-with-personalized-data) verstrekt een voorbeeld van hoe te om een Zwaarteloze adaptieve vorm vooraf in te vullen.
 
 <!-- >
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?
@@ -87,26 +87,26 @@ Ja — een uitbreiding van de Code van Visual Studio laat u manueel auteur koplo
 
 ## Wat is de aanbevolen aanpak voor mobiele of offline formulieren? {#mobile-offline-forms}
 
-Bouw uw eigen native app en haal formulierdefinities op via de Headless Adaptive Forms API. U kunt desgewenst offline ondersteuning implementeren (bijvoorbeeld lokale opslag en synchronisatie). Zie [ Mobiele vormen beste praktijken ](mobile-forms-best-practices.md) voor de geadviseerde benadering en verbindingen aan APIs.
+Bouw uw eigen native app en haal formulierdefinities op via de Headless Adaptive Forms API. U kunt desgewenst offline ondersteuning implementeren (bijvoorbeeld lokale opslag en synchronisatie). Zie [&#x200B; Mobiele vormen beste praktijken &#x200B;](mobile-forms-best-practices.md) voor de geadviseerde benadering en verbindingen aan APIs.
 
 ## Hoe gebruikt u GraphQL of headless APIs met AEM Forms?
 
-AEM Headless Adaptive Forms gebruikt **HTTP/REST APIs**, niet GraphQL. Uw app roept deze API&#39;s aan om formulieren weer te geven, een formulierdefinitie (JSON) op te halen, te valideren, te verzenden en de verzendstatus bij te houden. Gebruik [ Hoofdloze adaptieve vormenHTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) voor de volledige verwijzing. Voor hoe de vormen worden opgehaald en teruggegeven, zie [ Architectuur ](architecture.md) en [ Begrip hoofdloze vormen ](understanding-headless-forms.md).
+AEM Headless Adaptive Forms gebruikt **HTTP/REST APIs**, niet GraphQL. Uw app roept deze API&#39;s aan om formulieren weer te geven, een formulierdefinitie (JSON) op te halen, te valideren, te verzenden en de verzendstatus bij te houden. Gebruik [&#x200B; Hoofdloze adaptieve vormenHTTP APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) voor de volledige verwijzing. Voor hoe de vormen worden opgehaald en teruggegeven, zie [&#x200B; Architectuur &#x200B;](architecture.md) en [&#x200B; Begrip hoofdloze vormen &#x200B;](understanding-headless-forms.md).
 
 ## Hoe kan ik hoofdloze formulieren implementeren en opmaken met React-componenten in Adobe AEM Forms?
 
 U implementeert en maakt koploze formulieren met behulp van uw eigen React-componenten en CSS (of een UI-bibliotheek zoals de materiaalinterface). De formulierlogica (status, validatie en regels) is afkomstig van de Forms Web SDK en het JSON-formulier. Uw app levert de interface die deze weergeeft.
 
-* Om een hoofdloze vorm met een Reactie UI bibliotheek te stileren, zie [ Gebruik een douane reactiebibliotheek om een koploze vorm ](use-google-material-ui-react-components-to-render-a-headless-form.md) terug te geven.
-* Om de componenten van het Reageren van de douane aan vormgebieden te bouwen en in kaart te brengen, zie [ de douanecomponenten van het Gebruik om een koploze vorm ](developing-for-headless-forms-using-your-own-components.md) terug te geven.
+* Om een hoofdloze vorm met een Reactie UI bibliotheek te stileren, zie [&#x200B; Gebruik een douane reactiebibliotheek om een koploze vorm &#x200B;](use-google-material-ui-react-components-to-render-a-headless-form.md) terug te geven.
+* Om de componenten van het Reageren van de douane aan vormgebieden te bouwen en in kaart te brengen, zie [&#x200B; de douanecomponenten van het Gebruik om een koploze vorm &#x200B;](developing-for-headless-forms-using-your-own-components.md) terug te geven.
 
-Voor concepten zoals wanneer om hoofdloze vormen, staatsbeheer, en bevestiging te gebruiken, zie [ Begrip hoofdloze vormen ](understanding-headless-forms.md).
+Voor concepten zoals wanneer om hoofdloze vormen, staatsbeheer, en bevestiging te gebruiken, zie [&#x200B; Begrip hoofdloze vormen &#x200B;](understanding-headless-forms.md).
 
 ## Hoe kan ik AEM Forms implementeren en aanpassen met aangepaste CSS, thema&#39;s, regeleditors en headless formulieren?
 
-**Koploze vormen:** Stijlvol en blik-en-voelen zijn volledig onder uw controle. U gebruikt uw eigen React (of andere) componenten en uw eigen CSS; er zijn geen ingebouwde thema&#39;s. Zie [ Gebruik een douane reactiebibliotheek om een koploze vorm ](use-google-material-ui-react-components-to-render-a-headless-form.md) terug te geven en [ douanecomponenten van het Gebruik om een koploze vorm ](developing-for-headless-forms-using-your-own-components.md) terug te geven om uit te voeren en stijlen koploze vormen.
+**Koploze vormen:** Stijlvol en blik-en-voelen zijn volledig onder uw controle. U gebruikt uw eigen React (of andere) componenten en uw eigen CSS; er zijn geen ingebouwde thema&#39;s. Zie [&#x200B; Gebruik een douane reactiebibliotheek om een koploze vorm &#x200B;](use-google-material-ui-react-components-to-render-a-headless-form.md) terug te geven en [&#x200B; douanecomponenten van het Gebruik om een koploze vorm &#x200B;](developing-for-headless-forms-using-your-own-components.md) terug te geven om uit te voeren en stijlen koploze vormen.
 
-**Klassieke AEM Forms (thema&#39;s, regelredacteur, visuele redacteur):** CSS van de Douane, de themaredacteur, en de regelredacteur zijn op de klassieke (niet-hoofdloze) Aangepaste het auteurservaring van Forms van toepassing. Voor die onderwerpen, zie de [ documentatie van AEM Forms ](https://experienceleague.adobe.com/docs/experience-manager-forms.html) op Experience League.
+**Klassieke AEM Forms (thema&#39;s, regelredacteur, visuele redacteur):** CSS van de Douane, de themaredacteur, en de regelredacteur zijn op de klassieke (niet-hoofdloze) Aangepaste het auteurservaring van Forms van toepassing. Voor die onderwerpen, zie de [&#x200B; documentatie van AEM Forms &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-forms.html) op Experience League.
 
 ## Kan een Headless adaptive-formulier verbinding maken met een CRM voor het lezen of schrijven van gegevens?
 
