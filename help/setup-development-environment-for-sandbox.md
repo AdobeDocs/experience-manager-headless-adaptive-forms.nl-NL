@@ -24,9 +24,9 @@ Klaar om adaptieve formulieren voor Headless te bouwen en te testen op Cloud Ser
 * Installeer [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/) op uw lokale machine. <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.org/en/learn/how-to-install-nodejs). -->
 
 
-* Creeer een programma van AEM as a Cloud Service: Volg stap 1-7 van [&#x200B; creeer programma &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program) artikel om een programma voor uw organisatie tot stand te brengen.
+* Creeer een programma van AEM as a Cloud Service: Volg stap 1-7 van [&#x200B; creeer programma &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program) artikel om een programma voor uw organisatie tot stand te brengen.
 
-* Laat het [&#x200B; Kanaal van de preRelease voor uw programma van Cloud Service &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments) toe.
+* Laat het [&#x200B; Kanaal van de preRelease voor uw programma van Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments) toe.
 
 ## Workflow instellen
 
@@ -42,7 +42,7 @@ Schakel `Forms - Digital enrolment` -oplossing in voor uw AEM Cloud Service-prog
   1. Log in bij <a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a> en selecteer de optie <b> Experience Manager </b> .
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -53,7 +53,7 @@ Schakel `Forms - Digital enrolment` -oplossing in voor uw AEM Cloud Service-prog
   2. Voor de optie <b> Cloud Manager </b> klikt u op <b> Starten. </b> Er wordt een lijst met programma's voor uw organisatie weergegeven.
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -64,7 +64,7 @@ Schakel `Forms - Digital enrolment` -oplossing in voor uw AEM Cloud Service-prog
     &#x200B;3. Tik voor uw programma op het pictogram ... en selecteer de optie <b> Programma bewerken </b> . Er wordt een dialoogvenster weergegeven. 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/edit-program.png">
     </a>
     <br>
@@ -75,7 +75,7 @@ Schakel `Forms - Digital enrolment` -oplossing in voor uw AEM Cloud Service-prog
     &#x200B;4. Ga in het dialoogvenster Programma bewerken naar het tabblad <b> Oplossingen en invoegtoepassingen </b> , selecteer de optie <b> Forms - Digital Enrollment </b> en tik op <b> Bijwerken </b> . 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/program-solution-addons.png">
     </a>
     <br>
@@ -100,7 +100,7 @@ De gegevensopslagruimte klonen:
   1. Tik in het pijplijnvak van uw programma op <b> Toegang tot repo-info. </b> Er verschijnt een dialoogvenster met informatie over opslagplaats 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/git-repo.png">
     </a>
     <br>
@@ -136,7 +136,7 @@ De gegevensopslagruimte klonen:
 
 Het archetype-project is een op maven gebaseerde sjabloon. Het leidt tot een minimaal project dat op beste praktijken wordt gebaseerd om met Headless aanpassings vormen te beginnen. Het omvat ook de kernfuncties voor het aanpassen van formulieren zonder koptekst voor Forms as a Cloud Service. Het is verplicht om het archetype 37 of later gebaseerde project tot stand te brengen en op te stellen.
 ®®
-Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Experience Manager Forms as a Cloud Service-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/developing/archetype/overview) om de recentste versie van Archetype te vinden.
+Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Experience Manager Forms as a Cloud Service-project te maken. Gebruik archetype versie 37 of hoger. Zie {de documentatie van 0} Archetype [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/developing/archetype/overview) om de recentste versie van Archetype te vinden.
 
 +++ Microsoft® Windows
 
@@ -162,7 +162,7 @@ Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Exper
 * Stel `groupId` in om de Maven GroupId en het Java™ Source-pakket te definiëren.
 * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
 * Met de optie `includeFormsheadless=y` kunt u Forms Core-componenten en afhankelijkheden opnemen die vereist zijn om de functionaliteit voor Zwaardeloze adaptieve formulieren te kunnen gebruiken. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-   * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
+   * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
    * A frontend React module, `ui.frontend.react.forms.af`. Hiermee kunt u een adaptieve vorm zonder koptekst weergeven in een reactie-app.
 
 +++
@@ -193,7 +193,7 @@ Afhankelijk van het besturingssysteem voert u de opdracht maven uit om een Exper
 * Stel `groupId` in om de Maven GroupId en het Java™ Source-pakket te definiëren.
 * Met de optie `includeFormsenrollment=y` kunt u specifieke Forms-configuraties, -thema&#39;s, -sjablonen, -kerncomponenten en -afhankelijkheden opnemen die vereist zijn om een adaptieve Forms te maken.
 * Met de optie `includeFormsheadless=y` kunt u Forms Core-componenten en afhankelijkheden opnemen die vereist zijn om de functionaliteit voor Zwaardeloze adaptieve formulieren te kunnen gebruiken. Als u deze optie inschakelt, worden de volgende opties opgenomen:
-   * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
+   * **Leeg met kerncomponenten** malplaatje met [&#x200B; kerncomponenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/introduction).
    * Een frontend reageert module, `ui.frontend.react.forms.af`. Hiermee kunt u een adaptieve vorm zonder koptekst weergeven in een reactie-app.
 
 +++
@@ -224,7 +224,7 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
   1. Log in bij <a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a> en selecteer de optie <b> Experience Manager </b> .
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -235,7 +235,7 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
   2. Voor de optie <b> Cloud Manager </b> klikt u op <b> Starten. </b> Er wordt een lijst met programma's voor uw organisatie weergegeven. Open uw programma. 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -246,7 +246,7 @@ Als de opdracht met succes is voltooid, wordt een projectmap gemaakt met de naam
     &#x200B;3. Tik voor de pijplijn op het pictogram ... en selecteer de optie <b> Uitvoeren </b> . Tik op <b> Uitvoeren </b> en wacht tot de status van de <b> pijplijn </b> verandert in <b> Voltooid </b> als u wordt gevraagd om de pijplijn uit te voeren.  
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service-programma&apos;s" src="assets/run-build-pipeline.png">
     </a>
     <br>
