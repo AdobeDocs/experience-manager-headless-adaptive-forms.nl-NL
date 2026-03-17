@@ -3,9 +3,9 @@ title: Bekende problemen met Headless Adaptive Forms
 description: Bekende problemen met Headless adaptive-formulieren.
 keywords: hoofdloze, adaptieve vorm, bekende problemen
 hide: true
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---

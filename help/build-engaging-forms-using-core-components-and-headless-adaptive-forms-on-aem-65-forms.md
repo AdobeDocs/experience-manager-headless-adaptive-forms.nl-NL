@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 topic-tags: develop
 hide: true
 exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2311'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ In dit hands-on laboratorium, leert u hoe te om AEM Forms met de recentste Compo
 
 Om dit hands-on laboratorium te gebruiken:
 
-* Installeer de [&#x200B; recentste versie van Git &#x200B;](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installeer [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/). <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).-->
+* Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).-->
 
-* [&#x200B; laat Hoofdloze Adaptieve Forms &#x200B;](enable-headless-adaptive-forms-and-core-components.md) in uw milieu van AEM 6.5 Forms toe.
+* [ laat Hoofdloze Adaptieve Forms ](enable-headless-adaptive-forms-and-core-components.md) in uw milieu van AEM 6.5 Forms toe.
 
-* Installeer [&#x200B; Code van Microsoft Visual Studio &#x200B;](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
+* Installeer [ Code van Microsoft Visual Studio ](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
 
 ## Les 1 {#lesson-1}
 
@@ -57,7 +57,7 @@ In deze les, vertrouwt u zich met AEM 6.5 Forms door het gebruikersinterface te 
 ### Uitoefening {#lesson-1-excercise}
 
 1. Open uw browser en ga URL van het auteursmilieu in. Bijvoorbeeld:
-   [&#x200B; https://localhost :4502 &#x200B;](https://localhost:4502).
+   [ https://localhost :4502 ](https://localhost:4502).
 
 1. Nadat u bent aangemeld, navigeert u naar de gebruikersinterface van AEM Forms. Klik **Forms**.
 
@@ -86,11 +86,9 @@ Als zakelijke gebruiker gebruikt u de Adaptieve Forms-editor en de Core Componen
 1. Maak een verzendeindpunt voor het formulier:
 
    1. Open <https://pipedream.com/requestbin> in een nieuw browsertabblad.
-
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
    1. Klik **creeer een openbare bak** en kopieer het eindpunt URL.
-
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    Dit specifieke eindpunt dient als voorbeeld voor het voorleggen en het bekijken van gegevens. In daadwerkelijke productie, gebruikt u uw eigen eindpunt of gegevensbronnen om de gevangen gegevens op te slaan.
@@ -100,20 +98,17 @@ Als zakelijke gebruiker gebruikt u de Adaptieve Forms-editor en de Core Componen
    1. In het browser lusje dat in Les 1 wordt gebruikt, navigeer aan het Webinterface van AEM Forms en navigeer aan **Forms** > **Forms en Documenten**.
 
    1. Klik **creëren** en selecteer AanpassingsVorm.
-
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. Selecteer **Leeg met het malplaatje van de Componenten van de Kern** van het scherm van de malplaatjeselectie zoals hieronder getoond en klik **daarna**.
-
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
    1. Specificeer `Contact us` als **Titel** van de vorm. Zorg ervoor dat de **Naam** van de vorm `contact-us` is.
-
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
    1. Klik **creëren**. Er wordt een dialoogvenster weergegeven.
 
-   1. Voor de dialoogdoos, geeft de klik **&#x200B;**&#x200B;uit. Het formulier wordt geopend in de Adaptieve formuliereditor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
+   1. Voor de dialoogdoos, geeft de klik **** uit. Het formulier wordt geopend in de Adaptieve formuliereditor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
 
    1. Open de browser Components en sleep de component Panel naar het midden van het scherm.
 
@@ -343,7 +338,7 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
 We brengen wijzigingen aan in het formulier op de server als een zakelijke gebruiker. Wijzigingen worden dan automatisch doorgevoerd in het formulier zonder kop.
 
-1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld, [&#x200B; http://localhost :4502 /aem/forms.html/content/dam/formsanddocuments &#x200B;](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
+1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld, [ http://localhost :4502 /aem/forms.html/content/dam/formsanddocuments ](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
 
 1. Selecteer de **vorm van het Contact van ons** en klik **uitgeven.** Het formulier wordt geopend in de Adaptive Forms Editor.
 
@@ -434,7 +429,7 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
 
-   * **AEM_URL**: Specificeer URL van het publicatiemilieu. Bijvoorbeeld, [&#x200B; https://localhost :4503 &#x200B;](https://localhost:4503)
+   * **AEM_URL**: Specificeer URL van het publicatiemilieu. Bijvoorbeeld, [ https://localhost :4503 ](https://localhost:4503)
 
    * **AEM_FORM_PATH**: Specificeer de weg van de Adaptieve Vorm die in de vorige les wordt gecreeerd. Bijvoorbeeld /content/forms/af/contact-us/
 
@@ -514,13 +509,13 @@ betrokken kanaal. Bijvoorbeeld, een Webkanaal in dit laboratorium.
 
 ## Veelgestelde vragen
 
-+++ Zijn de Componenten van de Kern openbaar?
++++ Zijn de Componenten van de Kern openbaar?  
 
 Ja, Adaptive Forms Core Components zijn verkrijgbaar met AEM 6.5 Forms en Forms als Cloud Service. U hebt AEM Forms 6.5 Service Pack 16 of hoger nodig om Adaptive Forms Core Components te kunnen gebruiken.
 
 +++
 
-+++ Vereisen de Hoofdloze vormen een afzonderlijke vergunning?
++++ Vereisen de Hoofdloze vormen een afzonderlijke vergunning?  
 
 Nee, voor Headless-formulieren wordt dezelfde licentiewaarde gebruikt, uitgedrukt in het aantal verzonden formulieren.
 
@@ -535,12 +530,12 @@ U weet nu hoe u adaptieve formulieren kunt maken en deze via kanalen kunt levere
 
 ## Bronnen
 
-* [&#x200B; Aangepaste Inleiding van de Componenten van de Kern van de Vorm &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [Inleiding Adaptive Form Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [&#x200B; creeer Aangepast Vorm gebruikend de Componenten van de Kern &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [Adaptief formulier maken met behulp van kerncomponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [&#x200B; stileren van de Update voor kern op component-gebaseerde AF &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
+* [Update styling voor kern op component-gebaseerde AF](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [&#x200B; Zwaarloze Adaptieve Forms &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/overview)
+* [Forms zonder hoofdadapter](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [&#x200B; Gebruikend een Hoofdloze Reageer starter uitrusting &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [Een headless React startkit gebruiken](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)

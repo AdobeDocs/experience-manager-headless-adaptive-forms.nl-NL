@@ -3,9 +3,9 @@ title: Aan de slag met Headless Adaptive Forms
 description: Aan de slag met Headless Adaptive Forms
 keywords: koploze, adaptieve vorm, zelfstudie
 hide: true
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ Om de doeltreffendheid en de flexibiliteit van hun visumaanvraagprocedure te ver
 
 De populairste vorm onder toeristen is het formulier &quot;Contact opnemen&quot;, dat wordt gebruikt om verschillende vragen en vragen te stellen. Als zodanig heeft het ministerie van Buitenlandse Zaken ervoor gekozen om met dit formulier te beginnen met de aanpak van de Zwaardeloze adaptieve formulieren. Deze zelfstudie begeleidt u door het proces om het formulier Contact met ons maken te maken op basis van deze nieuwe architectuur. Het uiteindelijke resultaat ziet er als volgt uit:
 
-![&#x200B; Contact de Hoofdloze adaptieve vorm van de V.S. &#x200B;](assets/contact-us-headless-adaptive-forms.png)
+![ Contact de Hoofdloze adaptieve vorm van de V.S. ](assets/contact-us-headless-adaptive-forms.png)

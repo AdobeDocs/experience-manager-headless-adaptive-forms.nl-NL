@@ -3,17 +3,17 @@ title: Gebeurtenissen gebruiken om formuliergegevens zonder kop te verwerken en 
 description: Met gebeurtenissen kunt u formuliergegevens zonder kop verwerken en verzenden.
 hide: true
 hidefromtoc: true
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+exl-id: f80a0d44-fa76-4df7-883e-3f5d0384a2a5
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-
 # Gebeurtenissen gebruiken om formuliergegevens zonder kop te verwerken en te verzenden {#using-events}
 
-Tot nu, leert u om [&#x200B; een douaneZwaarloze AanpassingsVorm &#x200B;](create-and-publish-a-headless-form.md) tot stand te brengen en [&#x200B; de vorm gebruikend de componenten van het Reageren van de douane &#x200B;](use-google-material-ui-react-components-to-render-a-headless-form.md) te stileren. Dit artikel richt zich op het gebruik van gebeurtenissen om de door de gebruiker ingevoerde gegevens te behouden en naar een gegevensopslag te verzenden.
+Tot nu, leert u om [ een douaneZwaarloze AanpassingsVorm ](create-and-publish-a-headless-form.md) tot stand te brengen en [ de vorm gebruikend de componenten van het Reageren van de douane ](use-google-material-ui-react-components-to-render-a-headless-form.md) te stileren. Dit artikel richt zich op het gebruik van gebeurtenissen om de door de gebruiker ingevoerde gegevens te behouden en naar een gegevensopslag te verzenden.
 
 Dit artikel toont het voorleggen van gegevens aan een eindpunt van de Rest. U kunt het formulier zo configureren dat de gegevens naar elke gegevensbron worden verzonden
 

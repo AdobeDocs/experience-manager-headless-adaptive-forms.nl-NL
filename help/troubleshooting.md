@@ -7,11 +7,11 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: false
+index: true
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Dit kan gebeuren door een niet-ondersteunde versie of een beschadigde installati
 
 ### Oplossing
 
-1. Volledig [&#x200B; verwijdert huidige installaties van Node.JS &#x200B;](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/) uit uw milieu.
+1. Volledig [ verwijdert huidige installaties van Node.JS ](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/) uit uw milieu.
 
 1. Installeer `node.JS 16.13.0` of hoger met `NPM` .
 
@@ -49,4 +49,4 @@ Dit kan gebeuren als Git niet is geïnstalleerd.
 
 ### Oplossing
 
-Download en installeer de [&#x200B; recentste versie van Git &#x200B;](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+Download en installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).

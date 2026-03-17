@@ -1,16 +1,18 @@
 ---
 cloud: Experience Cloud
 solution: Experience Manager
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 product: experience manager
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-headless-adaptive-forms.nl-NL
+git-repo: https://github.com/AdobeDocs/experience-manager-headless-adaptive-forms.en
 feature-set: Experience Manager Forms
 hide: true
 recommendations: noDisplay
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---

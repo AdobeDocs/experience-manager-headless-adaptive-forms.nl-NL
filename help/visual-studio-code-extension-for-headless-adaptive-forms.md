@@ -7,11 +7,11 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: hoofdloze, adaptieve vormen, de uitbreiding van de Code van Visual Studio
-hide: false
+index: true
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
 ## Vereisten
 
-* De download en installeert [&#x200B; Code 1.62.0 van Microsoft Visual Studio of later &#x200B;](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). Als u een oudere versie of geen geïnstalleerde versie hebt, download de recentste versie van de [&#x200B; Website van Microsoft &#x200B;](https://code.visualstudio.com/docs/setup/setup-overview). Om Visual Studio van de bevellijn op Apple macOS te gebruiken, zie [&#x200B; Lancering van de bevellijn &#x200B;](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
-* Download de [&#x200B; Adaptieve uitbreiding van de vormenbouwer &#x200B;](/help/assets/adaptive-form-builder-0.12.0.vsix).
+* De download en installeert [ Code 1.62.0 van Microsoft Visual Studio of later ](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). Als u een oudere versie of geen geïnstalleerde versie hebt, download de recentste versie van de [ Website van Microsoft ](https://code.visualstudio.com/docs/setup/setup-overview). Om Visual Studio van de bevellijn op Apple macOS te gebruiken, zie [ Lancering van de bevellijn ](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
+* Download de [ Adaptieve uitbreiding van de vormenbouwer ](/help/assets/adaptive-form-builder-0.12.0.vsix).
 
 ## De extensie installeren
 
@@ -48,7 +48,7 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
    <br>
 
-   ![&#x200B; Installerend uitbreiding &#x200B;](/help/assets/install-extension.png)
+   ![ Installerend uitbreiding ](/help/assets/install-extension.png)
 
 
-   Voor informatie over .vsix dossiers, zie [&#x200B; de Hulp van de Code van Microsoft Visual Studio &#x200B;](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_install-from-a-vsix).
+   Voor informatie over .vsix dossiers, zie [ de Hulp van de Code van Microsoft Visual Studio ](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_install-from-a-vsix).

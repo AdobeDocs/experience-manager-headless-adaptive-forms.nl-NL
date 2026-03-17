@@ -7,9 +7,9 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: mobiele formulieren, native app, offline formulieren, headless API
-hide: false
-exl-id: b8e2f1a4-5c6d-4e2a-9f3b-1d4e5a6c7b8d
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+index: true
+exl-id: 6f25039f-61fc-4366-9e17-6b2809162c58
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Bij gebruik van mobiele en offline formulieren kunt u het beste uw eigen native 
 
 Bouw een inheemse mobiele toepassing (iOS of Android) die:
 
-1. **Vetst de hoofdloze vormdefinitie** - gebruik [&#x200B; Zwaarloze Adaptieve Forms APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) om de vorm JSON op bestelling terug te winnen (bijvoorbeeld, wanneer de gebruiker een vorm opent of aan het in uw app navigeert). U kunt beschikbare formulieren weergeven en vervolgens de formulierdefinitie ophalen met de id.
+1. **Vetst de hoofdloze vormdefinitie** - gebruik [ Zwaarloze Adaptieve Forms APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) om de vorm JSON op bestelling terug te winnen (bijvoorbeeld, wanneer de gebruiker een vorm opent of aan het in uw app navigeert). U kunt beschikbare formulieren weergeven en vervolgens de formulierdefinitie ophalen met de id.
 
 2. **geeft de vorm in uw app** terug - gebruik uw aangewezen kader UI (bijvoorbeeld, React Native, of inheemse meningen) om de vorm van JSON terug te geven. U kunt de Forms Web SDK en de bestaande Aangepaste formulieren zonder koptekst gebruiken Reageer componenten waar ze in uw stapel passen, of uw eigen renderer maken die dezelfde JSON-structuur gebruikt.
 
@@ -34,8 +34,8 @@ Deze benadering zorgt ervoor dat uw app behouden blijft terwijl Android en iOS v
 
 ## Aan de slag {#getting-started}
 
-* [&#x200B; AEM Headless adaptieve vormen overzicht &#x200B;](overview.md) - Mogelijkheden en concepten.
-* [&#x200B; Koploze adaptieve vormen APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) - Lijst, haal, bevestigt, en verzend vormen programmatically.
-* [&#x200B; Architectuur &#x200B;](architecture.md) - hoe de Koploze adaptieve vormen werken en hoe front-end toepassingen hen verbruiken.
+* [ AEM Headless adaptieve vormen overzicht ](overview.md) - Mogelijkheden en concepten.
+* [ Koploze adaptieve vormen APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) - Lijst, haal, bevestigt, en verzend vormen programmatically.
+* [ Architectuur ](architecture.md) - hoe de Koploze adaptieve vormen werken en hoe front-end toepassingen hen verbruiken.
 
-Voor geleidelijke integratie, zie [&#x200B; creeer en publiceer een headless vorm &#x200B;](create-and-publish-a-headless-form.md) en het [&#x200B; portaal van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=nl-NL).
+Voor geleidelijke integratie, zie [ creeer en publiceer een headless vorm ](create-and-publish-a-headless-form.md) en het [ portaal van de Ontwikkelaar ](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en).

@@ -10,9 +10,9 @@ keywords: Headless CMS, adaptieve formulieren, Headless UI, Headful CMS, voice a
 hide: true
 hidefromtoc: true
 exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,14 @@ ht-degree: 0%
 
 Adobe Experience Manager (AEM) Headless Adaptive Forms is een oplossing voor het maken en beheren van webformulieren zonder hoofd binnen het Adobe Experience Manager-platform. Met deze functie kunnen organisaties interactieve formulieren maken, publiceren en beheren die via API&#39;s kunnen worden benaderd en waarmee interactie mogelijk is, in plaats van via een traditionele grafische gebruikersinterface. AEM Headless adaptive Forms biedt meer flexibiliteit en schaalbaarheid bij de ontwikkeling en implementatie van formulieren en een verbeterde gebruikerservaring doordat het formulierontwerp en de functionaliteit op specifieke behoeften kunnen worden afgestemd. Door de mogelijkheden van AEM en technologie zonder kop te gebruiken, biedt deze oplossing een robuust platform voor het creëren van, het beheren van, en het opstellen van Webformulieren voor diverse gebruiksgevallen en toepassingen.
 
-![&#x200B; bouwt en geeft native een vorm in om het even welke website, een toepassing, of niet-visuele interactie terug &#x200B;](/help/assets/headless-forms-for-any-device.jpeg)
+![ bouwt en geeft native een vorm in om het even welke website, een toepassing, of niet-visuele interactie terug ](/help/assets/headless-forms-for-any-device.jpeg)
 
 Met hulpformulieren zonder koptelefoon kunt u het volgende doen:
 
 * U kunt hoogwaardige multikanaalformulieren maken in de programmeertaal van uw keuze.
 * U kunt zelf formulieren integreren in uw bureaublad en mobiele apps, websites en chattoepassingen.
 * Gebruik uw eigen UI-componenten opnieuw met formuliertoepassingen.
-* Gebruikend de [&#x200B; macht van Adobe Experience Manager Forms &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
+* Gebruikend de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
 
 Daarnaast hebt u de vrijheid om uw eigen componenten te ontwikkelen om een formulier te genereren met behulp van een willekeurig gebruikersinterface-framework en een door u gekozen programmeertaal. U kunt ook de React-componenten gebruiken die offline beschikbaar zijn om een Headless adaptief formulier te genereren.
 
@@ -154,32 +154,31 @@ Daarnaast hebt u de vrijheid om uw eigen componenten te ontwikkelen om een formu
         <h2 style="margin-top: 10px;">Heading 3</h2>
         <p>Description 3</p>
     </div>
-    <!-- Add more cards as needed -->
-</div>
+    </div>
 
 
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 20px;">
     <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Afbeelding 1" style="width: 100%; border-radius: 5px;">
-        <h2 style="margin-top: 10px;">Kop 1</h2>
-        <p>Beschrijving 1</p>
+        <img src="/help/assets/01-overview-responsive-forms.jpeg" alt="Image 1" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 1</h2>
+        <p>Description 1</p>
     </div>
     <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Afbeelding 2" style="width: 100%; border-radius: 5px;">
-        <h2 style="margin-top: 10px;">Kop 2</h2>
-        <p>Omschrijving 2</p>
+        <img src="/help/assets/02-overview-backend-systems.jpeg" alt="Image 2" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 2</h2>
+        <p>Description 2</p>
     </div>
     <div style="width: 30%; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Afbeelding 3" style="width: 100%; border-radius: 5px;">
-        <h2 style="margin-top: 10px;">Kop 3</h2>
-        <p>Beschrijving 3</p>
+        <img src="/help/assets/03-overview-save-and-resume.jpeg" alt="Image 3" style="width: 100%; border-radius: 5px;">
+        <h2 style="margin-top: 10px;">Heading 3</h2>
+        <p>Description 3</p>
     </div>
-    <!-- Add more cards as needed -->
 </div>
 
-—>
+-->
+<!-- Add more cards as needed -->
 
 ## Wie kan adaptieve formulieren zonder koptekst gebruiken? {#who-can-use-headless-adaptive-forms}
 

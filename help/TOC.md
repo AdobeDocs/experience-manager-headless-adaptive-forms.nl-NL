@@ -4,8 +4,8 @@ breadcrumb-title: AEM Headless adaptieve formulieren
 user-guide-description: Documentatie voor adaptieve Adobe Experience Manager Headless-formulieren
 feature: Adaptive Forms
 role: Developer
-hide: false
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+index: true
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -34,8 +34,8 @@ ht-degree: 0%
 + Hoofdloze adaptieve formulieren maken {#authoring-headless-adaptive-forms}
    + [Een hoofdloos adaptief formulier maken met de Adaptieve Forms-editor](create-a-headless-adaptive-form.md)
 + Referentie ontwikkelaar {#developer-reference}
-   + [Developer Portal](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=nl-NL)
-   + [Codespeelplaats](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=nl-NL)
+   + [Developer Portal](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
+   + [Codespeelplaats](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
    + [API&#39;s voor hulpformulieren zonder hoofd](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [Veelgestelde vragen](faq.md)
 + [Problemen oplossen](troubleshooting.md)

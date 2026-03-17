@@ -3,33 +3,33 @@ title: AEM Headless Adaptive Forms - Overzicht
 description: Overzicht voor adaptieve AEM Headless-formulieren.
 hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 3%
+source-wordcount: '513'
+ht-degree: 0%
 
 ---
 
 
-# Opmerkingen bij de release
+# Aanvullende informatie
 
 Welkom bij de Experience Manager Headless adaptive-release. Lees verder voor bronnen en instructies om aan de slag te gaan en de release optimaal te maken.
 
 Gebruik adaptieve Adobe Experience Manager-formulieren zonder hoofd om formuliertoepassingen te maken met front-end frameworks, zoals React, Angular en andere. Gebruik de Adaptive Forms Web SDK voor staatsbeheer, bevestiging, en integratie met extra touchpoints.
 
 
-De vroege adopterversie verleent u toegang om de Zwaarteloze adaptieve vormen in a [&#x200B; lokale ontwikkelomgeving &#x200B;](setup-development-environment.md) te gebruiken. U kunt de lokale ontwikkelomgeving gebruiken om adaptieve formulieren zonder hoofd te maken en te testen.
+De vroege adopterversie verleent u toegang om de Zwaarteloze adaptieve vormen in a [ lokale ontwikkelomgeving ](setup-development-environment.md) te gebruiken. U kunt de lokale ontwikkelomgeving gebruiken om adaptieve formulieren zonder hoofd te maken en te testen.
 
-Hoofdloze adaptieve formulieren worden voortdurend verbeterd. Bezoek deze pagina regelmatig om op de hoogte te blijven van de meest recente ontwikkelingen. Deze pagina biedt u informatie over het volgende:
+Hoofdloze adaptieve formulieren worden voortdurend verbeterd. Om up-to-date te blijven met de meest recente ontwikkelingen, bezoek deze pagina regelmatig. Deze pagina biedt u informatie over het volgende:
 
 * vroege toegang
 * nieuwste releases
 * nieuwe functies
-* Verbeteringen
+* verbeteringen
 * opgeloste problemen
 * verouderde functionaliteit
 * speciale instructies
-* Geplande wijzigingen
+* Toekomstige plannen voor wijzigingen
 
 <!-- 
 
@@ -47,6 +47,7 @@ Hoofdloze adaptieve formulieren worden voortdurend verbeterd. Bezoek deze pagina
 
 * The service was executing some event handlers twice. The issue is fixed.
 * Fixing Data Generation with different values of dataRef, name and type.
+-->
 
 <!-- ### React Renderer component -->
 
@@ -62,15 +63,15 @@ AEM Forms as a Cloud Service SDK helpt u bij het maken, opslaan en ophalen van a
 
 Forms Web SDK biedt de API&#39;s voor het valideren van beperkingen die zijn toegepast op verschillende velden van een formulier en haken voor het verbinden van de JSON-structuur van het formulier met het UI-framework. Het biedt ook React Renderer-&#x200B; voor Headless adaptive-formulieren om een Headless adaptive-formulier in uw toepassing te integreren. De volgende componenten van het Web SDK zijn beschikbaar:
 
-* **[@aemforms/af-response-components &#x200B;](https://www.npmjs.com/package/@aemforms/af-react-components)**
-* **[@aemforms/af-response-renderer &#x200B;](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
-* **[@aemforms/af-core &#x200B;](https://www.npmjs.com/package/@aemforms/af-core)**
+* **[@aemforms/af-response-components ](https://www.npmjs.com/package/@aemforms/af-react-components)**
+* **[@aemforms/af-response-renderer ](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
+* **[@aemforms/af-core ](https://www.npmjs.com/package/@aemforms/af-core)**
 
 <!-- npm i --save @aemforms/af-react-components @aemforms/af-react-renderer @aemforms/af-core -->
 
 #### Winkelboek
 
-Het [&#x200B; Storybook &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een overzicht van de verschillende componenten van Zwaartepunt aanpassende vormen. Het verstrekt ook een lijst van alle gesteunde componenten, hun overeenkomstige eigenschappen, en beperkingen.
+Het [ Storybook ](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) verstrekt een overzicht van de verschillende componenten van Zwaartepunt aanpassende vormen. Het verstrekt ook een lijst van alle gesteunde componenten, hun overeenkomstige eigenschappen, en beperkingen.
 
 ### Forms Core-component
 
@@ -80,17 +81,18 @@ De Componenten van de kern zijn een reeks gestandaardiseerde componenten van het
 
 ### Adaptieve Forms V2-specificaties
 
-Specificatie voor hulpformulieren zonder koptekst biedt gedetailleerde informatie over alle componenten, beperkingen en methoden die beschikbaar zijn om adaptieve formulieren zonder koptekst te definiëren. De specificatie is beschikbaar in [&#x200B; PDF &#x200B;](/help/assets/Headless-Adaptive-Form-Specification.pdf) formaat.
+Specificatie voor hulpformulieren zonder koptekst biedt gedetailleerde informatie over alle componenten, beperkingen en methoden die beschikbaar zijn om adaptieve formulieren zonder koptekst te definiëren. De specificatie is beschikbaar in [ PDF ](/help/assets/headless-adaptive-forms-specification.pdf) formaat.
 
 ### HTTP en JS API
 
-[&#x200B; HTTP APIs &#x200B;](https://opensource.adobe.com/aem-forms-af-runtime/api/) staat u toe om van een lijst te maken, te halen, te bevestigen, voor te leggen, en de status van de spoorvoorlegging van hoofdloze vormen. <!-- URL is 404! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
+[ HTTP APIs ](https://opensource.adobe.com/aem-forms-af-runtime/api/) staat u toe om van een lijst te maken, te halen, te bevestigen, voor te leggen, en de status van de spoorvoorlegging van hoofdloze vormen. <!-- URL is 404! [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. -->
 
 ### Visual Studio-extensie
 
-[&#x200B; de uitbreiding van de Code van Visual Studio &#x200B;](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
+[ de uitbreiding van de Code van Visual Studio ](visual-studio-code-extension-for-headless-adaptive-forms.md) helpen een geldige structuur tot stand brengen JSON. Het biedt ondersteuning voor IntelliSense en validatie voor JSON-structuur van formulieren en algemene functies zoals het toevoegen, verwijderen of hernoemen van componenten van een JSON-structuur.
 
-<!-- ## What's next
+<!-- 
+## What's next
 
 The following features would be available in upcoming releases:
 
