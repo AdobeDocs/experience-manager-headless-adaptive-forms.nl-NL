@@ -20,16 +20,16 @@ ht-degree: 0%
 
 Adobe Experience Manager (AEM) Headless Adaptive Forms is een oplossing voor het maken en beheren van webformulieren zonder hoofd binnen het Adobe Experience Manager-platform. Met deze functie kunnen organisaties interactieve formulieren maken, publiceren en beheren die via API&#39;s kunnen worden benaderd en waarmee interactie mogelijk is, in plaats van via een traditionele grafische gebruikersinterface. AEM Headless adaptive Forms biedt meer flexibiliteit en schaalbaarheid bij de ontwikkeling en implementatie van formulieren en een verbeterde gebruikerservaring doordat het formulierontwerp en de functionaliteit op specifieke behoeften kunnen worden afgestemd. Door de mogelijkheden van AEM en technologie zonder kop te gebruiken, biedt deze oplossing een robuust platform voor het creëren van, het beheren van, en het opstellen van Webformulieren voor diverse gebruiksgevallen en toepassingen.
 
-![ bouwt en geeft native een vorm in om het even welke website, een toepassing, of niet-visuele interactie terug ](/help/assets/headless-forms-for-any-device.jpeg)
+![&#x200B; bouwt en geeft native een vorm in om het even welke website, een toepassing, of niet-visuele interactie terug &#x200B;](/help/assets/headless-forms-for-any-device.jpeg)
 
 Met hulpformulieren zonder koptelefoon kunt u het volgende doen:
 
 * U kunt hoogwaardige multikanaalformulieren maken in de programmeertaal van uw keuze.
 * U kunt zelf formulieren integreren in uw bureaublad en mobiele apps, websites en chattoepassingen.
 * Gebruik uw eigen UI-componenten opnieuw met formuliertoepassingen.
-* Gebruikt de [ macht van Adobe Experience Manager Forms ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
+* Gebruikt de [&#x200B; macht van Adobe Experience Manager Forms &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
 
-Bij gebruik van mobiele en offline formulieren kunt u het beste uw eigen native app ontwikkelen en formulierdefinities ophalen via de Headless Adaptive Forms API. Zie [ Mobiele vormen beste praktijken ](mobile-forms-best-practices.md) voor details.
+Bij gebruik van mobiele en offline formulieren kunt u het beste uw eigen native app ontwikkelen en formulierdefinities ophalen via de Headless Adaptive Forms API. Zie [&#x200B; Mobiele vormen beste praktijken &#x200B;](mobile-forms-best-practices.md) voor details.
 
 Daarnaast hebt u de vrijheid om uw eigen componenten te ontwikkelen om een formulier te genereren met behulp van een willekeurig gebruikersinterface-framework en een door u gekozen programmeertaal. U kunt ook de React-componenten gebruiken die offline beschikbaar zijn om een Headless adaptief formulier te genereren.
 

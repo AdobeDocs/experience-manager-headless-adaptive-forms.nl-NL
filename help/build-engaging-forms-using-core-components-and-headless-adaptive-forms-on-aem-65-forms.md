@@ -36,13 +36,13 @@ In dit hands-on laboratorium, leert u hoe te om AEM Forms met de recentste Compo
 
 Om dit hands-on laboratorium te gebruiken:
 
-* Installeer de [ recentste versie van Git ](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [ Installerend Git ](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installeer de [&#x200B; recentste versie van Git &#x200B;](https://git-scm.com/downloads). Als u aan Git nieuw bent, zie [&#x200B; Installerend Git &#x200B;](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installeer [ Node.js 16.13.0 of later ](https://nodejs.org/en/download/). <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).-->
+* Installeer [&#x200B; Node.js 16.13.0 of later &#x200B;](https://nodejs.org/en/download/). <!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).-->
 
-* [ laat Hoofdloze Adaptieve Forms ](enable-headless-adaptive-forms-and-core-components.md) in uw milieu van AEM 6.5 Forms toe.
+* [&#x200B; laat Hoofdloze Adaptieve Forms &#x200B;](enable-headless-adaptive-forms-and-core-components.md) in uw milieu van AEM 6.5 Forms toe.
 
-* Installeer [ Code van Microsoft Visual Studio ](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
+* Installeer [&#x200B; Code van Microsoft Visual Studio &#x200B;](https://code.visualstudio.com/download) of om het even welke duidelijke tekstredacteur. De voorbeelden in dit document maken gebruik van de Code van Microsoft Visual Studio.
 
 ## Les 1 {#lesson-1}
 
@@ -57,7 +57,7 @@ In deze les, vertrouwt u zich met AEM 6.5 Forms door het gebruikersinterface te 
 ### Uitoefening {#lesson-1-excercise}
 
 1. Open uw browser en ga URL van het auteursmilieu in. Bijvoorbeeld:
-   [ https://localhost :4502 ](https://localhost:4502).
+   [&#x200B; https://localhost :4502 &#x200B;](https://localhost:4502).
 
 1. Nadat u bent aangemeld, navigeert u naar de gebruikersinterface van AEM Forms. Klik **Forms**.
 
@@ -108,7 +108,7 @@ Als zakelijke gebruiker gebruikt u de Adaptieve Forms-editor en de Core Componen
 
    1. Klik **creëren**. Er wordt een dialoogvenster weergegeven.
 
-   1. Voor de dialoogdoos, geeft de klik **** uit. Het formulier wordt geopend in de Adaptieve formuliereditor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
+   1. Voor de dialoogdoos, geeft de klik **&#x200B;**&#x200B;uit. Het formulier wordt geopend in de Adaptieve formuliereditor. Pop-ups of dialoogvensters voor voorkeuren of informatie negeren.
 
    1. Open de browser Components en sleep de component Panel naar het midden van het scherm.
 
@@ -338,7 +338,7 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
 We brengen wijzigingen aan in het formulier op de server als een zakelijke gebruiker. Wijzigingen worden dan automatisch doorgevoerd in het formulier zonder kop.
 
-1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld, [ http://localhost :4502 /aem/forms.html/content/dam/formsanddocuments ](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
+1. Open de AEM Forms-beheerinterface in de browser. Bijvoorbeeld, [&#x200B; http://localhost :4502 /aem/forms.html/content/dam/formsanddocuments &#x200B;](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
 
 1. Selecteer de **vorm van het Contact van ons** en klik **uitgeven.** Het formulier wordt geopend in de Adaptive Forms Editor.
 
@@ -429,7 +429,7 @@ Het formulier weergeven dat wordt gehost in uw publicatieomgeving:
 
 1. Stel de volgende waarden in voor de variabelen in het .env-bestand. Sla het bestand op nadat u de variabelen hebt bijgewerkt. Gebruik **CTRL + S** schakelaarcombinatie om het dossier te bewaren.
 
-   * **AEM_URL**: Specificeer URL van het publicatiemilieu. Bijvoorbeeld, [ https://localhost :4503 ](https://localhost:4503)
+   * **AEM_URL**: Specificeer URL van het publicatiemilieu. Bijvoorbeeld, [&#x200B; https://localhost :4503 &#x200B;](https://localhost:4503)
 
    * **AEM_FORM_PATH**: Specificeer de weg van de Adaptieve Vorm die in de vorige les wordt gecreeerd. Bijvoorbeeld /content/forms/af/contact-us/
 

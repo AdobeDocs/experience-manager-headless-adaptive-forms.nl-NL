@@ -37,4 +37,4 @@ Om de doeltreffendheid en de flexibiliteit van hun visumaanvraagprocedure te ver
 
 De populairste vorm onder toeristen is het formulier &quot;Contact opnemen&quot;, dat wordt gebruikt om verschillende vragen en vragen te stellen. Als zodanig heeft het ministerie van Buitenlandse Zaken ervoor gekozen om met dit formulier te beginnen met de aanpak van de Zwaardeloze adaptieve formulieren. Deze zelfstudie begeleidt u door het proces om het formulier Contact met ons maken te maken op basis van deze nieuwe architectuur. Het uiteindelijke resultaat ziet er als volgt uit:
 
-![ Contact de Hoofdloze adaptieve vorm van de V.S. ](assets/contact-us-headless-adaptive-forms.png)
+![&#x200B; Contact de Hoofdloze adaptieve vorm van de V.S. &#x200B;](assets/contact-us-headless-adaptive-forms.png)
